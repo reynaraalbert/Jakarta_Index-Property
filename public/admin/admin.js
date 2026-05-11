@@ -94,104 +94,72 @@ function showSection(sectionId, el) {
 async function loadStats() {
     try {
         const range = document.getElementById('statsRange').value;
-        const data  = await fetchJSON(`/api/stats?range=${range}`);
-
+        const res   = await fetchJSON(`/api/dashboard-combined?range=${range}`);
+        
+        // 1. Fill Dashboard Cards
+        const data = res.stats;
         document.getElementById('totalProps').textContent   = data.total;
         document.getElementById('totalAgents').textContent  = data.totalAgents;
         document.getElementById('soldUnits').textContent    = data.soldUnits;
         document.getElementById('totalRevenue').textContent = formatRp(data.revenue);
 
+        // 2. City Chart
         const labels = data.cityStats.map(s => s._id || 'Unknown');
         const counts = data.cityStats.map(s => s.count);
-
         if (cityChartInstance) cityChartInstance.destroy();
         cityChartInstance = new Chart(document.getElementById('cityChart'), {
             type: 'bar',
-            data: {
-                labels,
-                datasets: [{ label: 'Jumlah Unit', data: counts, backgroundColor: '#2563eb', borderRadius: 6 }]
-            },
-            options: {
-                responsive: true, maintainAspectRatio: false,
-                plugins: { legend: { display: false } },
-                scales: {
-                    y: { beginAtZero: true, grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
-                    x: { grid: { display: false }, ticks: { color: '#94a3b8' } }
-                }
-            }
+            data: { labels, datasets: [{ label: 'Jumlah Unit', data: counts, backgroundColor: '#2563eb', borderRadius: 6 }] },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, grid: { color: '#334155' }, ticks: { color: '#94a3b8' } }, x: { grid: { display: false }, ticks: { color: '#94a3b8' } } } }
         });
 
-        // Load Market Trends
-        loadMarketTrends();
-    } catch (e) { console.error(e); }
+        // 3. Analytics (from the same combined response)
+        renderAnalytics(res.analytics);
+    } catch (e) { console.error('Dashboard combined failed:', e); }
 }
 
-async function loadMarketTrends() {
-    try {
-        const data = await fetchJSON('/api/analytics');
-        
-        // 1. Ranking Chart (Top 10)
-        const top10 = data.rankingKecamatan.slice(0, 10);
-        const rankLabels = top10.map(s => s._id);
-        const rankPrices = top10.map(s => Math.round(s.avgPricePerM2));
+function renderAnalytics(data) {
+    // 1. Ranking Chart (Top 10)
+    const top10 = data.rankingKecamatan.slice(0, 10);
+    const rankLabels = top10.map(s => s._id);
+    const rankPrices = top10.map(s => Math.round(s.avgPricePerM2));
+    if (rankingChartInstance) rankingChartInstance.destroy();
+    rankingChartInstance = new Chart(document.getElementById('rankingChart'), {
+        type: 'bar',
+        data: { labels: rankLabels, datasets: [{ label: 'Harga/m²', data: rankPrices, backgroundColor: '#f59e0b', borderRadius: 4 }] },
+        options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#94a3b8', callback: v => `Rp ${v/1000000}jt` } }, y: { ticks: { color: '#94a3b8' } } } }
+    });
 
-        if (rankingChartInstance) rankingChartInstance.destroy();
-        rankingChartInstance = new Chart(document.getElementById('rankingChart'), {
-            type: 'bar',
-            data: {
-                labels: rankLabels,
-                datasets: [{ label: 'Harga/m²', data: rankPrices, backgroundColor: '#f59e0b', borderRadius: 4 }]
-            },
-            options: {
-                indexAxis: 'y',
-                responsive: true, maintainAspectRatio: false,
-                plugins: { legend: { display: false } },
-                scales: { 
-                    x: { ticks: { color: '#94a3b8', callback: v => `Rp ${v/1000000}jt` } },
-                    y: { ticks: { color: '#94a3b8' } }
-                }
-            }
-        });
+    // 2. Distribution Chart
+    const distLabels = ['<10jt', '10-30jt', '30-50jt', '>50jt'];
+    const distCounts = data.priceDistribution.map(b => b.count);
 
-        // 2. Distribution Chart
-        const distLabels = ['<10jt', '10-30jt', '30-50jt', '>50jt'];
-        const distCounts = data.priceDistribution.map(b => b.count);
+    if (distChartInstance) distChartInstance.destroy();
+    distChartInstance = new Chart(document.getElementById('distChart'), {
+        type: 'doughnut',
+        data: {
+            labels: distLabels,
+            datasets: [{ 
+                data: distCounts, 
+                backgroundColor: ['#2563eb', '#10b981', '#f59e0b', '#ef4444'],
+                borderColor: '#1e293b', borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
+            cutout: '60%'
+        }
+    });
 
-        if (distChartInstance) distChartInstance.destroy();
-        distChartInstance = new Chart(document.getElementById('distChart'), {
-            type: 'doughnut',
-            data: {
-                labels: distLabels,
-                datasets: [{ 
-                    data: distCounts, 
-                    backgroundColor: ['#2563eb', '#10b981', '#f59e0b', '#ef4444'],
-                    borderColor: '#1e293b', borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true, maintainAspectRatio: false,
-                plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } },
-                cutout: '60%'
-            }
-        });
-
-        // 3. Comparison Table
-        const tbody = document.getElementById('comparisonTableBody');
-        tbody.innerHTML = '';
-        data.rankingKecamatan.forEach(s => {
-            tbody.insertAdjacentHTML('beforeend', `
-                <tr>
-                    <td><strong>${s._id}</strong></td>
-                    <td>${formatRp(s.avgPricePerM2)}</td>
-                    <td>${formatRp(s.minPrice)}</td>
-                    <td>${formatRp(s.maxPrice)}</td>
-                    <td><span class="badge status-avail">${s.totalListings} unit</span></td>
-                </tr>
-            `);
-        });
-
-    } catch (e) { console.error('Trends failed:', e); }
+    // 3. Comparison Table
+    const tbody = document.getElementById('comparisonTableBody');
+    tbody.innerHTML = '';
+    data.rankingKecamatan.forEach(s => {
+        tbody.insertAdjacentHTML('beforeend', `<tr><td><strong>${s._id}</strong></td><td>${formatRp(s.avgPricePerM2)}</td><td>${formatRp(s.minPrice)}</td><td>${formatRp(s.maxPrice)}</td><td><span class="badge status-avail">${s.totalListings} unit</span></td></tr>`);
+    });
 }
+
 
 // =============================================
 // Properties — filter & table

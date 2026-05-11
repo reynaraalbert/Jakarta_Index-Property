@@ -166,11 +166,9 @@ app.get('/api/locations', async (req, res) => {
 // Frontend butuh: totalAgents, soldUnits, cityStats, agentPerformance
 // Juga handles ?range= dan ?agent= dari halaman Sales Status
 // ─────────────────────────────────────────────────────────────────────────────
-app.get('/api/stats', async (req, res) => {
+app.get('/api/dashboard-combined', async (req, res) => {
     try {
         const { range, agent } = req.query;
-
-        // 1. Date Filter
         let dateFilter = {};
         const now = new Date();
         if (range === 'day') {
@@ -184,50 +182,49 @@ app.get('/api/stats', async (req, res) => {
             dateFilter = { sold_at: { $gte: new Date(now.getFullYear(), 0, 1) } };
         }
 
-        // 2. Parallel Aggregations (MUCH FASTER)
-        const [counts, soldStats, cityStats, agentPerformance] = await Promise.all([
-            // Basic counts
+        const [statsData, analyticsData] = await Promise.all([
+            // Stats Aggregation
             Promise.all([
-                Property.countDocuments(),
-                Agent.countDocuments(),
-                Property.countDocuments({ status: 'Tersedia' }),
-                Property.countDocuments({ status: 'Terjual' })
+                Property.countDocuments().lean(),
+                Agent.countDocuments().lean(),
+                Property.countDocuments({ status: 'Tersedia' }).lean(),
+                Property.aggregate([
+                    { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
+                    { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
+                ]),
+                Property.aggregate([
+                    { $group: { _id: '$city', count: { $sum: 1 } } },
+                    { $sort: { count: -1 } }
+                ]),
+                Property.aggregate([
+                    { $match: { status: 'Terjual' } },
+                    { $group: { _id: '$agent_name', soldUnits: { $sum: 1 }, totalRevenue: { $sum: '$price_idr' }, items: { $push: { title: '$title', price: '$price_idr' } } } },
+                    { $sort: { totalRevenue: -1 } },
+                    { $limit: 10 }
+                ])
             ]),
-            // Revenue and units sold based on filter
-            Property.aggregate([
-                { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
-                { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
-            ]),
-            // Distribution by City
-            Property.aggregate([
-                { $group: { _id: '$city', count: { $sum: 1 } } },
-                { $sort: { count: -1 } }
-            ]),
-            // Agent Performance
-            Property.aggregate([
-                { $match: { status: 'Terjual' } },
-                { $group: { 
-                    _id: '$agent_name', 
-                    soldUnits: { $sum: 1 }, 
-                    totalRevenue: { $sum: '$price_idr' },
-                    items: { $push: { title: '$title', price: '$price_idr' } }
-                }},
-                { $sort: { totalRevenue: -1 } },
-                { $limit: 10 }
+            // Analytics Aggregation
+            Promise.all([
+                Property.aggregate([
+                    { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
+                    { $group: { _id: '$district', avgPricePerM2: { $avg: { $divide: ['$price_idr', '$land_size_m2'] } }, minPrice: { $min: '$price_idr' }, maxPrice: { $max: '$price_idr' }, totalListings: { $sum: 1 } } },
+                    { $sort: { avgPricePerM2: -1 } }, { $limit: 20 }
+                ]),
+                Property.aggregate([
+                    { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
+                    { $bucket: { groupBy: { $divide: ['$price_idr', '$land_size_m2'] }, boundaries: [0, 10000000, 30000000, 50000000, Infinity], default: 'Other', output: { count: { $sum: 1 } } } }
+                ])
             ])
         ]);
 
-        const [total, totalAgents, available, totalSoldOverall] = counts;
+        const [counts, soldStats, cityStats, agentPerf] = statsData;
+        const [total, totalAgents, available] = counts;
         const currentSold = soldStats[0] || { units: 0, revenue: 0 };
+        const priceDist = analyticsData[1].map(b => ({ label: b._id === 0 ? '<10jt' : b._id === 10000000 ? '10-30jt' : b._id === 30000000 ? '30-50jt' : '>50jt', count: b.count }));
 
         res.json({
-            total,
-            totalAgents,
-            soldUnits: currentSold.units,
-            available,
-            revenue: currentSold.revenue,
-            cityStats,
-            agentPerformance
+            stats: { total, totalAgents, soldUnits: currentSold.units, available, revenue: currentSold.revenue, cityStats, agentPerformance: agentPerf },
+            analytics: { rankingKecamatan: analyticsData[0], priceDistribution: priceDist }
         });
     } catch (err) { res.status(500).json({ error: err.message }); }
 });
