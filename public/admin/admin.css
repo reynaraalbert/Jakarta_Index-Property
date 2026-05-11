@@ -922,27 +922,37 @@ tr:hover td { background: rgba(255,255,255,0.02); }
 
     /* Property panel → full screen bottom sheet */
     .prop-panel {
-        top: auto;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
         width: 100% !important;
-        max-height: 92vh;
+        height: 100% !important;
+        max-height: 100vh !important;
         transform: translateY(100%);
-        border-radius: 1.4rem 1.4rem 0 0;
-        transition: transform 0.35s cubic-bezier(.4,0,.2,1), opacity 0.2s;
+        border-radius: 0 !important;
+        transition: transform 0.3s ease;
         opacity: 1;
     }
     .prop-panel.open {
         transform: translateY(0);
-        opacity: 1;
-        pointer-events: auto;
     }
-    .prop-panel-body { padding: 1rem 1.2rem; }
-    .prop-panel-header { padding: 0 1.2rem; }
-    .prop-panel-footer { padding: 0.8rem 1.2rem; }
-    .form-grid { grid-template-columns: 1fr; gap: 0.8rem; }
-    .form-group-section { padding: 1rem; }
+    .prop-panel-body { 
+        padding: 1rem 1.2rem !important; 
+    }
+    .form-grid { 
+        grid-template-columns: 1fr !important; /* WAJIB 1 kolom */
+        gap: 1.2rem !important; 
+    }
+    .field {
+        grid-column: span 1 !important;
+    }
+    .field input, .field select, .field textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    .form-group-section { padding: 1.2rem 1rem !important; }
 
     /* Agent panel → centered, full-width */
     .agent-panel { width: 94vw !important; }
