@@ -170,7 +170,7 @@ app.get('/api/stats', async (req, res) => {
     try {
         const { range, agent } = req.query;
 
-        // Filter tanggal penjualan berdasarkan range
+        // 1. Date Filter
         let dateFilter = {};
         const now = new Date();
         if (range === 'day') {
@@ -184,39 +184,48 @@ app.get('/api/stats', async (req, res) => {
             dateFilter = { sold_at: { $gte: new Date(now.getFullYear(), 0, 1) } };
         }
 
-        let soldQuery = { status: 'Terjual', ...dateFilter };
-        if (agent) soldQuery.agent_name = agent;
-
-        const [total, totalAgents, soldProps, allProperties, allSold] = await Promise.all([
-            Property.countDocuments(),
-            Agent.countDocuments(),
-            Property.find(soldQuery),
-            Property.find(),
-            Property.find({ status: 'Terjual' })
+        // 2. Parallel Aggregations (MUCH FASTER)
+        const [counts, soldStats, cityStats, agentPerformance] = await Promise.all([
+            // Basic counts
+            Promise.all([
+                Property.countDocuments(),
+                Agent.countDocuments(),
+                Property.countDocuments({ status: 'Tersedia' }),
+                Property.countDocuments({ status: 'Terjual' })
+            ]),
+            // Revenue and units sold based on filter
+            Property.aggregate([
+                { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
+                { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
+            ]),
+            // Distribution by City
+            Property.aggregate([
+                { $group: { _id: '$city', count: { $sum: 1 } } },
+                { $sort: { count: -1 } }
+            ]),
+            // Agent Performance
+            Property.aggregate([
+                { $match: { status: 'Terjual' } },
+                { $group: { 
+                    _id: '$agent_name', 
+                    soldUnits: { $sum: 1 }, 
+                    totalRevenue: { $sum: '$price_idr' },
+                    items: { $push: { title: '$title', price: '$price_idr' } }
+                }},
+                { $sort: { totalRevenue: -1 } },
+                { $limit: 10 }
+            ])
         ]);
 
-        // cityStats: format array of {_id, count} sesuai ekspektasi Chart di admin.js
-        const cityMap = {};
-        allProperties.forEach(p => { if (p.city) cityMap[p.city] = (cityMap[p.city] || 0) + 1; });
-        const cityStats = Object.entries(cityMap).map(([_id, count]) => ({ _id, count }));
-
-        // agentPerformance: group by agent_name
-        const agentMap = {};
-        allSold.forEach(p => {
-            if (!p.agent_name) return;
-            if (!agentMap[p.agent_name]) agentMap[p.agent_name] = { soldUnits: 0, totalRevenue: 0, items: [] };
-            agentMap[p.agent_name].soldUnits++;
-            agentMap[p.agent_name].totalRevenue += (p.price_idr || 0);
-            agentMap[p.agent_name].items.push({ title: p.title, price: p.price_idr });
-        });
-        const agentPerformance = Object.entries(agentMap).map(([_id, d]) => ({ _id, ...d }));
+        const [total, totalAgents, available, totalSoldOverall] = counts;
+        const currentSold = soldStats[0] || { units: 0, revenue: 0 };
 
         res.json({
             total,
             totalAgents,
-            soldUnits: soldProps.length,
-            available: total - allSold.length,
-            revenue: soldProps.reduce((s, p) => s + (p.price_idr || 0), 0),
+            soldUnits: currentSold.units,
+            available,
+            revenue: currentSold.revenue,
             cityStats,
             agentPerformance
         });
