@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakarta Property Index | Cari Rumah & Apartemen Terbaik</title>
+    <meta name="description" content="Portal pencarian properti Jakarta terlengkap. Temukan ribuan listing rumah dan apartemen dengan filter harga, lokasi, dan luas tanah.">
+    <meta name="keywords" content="properti jakarta, jual rumah jakarta, sewa apartemen jakarta, jakarta property index">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">
+            <i class="fa-solid fa-building-circle-check"></i> JKTProp.
+        </a>
+        <div class="nav-links">
+            <a href="/">Cari Properti</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Temukan Properti Impian Anda di Jakarta</h1>
+        <p>Data terbaru dari ribuan listing properti premium</p>
+    </section>
+
+    <div class="filter-bar">
+        <div class="search-wrapper">
+            <input type="text" id="searchInput" placeholder="Masukkan kata kunci...">
+        </div>
+        <div class="filter-grid">
+            <select id="citySelect">
+                <option value="">Semua Kota</option>
+                <option value="Jakarta Selatan">Jakarta Selatan</option>
+                <option value="Jakarta Barat">Jakarta Barat</option>
+                <option value="Jakarta Utara">Jakarta Utara</option>
+                <option value="Jakarta Timur">Jakarta Timur</option>
+                <option value="Jakarta Pusat">Jakarta Pusat</option>
+            </select>
+            <select id="districtSelect">
+                <option value="">Pilih Wilayah...</option>
+            </select>
+            <input type="number" id="minPrice" placeholder="Harga Min">
+            <input type="number" id="maxPrice" placeholder="Harga Max">
+            <input type="number" id="maxLand" placeholder="Luas Tanah Max (m²)">
+            <button onclick="fetchProperties()"><i class="fa-solid fa-magnifying-glass"></i> Cari</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="propertyGrid" class="grid">
+            <!-- Properties will be loaded here -->
+        </div>
+        <div id="loading" style="text-align: center; padding: 2rem; display: none;">
+            <i class="fa-solid fa-circle-notch fa-spin fa-2xl"></i>
+        </div>
+    </div>
+
+    <!-- Property Preview Modal -->
+    <div id="previewModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modalData">
+                <!-- Data akan diisi lewat JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>

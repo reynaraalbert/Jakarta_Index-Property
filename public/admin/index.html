@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | JKTProp</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/admin/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="admin-container">
+
+    <!-- ══ SIDEBAR ══════════════════════════════ -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span><i class="fa-solid fa-building-circle-check"></i> JKTProp Admin</span>
+            <button class="close-sidebar" onclick="toggleSidebar()" title="Tutup">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item active" onclick="showSection('dashboard', this)">
+                <i class="fa-solid fa-gauge"></i> <span>Dashboard</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showSection('properties', this)">
+                <i class="fa-solid fa-house-chimney"></i> <span>Kelola Properti</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showSection('salesstatus', this)">
+                <i class="fa-solid fa-chart-line"></i> <span>Status Penjualan</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showSection('agents', this)">
+                <i class="fa-solid fa-user-tie"></i> <span>Kelola Agen</span>
+            </a>
+            <a href="#" class="nav-item" onclick="showSection('export', this)">
+                <i class="fa-solid fa-file-export"></i> <span>Export Data</span>
+            </a>
+        </nav>
+        <a href="/" class="nav-item-user-link" title="Buka halaman utama user">
+            <i class="fa-solid fa-globe"></i>
+            <span>Buka Tampilan User</span>
+        </a>
+    </aside>
+
+    <!-- ══ MAIN ══════════════════════════════════ -->
+    <main class="main-content">
+
+        <!-- Top header bar -->
+        <header class="mobile-header">
+            <button class="burger-btn" onclick="toggleSidebar()" title="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <span id="headerTitle">Analytics Dashboard</span>
+        </header>
+
+        <!-- Scrollable sections wrapper -->
+        <div class="sections-wrapper">
+
+            <!-- ── DASHBOARD ── -->
+            <section id="dashboardSection" class="admin-section active">
+                <div class="section-header">
+                    <h1 class="page-title">Analytics Dashboard</h1>
+                    <div class="range-selector">
+                        <label>Filter Waktu</label>
+                        <select id="statsRange" onchange="loadStats()" class="admin-select">
+                            <option value="all">Semua Waktu</option>
+                            <option value="day">Hari Ini</option>
+                            <option value="week">7 Hari Terakhir</option>
+                            <option value="month">1 Bulan Terakhir</option>
+                            <option value="year">1 Tahun Terakhir</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-house"></i>
+                        <div><h3 id="totalProps">—</h3><p>Total Unit</p></div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-users"></i>
+                        <div><h3 id="totalAgents">—</h3><p>Total Agen</p></div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-check-double" style="color:var(--success);"></i>
+                        <div><h3 id="soldUnits">—</h3><p>Unit Terjual</p></div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-money-bill-trend-up" style="color:#10b981;"></i>
+                        <div><h3 id="totalRevenue">—</h3><p>Total Pendapatan</p></div>
+                    </div>
+                </div>
+
+                <div class="chart-container" style="height:320px; position:relative;">
+                    <canvas id="cityChart"></canvas>
+                </div>
+
+                <div class="section-divider"></div>
+
+                <div class="section-header">
+                    <h2 class="page-title"><i class="fa-solid fa-chart-simple"></i> Tren Pasar & Analitik</h2>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-container">
+                        <h3 class="chart-title">Ranking Kecamatan (Harga per m²)</h3>
+                        <div style="height:350px; position:relative;">
+                            <canvas id="rankingChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <h3 class="chart-title">Distribusi Harga Unit</h3>
+                        <div style="height:350px; position:relative;">
+                            <canvas id="distChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-container" style="margin-top:2rem;">
+                    <div class="table-header-bar">
+                        <span class="table-title"><i class="fa-solid fa-table-list"></i> Tabel Perbandingan Wilayah</span>
+                    </div>
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Kecamatan</th>
+                                    <th>Rata-rata (m²)</th>
+                                    <th>Harga Min</th>
+                                    <th>Harga Max</th>
+                                    <th>Total Unit</th>
+                                </tr>
+                            </thead>
+                            <tbody id="comparisonTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── KELOLA PROPERTI ── -->
+            <section id="propertiesSection" class="admin-section">
+                <div class="section-header">
+                    <h1 class="page-title">Kelola Properti</h1>
+                    <div class="table-filters">
+                        <select id="filterCitySelect" onchange="onCityFilterChange()" class="admin-select-filter">
+                            <option value="">Semua Kota</option>
+                            <option>Jakarta Selatan</option>
+                            <option>Jakarta Barat</option>
+                            <option>Jakarta Utara</option>
+                            <option>Jakarta Timur</option>
+                            <option>Jakarta Pusat</option>
+                        </select>
+                        <select id="filterDistrictSelect" onchange="loadProperties()" class="admin-select-filter">
+                            <option value="">Semua Kecamatan</option>
+                        </select>
+                        <button class="btn-primary" onclick="openPropPanel()">
+                            <i class="fa-solid fa-plus"></i> Tambah Unit
+                        </button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Status</th>
+                                    <th>Judul Properti</th>
+                                    <th>Lokasi</th>
+                                    <th>Harga</th>
+                                    <th>Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="propTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── STATUS PENJUALAN ── -->
+            <section id="salesstatusSection" class="admin-section">
+                <div class="section-header">
+                    <h1 class="page-title">Status Penjualan</h1>
+                    <div class="range-tabs-wrapper">
+                        <button class="range-tab active" onclick="setSalesRange('day',this)">Hari Ini</button>
+                        <button class="range-tab" onclick="setSalesRange('week',this)">7 Hari</button>
+                        <button class="range-tab" onclick="setSalesRange('month',this)">1 Bulan</button>
+                        <button class="range-tab" onclick="setSalesRange('year',this)">1 Tahun</button>
+                        <button class="range-tab" onclick="setSalesRange('all',this)">Semua</button>
+                    </div>
+                    <div class="agent-filter-wrapper" style="margin-left: auto;">
+                        <select id="ss_agentFilter" onchange="loadSalesStatus()" class="admin-select">
+                            <option value="">Semua Agen</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Ringkasan Performa Agen Terpilih -->
+                <div id="ss_agentSummary" class="agent-summary-card" style="display:none; margin-bottom:1.5rem;">
+                    <div class="summary-content">
+                        <span class="summary-label">Performa <strong id="ss_summaryAgentName">Nama Agen</strong>:</span>
+                        <div class="summary-stats">
+                            <span><i class="fa-solid fa-house-circle-check"></i> <span id="ss_summaryUnits">0</span> Unit</span>
+                            <span><i class="fa-solid fa-money-bill-wave"></i> <span id="ss_summaryRevenue">Rp 0</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-circle-check" style="color:var(--danger);"></i>
+                        <div><h3 id="ss_sold">—</h3><p>Unit Terjual</p></div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-circle-dot" style="color:var(--success);"></i>
+                        <div><h3 id="ss_available">—</h3><p>Unit Tersedia</p></div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-percent" style="color:var(--secondary);"></i>
+                        <div><h3 id="ss_rate">—</h3><p>Sell-Through Rate</p></div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-sack-dollar" style="color:var(--success);"></i>
+                        <div><h3 id="ss_revenue">—</h3><p>Total Pendapatan</p></div>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-container">
+                        <h3 class="chart-title"><i class="fa-solid fa-chart-pie"></i> Komposisi Status</h3>
+                        <div style="height:260px; position:relative;">
+                            <canvas id="salesDonutChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <h3 class="chart-title"><i class="fa-solid fa-chart-bar"></i> Terjual per Kota</h3>
+                        <div style="height:260px; position:relative;">
+                            <canvas id="salesByCityChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-container" style="margin-top:1.2rem;">
+                    <div class="table-header-bar">
+                        <span class="table-title"><i class="fa-solid fa-list-check"></i> Daftar Unit Terjual</span>
+                        <span id="ss_tableCount" class="table-count-badge">0 unit</span>
+                    </div>
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Tgl Terjual</th>
+                                    <th>Judul</th>
+                                    <th>Lokasi</th>
+                                    <th>Harga</th>
+                                    <th>Agen</th>
+                                </tr>
+                            </thead>
+                            <tbody id="soldTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Performa Agen Section -->
+                <div class="table-container" style="margin-top:2rem;">
+                    <div class="table-header-bar">
+                        <span class="table-title"><i class="fa-solid fa-medal"></i> Performa Penjualan Agen</span>
+                    </div>
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nama Agen</th>
+                                    <th>Unit Terjual</th>
+                                    <th>Total Nilai Penjualan</th>
+                                    <th>Detail Unit</th>
+                                </tr>
+                            </thead>
+                            <tbody id="agentPerformanceBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ── KELOLA AGEN ── -->
+            <section id="agentsSection" class="admin-section">
+                <div class="section-header">
+                    <h1 class="page-title">Kelola Agen</h1>
+                    <button class="btn-primary" onclick="openAgentModal()">
+                        <i class="fa-solid fa-plus"></i> Agen Baru
+                    </button>
+                </div>
+                <div class="table-container">
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr><th>ID Agen</th><th>Nama</th><th>HP</th><th>Email</th><th>Aksi</th></tr>
+                            </thead>
+                            <tbody id="agentTableBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ── EXPORT DATA ── -->
+            <section id="exportSection" class="admin-section">
+                <div class="section-header">
+                    <h1 class="page-title">Export Database</h1>
+                </div>
+                <p style="color:var(--text-muted); margin-bottom:2rem;">Gunakan filter di bawah untuk memilih database yang ingin Anda ekspor ke format CSV.</p>
+
+                <div class="stat-card" style="max-width:500px; padding:2rem; flex-direction:column; align-items:stretch; gap:1.5rem;">
+                    <div class="filter-group">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <label style="font-size:0.8rem; color:var(--text-muted);">Pilih Kategori Data:</label>
+                            <button onclick="loadExportOptions()" style="background:none; border:none; color:var(--secondary); font-size:0.75rem; cursor:pointer;">
+                                <i class="fa-solid fa-sync-alt"></i> Segarkan Daftar
+                            </button>
+                        </div>
+                        <select id="exportSelector" class="form-select" style="width:100%; padding:0.8rem; background:var(--card-bg-2); color:white; border:1px solid var(--border-color); border-radius:0.8rem; font-family:inherit;">
+                            <option value="">-- Memuat daftar data... --</option>
+                        </select>
+                    </div>
+
+                    <div id="exportPreview" style="padding:1rem; background:rgba(255,255,255,0.03); border-radius:0.8rem; display:none;">
+                        <p id="exportMeta" style="margin:0; font-size:0.85rem; color:var(--success);"></p>
+                    </div>
+
+                    <button class="btn-primary" onclick="handleDynamicExport()" style="width:100%; justify-content:center; padding:1rem;">
+                        <i class="fa-solid fa-file-export"></i> Export File CSV
+                    </button>
+                </div>
+            </section>
+
+        </div><!-- /sections-wrapper -->
+    </main>
+</div>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebarMobile()"></div>
+
+<!-- ══ PROPERTY PANEL (side drawer) ════════════════════ -->
+<div class="prop-panel-overlay" id="propPanelOverlay" onclick="closePropPanel()"></div>
+<div class="prop-panel" id="propPanel">
+    <div class="prop-panel-header">
+        <h2 id="panelTitle"><i class="fa-solid fa-house-chimney"></i> Tambah Unit Baru</h2>
+        <button class="panel-close-btn" onclick="closePropPanel()" title="Tutup">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <div class="prop-panel-body">
+        <form id="propForm">
+            <input type="hidden" id="propId">
+            <input type="hidden" id="f_image_url">
+
+            <!-- Status & Info -->
+            <div class="form-group-section">
+                <h3><i class="fa-solid fa-tag"></i> Status & Info Dasar</h3>
+                <div class="form-grid">
+                    <div class="field">
+                        <label>Status Unit</label>
+                        <select id="f_status">
+                            <option value="Tersedia">Tersedia</option>
+                            <option value="Terjual">Terjual</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Harga Jual (Rp)</label>
+                        <input type="number" id="f_price" placeholder="e.g. 2500000000">
+                    </div>
+                    <div class="field" style="grid-column:span 2;">
+                        <label>Judul Iklan</label>
+                        <input type="text" id="f_title" placeholder="Nama / deskripsi singkat properti">
+                    </div>
+                    <div class="field">
+                        <label>Kota</label>
+                        <input type="text" id="f_city" placeholder="Jakarta Selatan">
+                    </div>
+                    <div class="field">
+                        <label>Kecamatan</label>
+                        <input type="text" id="f_district" placeholder="Kemang">
+                    </div>
+                    <div class="field" style="grid-column:span 2;">
+                        <label>Upload Foto</label>
+                        <input type="file" id="f_image_file" accept="image/*">
+                        <small id="uploadStatus"></small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spesifikasi -->
+            <div class="form-group-section">
+                <h3><i class="fa-solid fa-ruler-combined"></i> Spesifikasi & NJOP</h3>
+                <div class="form-grid">
+                    <div class="field"><label>Kamar Tidur</label><input type="number" id="f_bedrooms" placeholder="3"></div>
+                    <div class="field"><label>Kamar Mandi</label><input type="number" id="f_bathrooms" placeholder="2"></div>
+                    <div class="field"><label>Luas Tanah (m²)</label><input type="number" id="f_land" placeholder="150"></div>
+                    <div class="field"><label>Luas Bangunan (m²)</label><input type="number" id="f_building" placeholder="200"></div>
+                    <div class="field" style="grid-column:span 2;"><label>NJOP per m² (Rp)</label><input type="number" id="f_njop" placeholder="25000000"></div>
+                </div>
+            </div>
+
+            <!-- Agen & Catatan -->
+            <div class="form-group-section">
+                <h3><i class="fa-solid fa-user-tie"></i> Agen & Catatan</h3>
+                <div class="form-grid">
+                    <div class="field"><label>Nama Agen</label><input type="text" id="f_agent_name"></div>
+                    <div class="field"><label>No. WA Agen</label><input type="text" id="f_agent_phone"></div>
+                    <div class="field" style="grid-column:span 2;"><label>Email Agen</label><input type="email" id="f_agent_email"></div>
+                    <div class="field" style="grid-column:span 2;">
+                        <label>Catatan</label>
+                        <textarea id="f_notes" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="prop-panel-footer">
+        <button class="btn-cancel" onclick="closePropPanel()">Batal</button>
+        <button class="btn-save" onclick="submitPropForm()">
+            <i class="fa-solid fa-floppy-disk"></i> Simpan
+        </button>
+    </div>
+</div>
+
+<!-- ══ AGENT MODAL ════════════════════════════════════ -->
+<div id="agentModal" class="admin-modal">
+    <div class="modal-content">
+        <h2><i class="fa-solid fa-user-plus" style="color:var(--secondary);"></i> Tambah Agen Baru</h2>
+        <form id="agentForm">
+            <div class="form-grid">
+                <input type="text"  name="agent_id" placeholder="ID Agen (unik)" required>
+                <input type="text"  name="name"     placeholder="Nama Lengkap" required>
+                <input type="text"  name="phone"    placeholder="No HP / WA" required>
+                <input type="email" name="email"    placeholder="Email" required>
+            </div>
+            <div class="modal-actions">
+                <button type="button" class="btn-cancel" onclick="closeAgentModal()">Batal</button>
+                <button type="submit" class="btn-save">Simpan Agen</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- ══ AGENT EDIT PANEL ═══════════════════════ -->
+<div class="agent-panel-overlay" id="agentPanelOverlay" onclick="closeAgentPanel()"></div>
+<div class="agent-panel" id="agentPanel">
+    <div class="agent-panel-header">
+        <h2 id="agentPanelTitle"><i class="fa-solid fa-user-pen"></i> Edit Agen</h2>
+        <button class="panel-close-btn" onclick="closeAgentPanel()" title="Tutup">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="agent-panel-body">
+        <form id="agentEditForm">
+            <input type="hidden" id="ae_id">
+            <div class="form-group-section">
+                <h3><i class="fa-solid fa-id-card"></i> Informasi Agen</h3>
+                <div class="form-grid" style="grid-template-columns:1fr;">
+                    <div class="field">
+                        <label>ID Agen</label>
+                        <input type="text" id="ae_agent_id" placeholder="agent-001">
+                    </div>
+                    <div class="field">
+                        <label>Nama Lengkap</label>
+                        <input type="text" id="ae_name" placeholder="Nama Lengkap">
+                    </div>
+                    <div class="field">
+                        <label>No HP / WA</label>
+                        <input type="text" id="ae_phone" placeholder="08xxxxxxxxxx">
+                    </div>
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" id="ae_email" placeholder="email@domain.com">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="agent-panel-footer">
+        <button class="btn-cancel" onclick="closeAgentPanel()">Batal</button>
+        <button class="btn-save" onclick="submitAgentEdit()">
+            <i class="fa-solid fa-floppy-disk"></i> Simpan
+        </button>
+    </div>
+</div>
+
+<script src="/admin/admin.js"></script>
+</body>
+</html>
