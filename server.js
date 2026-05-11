@@ -85,6 +85,7 @@ app.get('/api/dashboard-combined', async (req, res) => {
             dateFilter = { sold_at: { $gte: new Date(now.getFullYear(), 0, 1) } };
         }
 
+        // Jalankan semua query secara paralel untuk kecepatan maksimal
         const [
             total,
             totalAgents,
@@ -107,8 +108,8 @@ app.get('/api/dashboard-combined', async (req, res) => {
                 { $sort: { count: -1 } }
             ]),
             Property.aggregate([
-                { $match: { status: 'Terjual' } },
-                { $group: { _id: '$agent_name', soldUnits: { $sum: 1 }, totalRevenue: { $sum: '$price_idr' }, items: { $push: { title: '$title', price: '$price_idr' } } } },
+                { $match: { status: 'Terjual', ...dateFilter } },
+                { $group: { _id: '$agent_name', soldUnits: { $sum: 1 }, totalRevenue: { $sum: '$price_idr' } } },
                 { $sort: { totalRevenue: -1 } },
                 { $limit: 10 }
             ]),
@@ -142,11 +143,25 @@ app.get('/api/dashboard-combined', async (req, res) => {
 app.get('/api/properties', async (req, res) => {
     try {
         await connectDB();
-        const { city, district, status, limit } = req.query;
+        const { city, district, status, range, limit } = req.query;
         let query = {};
         if (city) query.city = new RegExp(city, 'i');
         if (district) query.district = new RegExp(district, 'i');
         if (status) query.status = status;
+        
+        if (range && range !== 'all') {
+            const now = new Date();
+            if (range === 'day') {
+                const start = new Date(now); start.setHours(0, 0, 0, 0);
+                query.sold_at = { $gte: start };
+            } else if (range === 'week') {
+                query.sold_at = { $gte: new Date(now.getTime() - 7 * 86400000) };
+            } else if (range === 'month') {
+                query.sold_at = { $gte: new Date(now.getFullYear(), now.getMonth(), 1) };
+            } else if (range === 'year') {
+                query.sold_at = { $gte: new Date(now.getFullYear(), 0, 1) };
+            }
+        }
         
         const props = await Property.find(query).sort({ scraped_at: -1 }).limit(Number(limit) || 100).lean();
         res.json(props);

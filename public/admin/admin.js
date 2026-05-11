@@ -405,7 +405,8 @@ async function loadSalesStatus() {
         const tbody = document.getElementById('soldTableBody');
         if (tbody) {
             tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;">Memuat daftar...</td></tr>';
-            const soldProps = await fetchJSON(`/api/properties?status=Terjual&limit=50`); // Limit to 50 for speed
+            // PENTING: Tambahkan range=${currentSalesRange} agar tabel ikut berubah otomatis
+            const soldProps = await fetchJSON(`/api/properties?status=Terjual&range=${currentSalesRange}&limit=50`); 
             tbody.innerHTML = '';
             document.getElementById('ss_tableCount').textContent = `${soldProps.length} unit terbaru`;
             if (!soldProps.length) {
