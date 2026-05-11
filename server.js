@@ -74,15 +74,17 @@ app.get('/api/dashboard-combined', async (req, res) => {
         const { range, agent } = req.query;
         let dateFilter = {};
         const now = new Date();
+        
+        // Gunakan rentang waktu relatif agar tidak bentrok dengan zona waktu server Vercel
         if (range === 'day') {
-            const start = new Date(now); start.setHours(0, 0, 0, 0);
-            dateFilter = { sold_at: { $gte: start } };
+            // Terjual dalam 24 jam terakhir (Realtime untuk semua zona waktu)
+            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 24 * 60 * 60 * 1000) } };
         } else if (range === 'week') {
             dateFilter = { sold_at: { $gte: new Date(now.getTime() - 7 * 86400000) } };
         } else if (range === 'month') {
-            dateFilter = { sold_at: { $gte: new Date(now.getFullYear(), now.getMonth(), 1) } };
+            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 30 * 86400000) } };
         } else if (range === 'year') {
-            dateFilter = { sold_at: { $gte: new Date(now.getFullYear(), 0, 1) } };
+            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 365 * 86400000) } };
         }
 
         // Jalankan semua query secara paralel untuk kecepatan maksimal
@@ -152,14 +154,13 @@ app.get('/api/properties', async (req, res) => {
         if (range && range !== 'all') {
             const now = new Date();
             if (range === 'day') {
-                const start = new Date(now); start.setHours(0, 0, 0, 0);
-                query.sold_at = { $gte: start };
+                query.sold_at = { $gte: new Date(now.getTime() - 24 * 60 * 60 * 1000) };
             } else if (range === 'week') {
                 query.sold_at = { $gte: new Date(now.getTime() - 7 * 86400000) };
             } else if (range === 'month') {
-                query.sold_at = { $gte: new Date(now.getFullYear(), now.getMonth(), 1) };
+                query.sold_at = { $gte: new Date(now.getTime() - 30 * 86400000) };
             } else if (range === 'year') {
-                query.sold_at = { $gte: new Date(now.getFullYear(), 0, 1) };
+                query.sold_at = { $gte: new Date(now.getTime() - 365 * 86400000) };
             }
         }
         
