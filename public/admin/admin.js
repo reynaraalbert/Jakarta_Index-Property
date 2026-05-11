@@ -287,23 +287,29 @@ document.getElementById('f_image_file').addEventListener('change', async (e) => 
 async function submitPropForm() {
     const id = document.getElementById('propId').value;
 
+    const status = document.getElementById('f_status').value;
     const data = {
-        status:           document.getElementById('f_status').value,
+        status:           status,
         title:            document.getElementById('f_title').value,
-        price_idr:        document.getElementById('f_price').value,
+        price_idr:        Number(document.getElementById('f_price').value),
         city:             document.getElementById('f_city').value,
         district:         document.getElementById('f_district').value,
-        bedrooms:         document.getElementById('f_bedrooms').value,
-        bathrooms:        document.getElementById('f_bathrooms').value,
-        land_size_m2:     document.getElementById('f_land').value,
-        building_size_m2: document.getElementById('f_building').value,
-        njop_per_m2:      document.getElementById('f_njop').value,
+        bedrooms:         Number(document.getElementById('f_bedrooms').value),
+        bathrooms:        Number(document.getElementById('f_bathrooms').value),
+        land_size_m2:     Number(document.getElementById('f_land').value),
+        building_size_m2: Number(document.getElementById('f_building').value),
+        njop_per_m2:      Number(document.getElementById('f_njop').value),
         image_url:        document.getElementById('f_image_url').value,
         agent_name:       document.getElementById('f_agent_name').value,
         agent_phone:      document.getElementById('f_agent_phone').value,
         agent_email:      document.getElementById('f_agent_email').value,
         notes:            document.getElementById('f_notes').value,
     };
+
+    // Otomatis set tanggal terjual jika status adalah Terjual
+    if (status === 'Terjual') {
+        data.sold_at = new Date().toISOString();
+    }
 
     const url    = id ? `/api/properties/${id}` : '/api/properties';
     const method = id ? 'PUT' : 'POST';
