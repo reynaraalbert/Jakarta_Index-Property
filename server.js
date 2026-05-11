@@ -41,8 +41,17 @@ if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
 // ─────────────────────────────────────────────────────────────────────────────
 // HEALTH CHECK — buka http://localhost:5000/api/health untuk cek status server
 // ─────────────────────────────────────────────────────────────────────────────
-app.get('/api/health', (req, res) => {
-    res.json({ status: 'ok', db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected' });
+app.get('/api/health', async (req, res) => {
+    try {
+        const count = await Property.countDocuments();
+        res.json({ 
+            status: 'ok', 
+            db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
+            propertyCount: count
+        });
+    } catch (e) {
+        res.json({ status: 'error', message: e.message });
+    }
 });
 
 // Explicitly serve index.html for the root path
@@ -82,7 +91,9 @@ app.get('/api/properties', async (req, res) => {
         if (maxLand)  query.land_size_m2 = { $lte: Number(maxLand) };
         if (search)   query.$or = [{ title: new RegExp(search, 'i') }];
         if (status)   query.status = status;
-        const props = await Property.find(query).sort({ createdAt: -1 }).limit(Number(limit) || 100000);
+        
+        // Fix: Sort by scraped_at because createdAt doesn't exist in schema
+        const props = await Property.find(query).sort({ scraped_at: -1 }).limit(Number(limit) || 100);
         res.json(props);
     } catch (err) { res.status(500).json({ error: err.message }); }
 });
