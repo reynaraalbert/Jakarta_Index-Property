@@ -1,3 +1,4 @@
+console.log("🚀 JKTProp Admin PRO V2.0.1 Loaded");
 let districtsByCity = {};
 
 async function loadLocations() {
