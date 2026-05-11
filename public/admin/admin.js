@@ -342,22 +342,23 @@ function setSalesRange(range, btn) {
 async function loadSalesStatus() {
     try {
         const agentName = document.getElementById('ss_agentFilter').value;
-        const stats = await fetchJSON(`/api/stats?range=${currentSalesRange}&agent=${encodeURIComponent(agentName)}`);
+        const res = await fetchJSON(`/api/dashboard-combined?range=${currentSalesRange}&agent=${enc(agentName)}`);
+        const stats = res.stats;
         
-        // Show/Hide Summary Card for specific agent
+        // 1. Agent Summary Card
         const summaryCard = document.getElementById('ss_agentSummary');
-        if (agentName) {
+        if (agentName && summaryCard) {
             summaryCard.style.display = 'block';
             document.getElementById('ss_summaryAgentName').textContent = agentName;
             document.getElementById('ss_summaryUnits').textContent = stats.soldUnits;
             document.getElementById('ss_summaryRevenue').textContent = formatRp(stats.revenue);
-        } else {
+        } else if (summaryCard) {
             summaryCard.style.display = 'none';
         }
 
         const sold      = stats.soldUnits || 0;
         const total     = stats.total || 0;
-        const available = total - sold;
+        const available = stats.available || (total - sold);
         const rate      = total > 0 ? ((sold / total) * 100).toFixed(1) : 0;
 
         document.getElementById('ss_sold').textContent     = sold;
@@ -365,96 +366,66 @@ async function loadSalesStatus() {
         document.getElementById('ss_rate').textContent     = `${rate}%`;
         document.getElementById('ss_revenue').textContent  = formatRp(stats.revenue || 0);
 
-        // Donut
-        if (salesDonutInstance) salesDonutInstance.destroy();
-        salesDonutInstance = new Chart(document.getElementById('salesDonutChart'), {
-            type: 'doughnut',
-            data: {
-                labels: ['Terjual', 'Tersedia'],
-                datasets: [{
-                    data: [sold, available],
-                    backgroundColor: ['#ef4444', '#10b981'],
-                    borderColor: '#1e293b',
-                    borderWidth: 3
-                }]
-            },
-            options: {
-                responsive: true, maintainAspectRatio: false,
-                plugins: {
-                    legend: { position: 'bottom', labels: { color: '#f8fafc', padding: 16, font: { size: 12 } } }
-                },
-                cutout: '65%'
+        // 2. Donut Chart (Komposisi)
+        try {
+            const donutCtx = document.getElementById('salesDonutChart');
+            if (donutCtx) {
+                if (salesDonutInstance) salesDonutInstance.destroy();
+                salesDonutInstance = new Chart(donutCtx, {
+                    type: 'doughnut',
+                    data: { labels: ['Terjual', 'Tersedia'], datasets: [{ data: [sold, available], backgroundColor: ['#ef4444', '#10b981'], borderColor: '#1e293b', borderWidth: 3 }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { color: '#f8fafc' } } }, cutout: '65%' }
+                });
             }
-        });
+        } catch (e) {}
 
-        // Sold list
-        const soldProps = await fetchJSON(`/api/properties?status=Terjual&range=${currentSalesRange}&limit=1000`);
-        const filtered  = soldProps.filter(p => p.status === 'Terjual');
-
-        // Bar by city
-        const byCityMap = {};
-        filtered.forEach(p => { byCityMap[p.city] = (byCityMap[p.city] || 0) + 1; });
-        const cities     = Object.keys(byCityMap).sort();
-        const cityCounts = cities.map(c => byCityMap[c]);
-
-        if (salesByCityInstance) salesByCityInstance.destroy();
-        salesByCityInstance = new Chart(document.getElementById('salesByCityChart'), {
-            type: 'bar',
-            data: {
-                labels: cities.length ? cities : ['—'],
-                datasets: [{ label: 'Unit Terjual', data: cities.length ? cityCounts : [0], backgroundColor: '#f59e0b', borderRadius: 6 }]
-            },
-            options: {
-                responsive: true, maintainAspectRatio: false,
-                plugins: { legend: { display: false } },
-                scales: {
-                    y: { beginAtZero: true, grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
-                    x: { grid: { display: false }, ticks: { color: '#94a3b8' } }
-                }
+        // 3. Bar Chart (By City) - Using pre-calculated stats from server
+        try {
+            const cityCtx = document.getElementById('salesByCityChart');
+            if (cityCtx) {
+                const labels = stats.cityStats.map(s => s._id || '—');
+                const counts = stats.cityStats.map(s => s.count);
+                if (salesByCityInstance) salesByCityInstance.destroy();
+                salesByCityInstance = new Chart(cityCtx, {
+                    type: 'bar',
+                    data: { labels, datasets: [{ label: 'Unit', data: counts, backgroundColor: '#f59e0b', borderRadius: 6 }] },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                });
             }
-        });
+        } catch (e) {}
 
-        // Table
+        // 4. Sold List Table - Fetch only what's needed for the table
         const tbody = document.getElementById('soldTableBody');
-        tbody.innerHTML = '';
-        document.getElementById('ss_tableCount').textContent = `${filtered.length} unit`;
-
-        if (!filtered.length) {
-            tbody.innerHTML = emptyRow(5, 'Belum ada unit terjual dalam periode ini.');
-            return;
+        if (tbody) {
+            tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;">Memuat daftar...</td></tr>';
+            const soldProps = await fetchJSON(`/api/properties?status=Terjual&limit=50`); // Limit to 50 for speed
+            tbody.innerHTML = '';
+            document.getElementById('ss_tableCount').textContent = `${soldProps.length} unit terbaru`;
+            if (!soldProps.length) {
+                tbody.innerHTML = emptyRow(5, 'Belum ada unit terjual.');
+            } else {
+                soldProps.forEach(p => {
+                    const dt = p.sold_at ? new Date(p.sold_at).toLocaleDateString('id-ID', { day:'2-digit', month:'short' }) : '—';
+                    tbody.insertAdjacentHTML('beforeend', `<tr><td>${dt}</td><td>${p.title}</td><td>${p.district}</td><td>${formatRp(p.price_idr)}</td><td>${p.agent_name || '—'}</td></tr>`);
+                });
+            }
         }
-        filtered.forEach(p => {
-            const dt = p.sold_at ? new Date(p.sold_at).toLocaleDateString('id-ID', { day:'2-digit', month:'short', year:'numeric' }) : '—';
-            tbody.insertAdjacentHTML('beforeend', `
-                <tr>
-                    <td>${dt}</td>
-                    <td>${p.title}</td>
-                    <td>${p.district}, ${p.city}</td>
-                    <td>${formatRp(p.price_idr)}</td>
-                    <td>${p.agent_name || '—'}</td>
-                </tr>`);
-        });
 
-        // Agent Performance Table
+        // 5. Agent Performance
         const agentBody = document.getElementById('agentPerformanceBody');
-        agentBody.innerHTML = '';
-        if (!stats.agentPerformance || !stats.agentPerformance.length) {
-            agentBody.innerHTML = emptyRow(4, 'Tidak ada data performa agen.');
-        } else {
-            stats.agentPerformance.forEach(ap => {
-                const details = ap.items.map(it => `• ${it.title} (${formatRp(it.price)})`).join('<br>');
-                agentBody.insertAdjacentHTML('beforeend', `
-                    <tr>
-                        <td><strong>${ap._id || '—'}</strong></td>
-                        <td><span class="badge status-avail">${ap.soldUnits} unit</span></td>
-                        <td><strong style="color:var(--success)">${formatRp(ap.totalRevenue)}</strong></td>
-                        <td style="font-size:0.8rem; color:var(--text-muted); line-height:1.4;">${details}</td>
-                    </tr>
-                `);
-            });
+        if (agentBody) {
+            agentBody.innerHTML = '';
+            if (!stats.agentPerformance || !stats.agentPerformance.length) {
+                agentBody.innerHTML = emptyRow(4, 'Tidak ada data.');
+            } else {
+                stats.agentPerformance.forEach(ap => {
+                    agentBody.insertAdjacentHTML('beforeend', `<tr><td><strong>${ap._id || '—'}</strong></td><td><span class="badge status-avail">${ap.soldUnits} unit</span></td><td><strong style="color:var(--success)">${formatRp(ap.totalRevenue)}</strong></td><td style="font-size:0.75rem; color:var(--text-muted);">Top Seller</td></tr>`);
+                });
+            }
         }
-    } catch (e) { console.error(e); }
+    } catch (e) { console.error('Sales status failed:', e); }
 }
+
 
 // =============================================
 // Agents
