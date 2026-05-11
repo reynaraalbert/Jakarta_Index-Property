@@ -19,12 +19,15 @@ app.use(express.static('public'));
 app.use('/uploads', express.static('public/uploads'));
 
 const uploadDir = 'public/uploads';
-if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
+// fs.mkdirSync dihapus karena Vercel menggunakan Read-Only File System
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DATABASE CONNECTION
 // ─────────────────────────────────────────────────────────────────────────────
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI, {
+    serverSelectionTimeoutMS: 5000,
+    socketTimeoutMS: 45000,
+})
     .then(() => console.log('✅ Connected to MongoDB'))
     .catch(err => console.error('❌ DB Connection error:', err.message));
 
