@@ -168,6 +168,7 @@ app.get('/api/locations', async (req, res) => {
 // ─────────────────────────────────────────────────────────────────────────────
 app.get('/api/dashboard-combined', async (req, res) => {
     try {
+        await connectDB(); // WAJIB tersambung dulu
         const { range, agent } = req.query;
         let dateFilter = {};
         const now = new Date();
@@ -182,52 +183,57 @@ app.get('/api/dashboard-combined', async (req, res) => {
             dateFilter = { sold_at: { $gte: new Date(now.getFullYear(), 0, 1) } };
         }
 
-        const [statsData, analyticsData] = await Promise.all([
-            // Stats Aggregation
-            Promise.all([
-                Property.countDocuments(),
-                Agent.countDocuments(),
-                Property.countDocuments({ status: 'Tersedia' }),
-                Property.aggregate([
-                    { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
-                    { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
-                ]),
-                Property.aggregate([
-                    { $group: { _id: '$city', count: { $sum: 1 } } },
-                    { $sort: { count: -1 } }
-                ]),
-                Property.aggregate([
-                    { $match: { status: 'Terjual' } },
-                    { $group: { _id: '$agent_name', soldUnits: { $sum: 1 }, totalRevenue: { $sum: '$price_idr' }, items: { $push: { title: '$title', price: '$price_idr' } } } },
-                    { $sort: { totalRevenue: -1 } },
-                    { $limit: 10 }
-                ])
+        const [
+            total,
+            totalAgents,
+            available,
+            soldStats,
+            cityStats,
+            agentPerf,
+            rankingKecamatan,
+            priceBuckets
+        ] = await Promise.all([
+            Property.countDocuments(),
+            Agent.countDocuments(),
+            Property.countDocuments({ status: 'Tersedia' }),
+            Property.aggregate([
+                { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
+                { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
             ]),
-            // Analytics Aggregation
-            Promise.all([
-                Property.aggregate([
-                    { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
-                    { $group: { _id: '$district', avgPricePerM2: { $avg: { $divide: ['$price_idr', '$land_size_m2'] } }, minPrice: { $min: '$price_idr' }, maxPrice: { $max: '$price_idr' }, totalListings: { $sum: 1 } } },
-                    { $sort: { avgPricePerM2: -1 } }, { $limit: 20 }
-                ]),
-                Property.aggregate([
-                    { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
-                    { $bucket: { groupBy: { $divide: ['$price_idr', '$land_size_m2'] }, boundaries: [0, 10000000, 30000000, 50000000, Infinity], default: 'Other', output: { count: { $sum: 1 } } } }
-                ])
+            Property.aggregate([
+                { $group: { _id: '$city', count: { $sum: 1 } } },
+                { $sort: { count: -1 } }
+            ]),
+            Property.aggregate([
+                { $match: { status: 'Terjual' } },
+                { $group: { _id: '$agent_name', soldUnits: { $sum: 1 }, totalRevenue: { $sum: '$price_idr' }, items: { $push: { title: '$title', price: '$price_idr' } } } },
+                { $sort: { totalRevenue: -1 } },
+                { $limit: 10 }
+            ]),
+            Property.aggregate([
+                { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
+                { $group: { _id: '$district', avgPricePerM2: { $avg: { $divide: ['$price_idr', '$land_size_m2'] } }, minPrice: { $min: '$price_idr' }, maxPrice: { $max: '$price_idr' }, totalListings: { $sum: 1 } } },
+                { $sort: { avgPricePerM2: -1 } }, { $limit: 20 }
+            ]),
+            Property.aggregate([
+                { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
+                { $bucket: { groupBy: { $divide: ['$price_idr', '$land_size_m2'] }, boundaries: [0, 10000000, 30000000, 50000000, Infinity], default: 'Other', output: { count: { $sum: 1 } } } }
             ])
         ]);
 
-        const [counts, soldStats, cityStats, agentPerf] = statsData;
-        const [total, totalAgents, available] = counts;
         const currentSold = soldStats[0] || { units: 0, revenue: 0 };
-        const priceDist = analyticsData[1].map(b => ({ label: b._id === 0 ? '<10jt' : b._id === 10000000 ? '10-30jt' : b._id === 30000000 ? '30-50jt' : '>50jt', count: b.count }));
+        const priceDist = priceBuckets.map(b => ({ 
+            label: b._id === 0 ? '<10jt' : b._id === 10000000 ? '10-30jt' : b._id === 30000000 ? '30-50jt' : '>50jt', 
+            count: b.count 
+        }));
 
         res.json({
             stats: { total, totalAgents, soldUnits: currentSold.units, available, revenue: currentSold.revenue, cityStats, agentPerformance: agentPerf },
-            analytics: { rankingKecamatan: analyticsData[0], priceDistribution: priceDist }
+            analytics: { rankingKecamatan, priceDistribution: priceDist }
         });
     } catch (err) { res.status(500).json({ error: err.message }); }
 });
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 // FIX #3: /api/analytics — endpoint yang sama sekali hilang dari server.js
