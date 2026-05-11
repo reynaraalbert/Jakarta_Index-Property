@@ -185,9 +185,9 @@ app.get('/api/dashboard-combined', async (req, res) => {
         const [statsData, analyticsData] = await Promise.all([
             // Stats Aggregation
             Promise.all([
-                Property.countDocuments().lean(),
-                Agent.countDocuments().lean(),
-                Property.countDocuments({ status: 'Tersedia' }).lean(),
+                Property.countDocuments(),
+                Agent.countDocuments(),
+                Property.countDocuments({ status: 'Tersedia' }),
                 Property.aggregate([
                     { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
                     { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
