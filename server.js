@@ -22,15 +22,17 @@ const uploadDir = 'public/uploads';
 if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true });
 
 // ─────────────────────────────────────────────────────────────────────────────
-// FIX #1: app.listen() DIKELUARKAN dari .then(MongoDB)
-// Server selalu hidup, DB konek terpisah — kalau DB error, server tetap jalan
+// DATABASE CONNECTION
 // ─────────────────────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
-    console.log(`✅ Server running on http://localhost:${PORT}`);
-    mongoose.connect(process.env.MONGODB_URI)
-        .then(() => console.log('✅ Connected to MongoDB'))
-        .catch(err => console.error('❌ DB Connection error:', err.message));
-});
+mongoose.connect(process.env.MONGODB_URI)
+    .then(() => console.log('✅ Connected to MongoDB'))
+    .catch(err => console.error('❌ DB Connection error:', err.message));
+
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+    app.listen(PORT, () => {
+        console.log(`✅ Server running on http://localhost:${PORT}`);
+    });
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // HEALTH CHECK — buka http://localhost:5000/api/health untuk cek status server
