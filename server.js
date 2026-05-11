@@ -41,14 +41,14 @@ if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
 // HEALTH CHECK — buka http://localhost:5000/api/health untuk cek status server
 // ─────────────────────────────────────────────────────────────────────────────
 app.get('/api/health', (req, res) => {
-    const dbState = ['disconnected', 'connected', 'connecting', 'disconnecting'];
-    res.json({
-        server: 'ok',
-        db: dbState[mongoose.connection.readyState] || 'unknown',
-        models: mongoose.modelNames(),
-        timestamp: new Date().toISOString()
-    });
+    res.json({ status: 'ok', db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected' });
 });
+
+// Explicitly serve index.html for the root path
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 // UPLOAD

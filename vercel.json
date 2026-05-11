@@ -16,6 +16,9 @@
       "dest": "/public/uploads/$1"
     },
     {
+      "handle": "filesystem"
+    },
+    {
       "src": "/(.*)",
       "dest": "server.js"
     }
