@@ -77,12 +77,41 @@ if (citySelect) {
 
 
 async function fetchProperties() {
-    const search = document.getElementById('searchInput').value;
-    const city = document.getElementById('citySelect').value;
-    const district = document.getElementById('districtSelect').value;
-    const minPrice = document.getElementById('minPrice').value;
-    const maxPrice = document.getElementById('maxPrice').value;
-    const maxLand = document.getElementById('maxLand').value;
+    const searchInput = document.getElementById('searchInput');
+    const citySelect = document.getElementById('citySelect');
+    const districtSelect = document.getElementById('districtSelect');
+    const minPriceInput = document.getElementById('minPrice');
+    const maxPriceInput = document.getElementById('maxPrice');
+    const maxLandInput = document.getElementById('maxLand');
+
+    // Restore from sessionStorage on first load
+    if (!searchInput.dataset.initialized) {
+        const saved = JSON.parse(sessionStorage.getItem('userSearchFilter') || '{}');
+        if (saved.search) searchInput.value = saved.search;
+        if (saved.city) citySelect.value = saved.city;
+        if (saved.city && cityDistricts[saved.city]) {
+            // Trigger change manually to populate districts
+            citySelect.dispatchEvent(new Event('change'));
+            if (saved.district) districtSelect.value = saved.district;
+        }
+        if (saved.minPrice) minPriceInput.value = saved.minPrice;
+        if (saved.maxPrice) maxPriceInput.value = saved.maxPrice;
+        if (saved.maxLand) maxLandInput.value = saved.maxLand;
+        
+        searchInput.dataset.initialized = "true";
+    }
+
+    const search = searchInput.value;
+    const city = citySelect.value;
+    const district = districtSelect.value;
+    const minPrice = minPriceInput.value;
+    const maxPrice = maxPriceInput.value;
+    const maxLand = maxLandInput.value;
+
+    // Save to sessionStorage
+    sessionStorage.setItem('userSearchFilter', JSON.stringify({
+        search, city, district, minPrice, maxPrice, maxLand
+    }));
 
     const params = new URLSearchParams({
         search, city, district, minPrice, maxPrice, maxLand

@@ -65,12 +65,16 @@ function closeSidebarMobile() {
 }
 
 function showSection(sectionId, el) {
+    localStorage.setItem('lastAdminSection', sectionId); // Save active section
     document.querySelectorAll('.admin-section').forEach(s => s.classList.remove('active'));
     document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
 
     const section = document.getElementById(sectionId + 'Section');
     if (section) section.classList.add('active');
-    if (el) el.classList.add('active');
+    
+    // Find nav item if el not provided (for first load)
+    const navItem = el || document.querySelector(`.nav-item[onclick*="'${sectionId}'"]`);
+    if (navItem) navItem.classList.add('active');
 
     const headerTitle = document.getElementById('headerTitle');
     if (headerTitle) {
@@ -96,7 +100,17 @@ async function loadStats() {
     try {
         const rangeSelector = document.getElementById('statsRange');
         if (!rangeSelector) return;
+        
+        // Restore from localStorage if available
+        const savedRange = localStorage.getItem('lastStatsRange');
+        if (savedRange && !rangeSelector.dataset.initialized) {
+            rangeSelector.value = savedRange;
+            rangeSelector.dataset.initialized = "true";
+        }
+
         const range = rangeSelector.value;
+        localStorage.setItem('lastStatsRange', range); // Save selection
+        
         const res   = await fetchJSON(`/api/dashboard-combined?range=${range}`);
         
         if (!res || !res.stats) {
@@ -180,7 +194,7 @@ function renderAnalytics(data) {
 // =============================================
 // Properties — filter & table
 // =============================================
-function onCityFilterChange() {
+function onCityFilterChange(shouldLoad = true) {
     const city = document.getElementById('filterCitySelect').value;
     const sel  = document.getElementById('filterDistrictSelect');
     sel.innerHTML = '<option value="">Semua Kecamatan</option>';
@@ -191,13 +205,43 @@ function onCityFilterChange() {
             sel.appendChild(o);
         });
     }
-    loadProperties();
+    if (shouldLoad) loadProperties();
 }
 
 async function loadProperties() {
-    const city     = document.getElementById('filterCitySelect').value;
-    const district = document.getElementById('filterDistrictSelect').value;
-    const props    = await fetchJSON(`/api/properties?city=${enc(city)}&district=${enc(district)}`);
+    const citySelect = document.getElementById('filterCitySelect');
+    const districtSelect = document.getElementById('filterDistrictSelect');
+    const statusSelect = document.getElementById('filterStatusSelect');
+
+    // Restore filters on first load
+    if (citySelect && !citySelect.dataset.initialized) {
+        const savedCity = localStorage.getItem('lastFilterCity');
+        const savedDist = localStorage.getItem('lastFilterDist');
+        const savedStat = localStorage.getItem('lastFilterStat');
+
+        if (savedCity) citySelect.value = savedCity;
+        if (savedCity && districtsByCity[savedCity]) {
+            onCityFilterChange(false); // Update district dropdown without reloading yet
+            if (savedDist) districtSelect.value = savedDist;
+        }
+        if (savedStat && statusSelect) statusSelect.value = savedStat;
+        
+        citySelect.dataset.initialized = "true";
+    }
+
+    const city     = citySelect.value;
+    const district = districtSelect.value;
+    const status   = statusSelect ? statusSelect.value : '';
+
+    // Save current filters
+    localStorage.setItem('lastFilterCity', city);
+    localStorage.setItem('lastFilterDist', district);
+    if (statusSelect) localStorage.setItem('lastFilterStat', status);
+    
+    let url = `/api/properties?city=${enc(city)}&district=${enc(district)}`;
+    if (status) url += `&status=${enc(status)}`;
+    
+    const props    = await fetchJSON(url);
     const tbody    = document.getElementById('propTableBody');
     tbody.innerHTML = '';
 
@@ -341,6 +385,7 @@ async function deleteProperty(id) {
 // =============================================
 function setSalesRange(range, btn) {
     currentSalesRange = range;
+    localStorage.setItem('lastSalesRange', range); // Save range
     document.querySelectorAll('.range-tab').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     loadSalesStatus();
@@ -348,6 +393,19 @@ function setSalesRange(range, btn) {
 
 async function loadSalesStatus() {
     try {
+        // Restore range on first load
+        const savedRange = localStorage.getItem('lastSalesRange');
+        if (savedRange && currentSalesRange === 'all') { // default is all
+            currentSalesRange = savedRange;
+            const tabs = document.querySelectorAll('.range-tab');
+            tabs.forEach(t => {
+                if (t.innerText.toLowerCase().includes(savedRange === 'day' ? 'hari' : savedRange === 'week' ? '7' : savedRange === 'month' ? '1 bulan' : '1 tahun')) {
+                    tabs.forEach(b => b.classList.remove('active'));
+                    t.classList.add('active');
+                }
+            });
+        }
+
         const agentName = document.getElementById('ss_agentFilter').value;
         const res = await fetchJSON(`/api/dashboard-combined?range=${currentSalesRange}&agent=${enc(agentName)}`);
         const stats = res.stats;
@@ -649,8 +707,10 @@ function downloadCSV(headers, rows, filename) {
 // =============================================
 // Initial load
 // =============================================
-loadLocations();
-loadStats();
-loadProperties();
-loadAgents();
-loadExportOptions(); // Panggil di awal agar data langsung siap
+(async () => {
+    await loadLocations();
+    
+    // Restore last section or default to dashboard
+    const lastSection = localStorage.getItem('lastAdminSection') || 'dashboard';
+    showSection(lastSection);
+})();

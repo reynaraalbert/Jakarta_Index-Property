@@ -48,11 +48,10 @@ const importData = async () => {
     await mongoose.connect(process.env.MONGODB_URI);
     console.log('Connected to MongoDB for import...');
 
-    // 1. Clear existing data
-    await Property.deleteMany({});
+    // 1. Clear existing data (Agents and Locations only, Properties cleared later)
     await Agent.deleteMany({});
     await Location.deleteMany({});
-    console.log('Existing data cleared.');
+    console.log('Existing Agents and Locations cleared.');
 
     // 2. Import Locations
     console.log('Importing locations...');
@@ -83,6 +82,10 @@ const importData = async () => {
     
     const agentMap = new Map(savedAgents.map(a => [a.agent_id, a]));
 
+    // Fetch existing properties to preserve status
+    const existingProps = await Property.find({}, 'title status sold_at sold_price').lean();
+    const existingMap = new Map(existingProps.map(p => [p.title, p]));
+
     const results = propertyData.map(data => {
         const district = data.district || "";
         const landSize = parseInt(data.land_size_m2) || 0;
@@ -96,6 +99,12 @@ const importData = async () => {
         if (!agent) {
             agent = savedAgents[Math.floor(Math.random() * savedAgents.length)];
         }
+
+        // PRESERVE STATUS: If property title exists in DB, keep its status and sold info
+        const existing = existingMap.get(data.title);
+        const status = existing ? existing.status : 'Tersedia';
+        const sold_at = existing ? existing.sold_at : null;
+        const sold_price = existing ? existing.sold_price : 0;
 
         return {
           title: data.title,
@@ -112,11 +121,15 @@ const importData = async () => {
           agent_phone: agent.phone,
           agent_email: agent.email,
           notes: dummyNotes[Math.floor(Math.random() * dummyNotes.length)],
-          status: data.status === 'AVAILABLE' ? 'Tersedia' : 'Terjual',
+          status: status,
+          sold_at: sold_at,
+          sold_price: sold_price,
           scraped_at: data.scraped_at ? new Date(data.scraped_at) : new Date()
         };
     });
 
+    // Clear and Re-insert (or you could do bulkWrite, but this is simpler for preserved data)
+    await Property.deleteMany({});
     const chunkSize = 500;
     for (let i = 0; i < results.length; i += chunkSize) {
       const chunk = results.slice(i, i + chunkSize);
