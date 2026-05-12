@@ -143,6 +143,11 @@
                 <div class="section-header">
                     <h1 class="page-title">Kelola Properti</h1>
                     <div class="table-filters">
+                        <select id="filterStatusSelect" onchange="loadProperties()" class="admin-select-filter">
+                            <option value="">Semua Status</option>
+                            <option value="Tersedia">Tersedia</option>
+                            <option value="Terjual">Terjual</option>
+                        </select>
                         <select id="filterCitySelect" onchange="onCityFilterChange()" class="admin-select-filter">
                             <option value="">Semua Kota</option>
                             <option>Jakarta Selatan</option>
@@ -183,11 +188,11 @@
                 <div class="section-header">
                     <h1 class="page-title">Status Penjualan</h1>
                     <div class="range-tabs-wrapper">
-                        <button class="range-tab active" onclick="setSalesRange('day',this)">Hari Ini</button>
+                        <button class="range-tab" onclick="setSalesRange('day',this)">Hari Ini</button>
                         <button class="range-tab" onclick="setSalesRange('week',this)">7 Hari</button>
                         <button class="range-tab" onclick="setSalesRange('month',this)">1 Bulan</button>
                         <button class="range-tab" onclick="setSalesRange('year',this)">1 Tahun</button>
-                        <button class="range-tab" onclick="setSalesRange('all',this)">Semua</button>
+                        <button class="range-tab active" onclick="setSalesRange('all',this)">Semua</button>
                     </div>
                     <div class="agent-filter-wrapper" style="margin-left: auto;">
                         <select id="ss_agentFilter" onchange="loadSalesStatus()" class="admin-select">

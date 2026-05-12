@@ -75,16 +75,28 @@ app.get('/api/dashboard-combined', async (req, res) => {
         let dateFilter = {};
         const now = new Date();
         
-        // Gunakan rentang waktu relatif agar tidak bentrok dengan zona waktu server Vercel
+        // Untuk filter waktu: sertakan properti yang sold_at-nya null (data lama/import)
+        // sehingga properti Terjual tanpa tanggal tetap terhitung di semua range
         if (range === 'day') {
-            // Terjual dalam 24 jam terakhir (Realtime untuk semua zona waktu)
-            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 24 * 60 * 60 * 1000) } };
+            dateFilter = { $or: [
+                { sold_at: { $gte: new Date(now.getTime() - 24 * 60 * 60 * 1000) } },
+                { sold_at: null }, { sold_at: { $exists: false } }
+            ]};
         } else if (range === 'week') {
-            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 7 * 86400000) } };
+            dateFilter = { $or: [
+                { sold_at: { $gte: new Date(now.getTime() - 7 * 86400000) } },
+                { sold_at: null }, { sold_at: { $exists: false } }
+            ]};
         } else if (range === 'month') {
-            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 30 * 86400000) } };
+            dateFilter = { $or: [
+                { sold_at: { $gte: new Date(now.getTime() - 30 * 86400000) } },
+                { sold_at: null }, { sold_at: { $exists: false } }
+            ]};
         } else if (range === 'year') {
-            dateFilter = { sold_at: { $gte: new Date(now.getTime() - 365 * 86400000) } };
+            dateFilter = { $or: [
+                { sold_at: { $gte: new Date(now.getTime() - 365 * 86400000) } },
+                { sold_at: null }, { sold_at: { $exists: false } }
+            ]};
         }
 
         // Jalankan semua query secara paralel untuk kecepatan maksimal
@@ -196,14 +208,19 @@ app.get('/api/properties', async (req, res) => {
         
         if (range && range !== 'all') {
             const now = new Date();
-            if (range === 'day') {
-                query.sold_at = { $gte: new Date(now.getTime() - 24 * 60 * 60 * 1000) };
-            } else if (range === 'week') {
-                query.sold_at = { $gte: new Date(now.getTime() - 7 * 86400000) };
-            } else if (range === 'month') {
-                query.sold_at = { $gte: new Date(now.getTime() - 30 * 86400000) };
-            } else if (range === 'year') {
-                query.sold_at = { $gte: new Date(now.getTime() - 365 * 86400000) };
+            let cutoff;
+            if (range === 'day')   cutoff = new Date(now.getTime() - 24 * 60 * 60 * 1000);
+            else if (range === 'week')  cutoff = new Date(now.getTime() - 7 * 86400000);
+            else if (range === 'month') cutoff = new Date(now.getTime() - 30 * 86400000);
+            else if (range === 'year')  cutoff = new Date(now.getTime() - 365 * 86400000);
+            
+            if (cutoff) {
+                // Sertakan juga properti Terjual yang sold_at-nya tidak ada (data lama/import)
+                query.$or = [
+                    { sold_at: { $gte: cutoff } },
+                    { sold_at: null },
+                    { sold_at: { $exists: false } }
+                ];
             }
         }
         
