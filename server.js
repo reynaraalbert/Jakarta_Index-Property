@@ -94,6 +94,7 @@ app.get('/api/dashboard-combined', async (req, res) => {
             available,
             soldStats,
             cityStats,
+            soldByCityStats,
             agentPerf,
             rankingKecamatan,
             priceBuckets
@@ -101,24 +102,56 @@ app.get('/api/dashboard-combined', async (req, res) => {
             Property.countDocuments().lean(),
             Agent.countDocuments().lean(),
             Property.countDocuments({ status: 'Tersedia' }).lean(),
+            // Revenue & sold units (filtered by agent & date)
             Property.aggregate([
                 { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
                 { $group: { _id: null, units: { $sum: 1 }, revenue: { $sum: '$price_idr' } } }
             ]),
+            // Total listing per kota (untuk dashboard overview)
             Property.aggregate([
                 { $group: { _id: '$city', count: { $sum: 1 } } },
                 { $sort: { count: -1 } }
             ]),
+            // FIX BUG 2: Unit TERJUAL per kota, difilter berdasarkan dateFilter & agent
+            Property.aggregate([
+                { $match: { status: 'Terjual', ...dateFilter, ...(agent ? { agent_name: agent } : {}) } },
+                { $group: { _id: '$city', count: { $sum: 1 } } },
+                { $sort: { count: -1 } }
+            ]),
+            // Performa agen
             Property.aggregate([
                 { $match: { status: 'Terjual', ...dateFilter } },
                 { $group: { _id: '$agent_name', soldUnits: { $sum: 1 }, totalRevenue: { $sum: '$price_idr' } } },
                 { $sort: { totalRevenue: -1 } },
                 { $limit: 10 }
             ]),
+            // FIX BUG 3: Ranking kecamatan — hanya tampilkan district yang valid (match di Location collection)
             Property.aggregate([
                 { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
+                {
+                    $lookup: {
+                        from: 'locations',
+                        let: { propCity: { $toLower: '$city' }, propDistrict: { $toLower: '$district' } },
+                        pipeline: [
+                            {
+                                $match: {
+                                    $expr: {
+                                        $and: [
+                                            { $eq: [{ $toLower: '$city' }, '$$propCity'] },
+                                            { $eq: [{ $toLower: '$district' }, '$$propDistrict'] }
+                                        ]
+                                    }
+                                }
+                            }
+                        ],
+                        as: 'kecamatanMatch'
+                    }
+                },
+                // Hanya properti yang district-nya terdaftar sebagai kecamatan di Location
+                { $match: { kecamatanMatch: { $ne: [] } } },
                 { $group: { _id: '$district', avgPricePerM2: { $avg: { $divide: ['$price_idr', '$land_size_m2'] } }, minPrice: { $min: '$price_idr' }, maxPrice: { $max: '$price_idr' }, totalListings: { $sum: 1 } } },
-                { $sort: { avgPricePerM2: -1 } }, { $limit: 20 }
+                { $sort: { avgPricePerM2: -1 } },
+                { $limit: 20 }
             ]),
             Property.aggregate([
                 { $match: { land_size_m2: { $gt: 0 }, price_idr: { $gt: 0 } } },
@@ -133,7 +166,7 @@ app.get('/api/dashboard-combined', async (req, res) => {
         }));
 
         res.json({
-            stats: { total, totalAgents, soldUnits: currentSold.units, available, revenue: currentSold.revenue, cityStats, agentPerformance: agentPerf },
+            stats: { total, totalAgents, soldUnits: currentSold.units, available, revenue: currentSold.revenue, cityStats, soldByCityStats, agentPerformance: agentPerf },
             analytics: { rankingKecamatan, priceDistribution: priceDist }
         });
     } catch (err) { res.status(500).json({ error: err.message }); }
@@ -145,11 +178,21 @@ app.get('/api/dashboard-combined', async (req, res) => {
 app.get('/api/properties', async (req, res) => {
     try {
         await connectDB();
-        const { city, district, status, range, limit } = req.query;
+        const { city, district, status, range, limit, search, minPrice, maxPrice, maxLand } = req.query;
         let query = {};
         if (city) query.city = new RegExp(city, 'i');
         if (district) query.district = new RegExp(district, 'i');
         if (status) query.status = status;
+        if (search) query.$or = [
+            { title: new RegExp(search, 'i') },
+            { notes: new RegExp(search, 'i') }
+        ];
+        if (minPrice || maxPrice) {
+            query.price_idr = {};
+            if (minPrice) query.price_idr.$gte = Number(minPrice);
+            if (maxPrice) query.price_idr.$lte = Number(maxPrice);
+        }
+        if (maxLand) query.land_size_m2 = { $lte: Number(maxLand) };
         
         if (range && range !== 'all') {
             const now = new Date();

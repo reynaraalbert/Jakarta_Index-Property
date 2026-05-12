@@ -79,8 +79,10 @@ const importData = async () => {
 
     // 3. Import Properties
     console.log('Importing properties...');
-    const propertyData = await readCSV('jakarta_properties_raw.csv');
+    const propertyData = await readCSV('properties.csv');
     
+    const agentMap = new Map(savedAgents.map(a => [a.agent_id, a]));
+
     const results = propertyData.map(data => {
         const district = data.district || "";
         const landSize = parseInt(data.land_size_m2) || 0;
@@ -89,8 +91,11 @@ const importData = async () => {
         const baseNjop = njopMapping[district] || njopMapping["default"];
         const estimatedNjop = landSize * baseNjop;
 
-        // Random agent from savedAgents
-        const randomAgent = savedAgents[Math.floor(Math.random() * savedAgents.length)];
+        // Get agent by ID or fallback to random
+        let agent = agentMap.get(data.agent_id);
+        if (!agent) {
+            agent = savedAgents[Math.floor(Math.random() * savedAgents.length)];
+        }
 
         return {
           title: data.title,
@@ -103,10 +108,11 @@ const importData = async () => {
           land_size_m2: landSize,
           building_size_m2: parseInt(data.building_size_m2) || 0,
           njop_price: estimatedNjop,
-          agent_name: randomAgent.name,
-          agent_phone: randomAgent.phone,
-          agent_email: randomAgent.email,
+          agent_name: agent.name,
+          agent_phone: agent.phone,
+          agent_email: agent.email,
           notes: dummyNotes[Math.floor(Math.random() * dummyNotes.length)],
+          status: data.status === 'AVAILABLE' ? 'Tersedia' : 'Terjual',
           scraped_at: data.scraped_at ? new Date(data.scraped_at) : new Date()
         };
     });

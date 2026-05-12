@@ -386,16 +386,19 @@ async function loadSalesStatus() {
             }
         } catch (e) {}
 
-        // 3. Bar Chart (By City) - Using pre-calculated stats from server
+        // 3. Bar Chart (By City) — Khusus unit TERJUAL per kota
         try {
             const cityCtx = document.getElementById('salesByCityChart');
             if (cityCtx) {
-                const labels = stats.cityStats.map(s => s._id || '—');
-                const counts = stats.cityStats.map(s => s.count);
+                const soldByCity = stats.soldByCityStats || [];
+                const labels = soldByCity.length > 0
+                    ? soldByCity.map(s => s._id || '—')
+                    : ['Jakarta Selatan', 'Jakarta Barat', 'Jakarta Utara', 'Jakarta Timur', 'Jakarta Pusat'];
+                const counts = soldByCity.map(s => s.count);
                 if (salesByCityInstance) salesByCityInstance.destroy();
                 salesByCityInstance = new Chart(cityCtx, {
                     type: 'bar',
-                    data: { labels, datasets: [{ label: 'Unit', data: counts, backgroundColor: '#f59e0b', borderRadius: 6 }] },
+                    data: { labels, datasets: [{ label: 'Unit Terjual', data: counts, backgroundColor: '#f59e0b', borderRadius: 6 }] },
                     options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
                 });
             }

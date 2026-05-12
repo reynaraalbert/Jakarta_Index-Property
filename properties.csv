@@ -1,0 +1,897 @@
+title,price_idr,city,district,bedrooms,bathrooms,garage,land_size_m2,building_size_m2,status,loc_id,agent_id
+Rumah.baru 6X20 Metland Puri. Metland Puri. Jakarta Barat,3200000000.0,jakarta barat,cengkareng,5.0,4.0,2.0,120.0,180.0,AVAILABLE,loc-401,agent-034
+Harga Dekat NJOP Nego Sampai Deal Rumah 2 Lantai di Siaga Raya,15400000000.0,jakarta selatan,pasar minggu,7.0,5.0,8.0,893.0,500.0,AVAILABLE,loc-107,agent-020
+Dijual Rumah Rumah Desain Colonialism Classic di Kawasan Elit Jaksel,50000000000.0,jakarta pusat,menteng,6.0,5.0,0.0,894.0,702.0,AVAILABLE,loc-305,agent-031
+Rumah Mewah Dua Lantai Siap Huni di Kawasan Elit Tanjung Barat Jakarta Selatan Sebelah Aeon Mall,23000000000.0,jakarta selatan,jagakarsa,9.0,7.0,8.0,700.0,972.0,AVAILABLE,loc-102,agent-026
+Frans Cen-Rumah Dijual di Green Garden - Hitung Tanah.jarang Ada.wow LT : 340M2 (17X20),5440000000.0,jakarta barat,kebon jeruk,3.0,3.0,2.0,340.0,220.0,AVAILABLE,loc-404,agent-044
+Sunter Indah,2250000000.0,jakarta utara,tanjung priok,3.0,2.0,2.0,96.0,100.0,AVAILABLE,loc-506,agent-039
+Rumah Bagus 2 Lantai Di Jl. Raya Cengkareng Jkt Barat,4500000000.0,jakarta barat,cengkareng,12.0,4.0,1.0,168.0,294.0,AVAILABLE,loc-401,agent-023
+"Perumahan Elite Kemayoran. di Jl. Rajawali Selatan Iv, Gunung Sahari Utara, Sawah Besar, Kota Jakarta Pusat, Dki Jakarta, Indonesia, 10720, Kemayoran",9900000000.0,jakarta pusat,kemayoran,7.0,6.0,4.0,426.0,350.0,AVAILABLE,loc-304,agent-021
+Rumah Siap Huni Dekat Taman Bebas Banjir,6800000000.0,jakarta selatan,kebayoran lama,5.0,4.0,2.0,153.0,200.0,SOLD,loc-104,agent-034
+Dijual Rumah Puri Gardena Kalideres Cengkareng Dekat Bandara Tol Lokasi Strategis Bebas Banjir Siap Huni,1450000000.0,jakarta barat,kalideres,2.0,2.0,1.0,89.0,85.0,AVAILABLE,loc-403,agent-023
+"Hot Sale! Rumah Siap Huni Dalam Komplek Di Cempaka Putih, Jakpus*",3800000000.0,jakarta pusat,cempaka putih,4.0,2.0,0.0,217.0,400.0,AVAILABLE,loc-301,agent-014
+Rumah Brand New dengan Pool di Gedung Pinang Pondok Indah,15900000000.0,jakarta selatan,kebayoran lama,7.0,6.0,2.0,240.0,400.0,AVAILABLE,loc-104,agent-009
+"Dijual Rumah Bagus di Menteng, Jakarta Pusat",6500000000.0,jakarta pusat,menteng,4.0,4.0,0.0,150.0,190.0,AVAILABLE,loc-305,agent-033
+Rumah Baru Murah Utan Kayu Matraman Jakarta Timur,1800000000.0,jakarta timur,matraman,4.0,4.0,1.0,67.0,201.0,AVAILABLE,loc-208,agent-035
+"Dijual Rumah Kompleks Green Mansion, Jakarta Barat Siap Huni, Rapi dan Semi Furnish",6000000000.0,jakarta barat,cengkareng,5.0,4.0,1.0,120.0,240.0,SOLD,loc-401,agent-015
+Rumah4 Lantai Private Pool di Jagakarsa Jakarta Selatan Cluster,3850000000.0,jakarta selatan,jagakarsa,6.0,5.0,4.0,102.0,300.0,AVAILABLE,loc-102,agent-001
+"The Luxury Simprug Palace House Near Senayan, Jakarta Selatan",75000000000.0,jakarta selatan,kebayoran lama,11.0,8.0,10.0,1832.0,1000.0,SOLD,loc-104,agent-028
+"Dijual Rmh Hoek Gading Griya Lestari, Kelapa Gading",4500000000.0,jakarta timur,cakung,6.0,5.0,4.0,255.0,400.0,AVAILABLE,loc-201,agent-030
+Dijual Rumah di Karang Asem - Kuningan. Luas 1273M Hanya Rp. 70Juta/M2 Nego,89000000000.0,jakarta selatan,setiabudi,5.0,5.0,10.0,1273.0,1000.0,AVAILABLE,loc-109,agent-029
+"Turun Harga!! Turun Harga!! Rumah Pondok Indah, Harga NJOP.",6580000000.0,jakarta selatan,kebayoran lama,4.0,3.0,2.0,200.0,139.0,AVAILABLE,loc-104,agent-050
+"Rumah Minimalis Modern, Siap Huni Di Kawasan Premium Menteng",60000000000.0,jakarta pusat,menteng,4.0,3.0,4.0,629.0,850.0,AVAILABLE,loc-305,agent-011
+Dijual Murah Rumah Depan Taman di Menteng Luas 689M Hanya Rp 30 Mly (Rp.43 Jt An/M2 ),30000000000.0,jakarta pusat,menteng,5.0,2.0,5.0,689.0,312.0,AVAILABLE,loc-305,agent-045
+Jual Rumah Luas.modern Dbanyan Jakarta Garden City.siap Huni.bebas Banjir,6700000000.0,jakarta timur,cakung,8.0,6.0,2.0,300.0,450.0,SOLD,loc-201,agent-018
+"Rumah 3 Lantai Swasembada Barat Tanjung Priok, Jakarta Utara",2300000000.0,jakarta utara,tanjung priok,6.0,5.0,2.0,174.0,350.0,SOLD,loc-506,agent-028
+"Bebas Banjir, Rumah, 2 Lantai, SHM, Full Furnished,",4200000000.0,jakarta barat,cengkareng,4.0,4.0,2.0,120.0,176.0,AVAILABLE,loc-401,agent-021
+Rumah 2 Lantai Kondisi Rapih Terawat Lokasi Cideng Jakarta Pusat Harga Nego,5500000000.0,jakarta pusat,gambir,4.0,3.0,1.0,197.0,170.0,AVAILABLE,loc-302,agent-012
+"Dijual Rumah Brand New Tanjung Duren 3.5X11m, Siap Huni bisa KPR",1500000000.0,jakarta barat,grogol petamburan,2.0,3.0,1.0,38.0,100.0,AVAILABLE,loc-402,agent-036
+"Turun Harga, Sunter Mas 3 Lantai, Dalam Komplek, Jual Cepat",2600000000.0,jakarta utara,tanjung priok,4.0,3.0,2.0,96.0,210.0,AVAILABLE,loc-506,agent-020
+"Rumah Tua Cocok Bangun Kost2an dan Restoran Kuliner Grogol, Jakarta Barat",11500000000.0,jakarta barat,grogol petamburan,1.0,1.0,0.0,543.0,1.0,AVAILABLE,loc-402,agent-031
+Turun Harga Rumah Second Posisi Hook Dalm Komplek di Pondok Klapa,3600000000.0,jakarta timur,duren sawit,4.0,3.0,2.0,206.0,180.0,AVAILABLE,loc-204,agent-046
+Rumah Murah Masih Nego 2.5 Lantai Siap Huni Bebas Banjir Di Citra 5,2000000000.0,jakarta barat,kalideres,3.0,2.0,2.0,96.0,150.0,AVAILABLE,loc-403,agent-042
+Rumah Idaman Keluarga di Riviera Metland Puri - Strategis & Dekat Fasilitas,4500000000.0,jakarta barat,cengkareng,4.0,4.0,0.0,120.0,176.0,AVAILABLE,loc-401,agent-022
+RUMAH DIJUAL JALAN SAIDI KEBAYORAN BARU JAKARTA SELATAN,11000000000.0,jakarta selatan,kebayoran baru,3.0,3.0,2.0,345.0,300.0,AVAILABLE,loc-103,agent-040
+Dijual Segera Rumah Teluk Gong Penjaringan Jakarta Utara Hadap Utara Siap Huni Lokasi Rumah Strategis,2700000000.0,jakarta utara,penjaringan,4.0,3.0,1.0,90.0,200.0,AVAILABLE,loc-505,agent-010
+"Rumah di Tebet Timur, Akses Jalan 3 Mobil Lebar",9200000000.0,jakarta selatan,tebet,6.0,5.0,4.0,264.0,350.0,AVAILABLE,loc-110,agent-014
+Rumah Murah di Taman Alfa Indah Kebun Jeruk Joglo Jakarta Barat,2000000000.0,jakarta barat,kebon jeruk,3.0,3.0,2.0,144.0,120.0,AVAILABLE,loc-404,agent-027
+Rumah Modern 4 Lantai Posisi Hook Semifurnish di Pik 1,4500000000.0,jakarta utara,penjaringan,2.0,2.0,3.0,84.0,248.0,AVAILABLE,loc-505,agent-011
+Rumah Siap Huni Di Tebet Timur 2 Lt Hoek Akses Jalan Lebar 1 Mobil,5300000000.0,jakarta selatan,tebet,7.0,7.0,0.0,273.0,300.0,AVAILABLE,loc-110,agent-025
+Rumah Baru 4X15 3 Lantai dengan Rooftop Duri Kepa Jakarta Barat,2250000000.0,jakarta barat,kebon jeruk,3.0,5.0,1.0,60.0,176.0,AVAILABLE,loc-404,agent-040
+"Rumah Cocok Untuk Home Stay Di Menteng, Jakarta Pusat",95000000000.0,jakarta pusat,menteng,20.0,18.0,12.0,1270.0,1500.0,AVAILABLE,loc-305,agent-021
+Rumah Brand New 3 Lantai Dijual Permata Buana Hadap Selatan 144M2,7200000000.0,jakarta barat,kembangan,4.0,4.0,3.0,144.0,345.0,AVAILABLE,loc-405,agent-047
+Di Jual Rumah Murah di Utan Kayu Jakarta Timur,488000000.0,jakarta timur,matraman,2.0,2.0,0.0,25.0,38.0,AVAILABLE,loc-208,agent-039
+Murah Turun Harga Rumah 9X19 Bebas Banjir Sangat Strategis Rawamangun Jakarta Timur,3600000000.0,jakarta timur,pulo gadung,4.0,4.0,1.0,171.0,250.0,AVAILABLE,loc-210,agent-038
+Dijual Cepat Sampe Deal Rumah Dekat Rs Pertamina Cempaka Putih.,4500000000.0,jakarta timur,pulo gadung,7.0,3.0,2.0,235.0,300.0,AVAILABLE,loc-210,agent-013
+Dijual Golf Island Symphony Bagus Murah,9500000000.0,jakarta utara,penjaringan,5.0,5.0,4.0,240.0,435.0,AVAILABLE,loc-505,agent-008
+RUMAH DIJUAL DI MENTENG JAKARTA PUSAT DEKAT KE RS CIPTO,10000000000.0,jakarta pusat,menteng,6.0,4.0,0.0,374.0,374.0,AVAILABLE,loc-305,agent-036
+"Rumah 2 Lantai Scandinavian di Cilandak, Desain Ala Apartement",1000000000.0,jakarta selatan,cilandak,2.0,2.0,1.0,40.0,64.0,SOLD,loc-101,agent-035
+Rumah Brand New 2.5 LT Pinang Mas Pondok Indah,6250000000.0,jakarta selatan,kebayoran lama,5.0,4.0,1.0,122.0,200.0,AVAILABLE,loc-104,agent-021
+"Di.jual Rumah Lokasi Prima,Harga Menarik Di.jalan Utama Duren Tiga Jakarta Selatan",19800000000.0,jakarta selatan,pancoran,5.0,4.0,6.0,657.0,500.0,AVAILABLE,loc-106,agent-017
+"Rumah Bagus Strategis di Kramat Senen, Jakarta Pusat",10000000000.0,jakarta pusat,senen,6.0,4.0,0.0,495.0,495.0,AVAILABLE,loc-307,agent-010
+Rumah New Muara Karang | 8X17 | Utara | Modern Klasik,4450000000.0,jakarta utara,penjaringan,5.0,4.0,2.0,136.0,215.0,AVAILABLE,loc-505,agent-040
+Rumah 2 Lantai Hadap Selatan Dekat Pintu Tol di Meruya Selatan,2200000000.0,jakarta barat,kembangan,4.0,4.0,2.0,100.0,140.0,AVAILABLE,loc-405,agent-027
+Rumah 2 Lantai di Bukit Podomoro Type Wynsor,5000000000.0,jakarta timur,duren sawit,4.0,2.0,3.0,105.0,138.0,AVAILABLE,loc-204,agent-011
+"Murah, Puri Indah Hit Tanah",2900000000.0,jakarta barat,kembangan,2.0,1.0,1.0,120.0,90.0,AVAILABLE,loc-405,agent-026
+Rumah Posisi Hoek di Cluster Amerika Latin Green Lake City Nego,5000000000.0,jakarta barat,cengkareng,4.0,3.0,1.0,270.0,360.0,AVAILABLE,loc-401,agent-047
+Dijual Rumah Cocok Komersial Kebayoran Baru,27000000000.0,jakarta selatan,kebayoran baru,11.0,6.0,11.0,469.0,301.0,AVAILABLE,loc-103,agent-015
+Rumah Nyaman Siap Huni 2 Lantai di Pulomas Jakarta S9252,3200000000.0,jakarta timur,pulo gadung,5.0,3.0,1.0,144.0,200.0,SOLD,loc-210,agent-028
+Dijual Rumah Standard Komplek Janur Indah Uku 11X20 Strategis Utara Dekat Mall Mkg,5400000000.0,jakarta utara,kelapa gading,4.0,3.0,2.0,220.0,285.0,AVAILABLE,loc-502,agent-042
+Rumah Murah Cideng Jauh Dibawah NJOP Akses 1 Mobil,5900000000.0,jakarta pusat,gambir,3.0,4.0,0.0,245.0,175.0,SOLD,loc-302,agent-007
+Brand New House di Jagakarsa Dekat Toll Desari,2700000000.0,jakarta selatan,jagakarsa,3.0,2.0,1.0,110.0,137.0,AVAILABLE,loc-102,agent-009
+"DIJUAL RUMAH at Jl SUREN, SENOPATI, KEBAYORAN BARU (JARANG ADA)",27500000000.0,jakarta selatan,kebayoran baru,4.0,4.0,0.0,375.0,280.0,AVAILABLE,loc-103,agent-010
+Murah .. Rumah Siap Huni di Bintaro Jaya Sektor 2,2100000000.0,jakarta selatan,pesanggrahan,4.0,3.0,1.0,123.0,120.0,AVAILABLE,loc-108,agent-005
+Jual Cepat Rumah Baru Dibawah 1.5M Lok Tanjung Duren Dekat Kampus,1450000000.0,jakarta barat,grogol petamburan,3.0,3.0,0.0,38.0,100.0,AVAILABLE,loc-402,agent-028
+"Riviera Metland Unit Rapih,Siap Huni,Shm,Tinggal Bawa Koper",6500000000.0,jakarta barat,cengkareng,5.0,4.0,2.0,180.0,211.0,SOLD,loc-401,agent-038
+Rumah Kawasan Elite Menteng 2Lt Hoek Ada Paviliun&Swimmingpool Th,60000000000.0,jakarta pusat,menteng,12.0,8.0,4.0,728.0,550.0,AVAILABLE,loc-305,agent-023
+Rumah Hanya Hitung Tanah Dekat Rs Persahatan Rawamangun,22000000000.0,jakarta timur,pulo gadung,4.0,2.0,6.0,869.0,200.0,AVAILABLE,loc-210,agent-005
+Jual Rumah Villa di Pejaten di Bawah Pasaran Bonus Rumah Mewah,31000000000.0,jakarta selatan,pasar minggu,8.0,6.0,4.0,1230.0,650.0,AVAILABLE,loc-107,agent-007
+Dijual Rumah 1 Lantai di Karang Tengah Pinggir Jalan Cocok Usaha,3200000000.0,jakarta barat,cengkareng,7.0,5.0,3.0,440.0,300.0,AVAILABLE,loc-401,agent-022
+Rumah Bagus di Muara Karang,6500000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,150.0,350.0,AVAILABLE,loc-505,agent-041
+"Rumah Mewah 6 Kamar Double High Ceiling 2 Lantai, Menteng Jakpus",99000000000.0,jakarta pusat,menteng,6.0,6.0,4.0,971.0,800.0,AVAILABLE,loc-305,agent-029
+"Dijual Rumah 4 Lantai Exclusivedi Pulomas, Jakarta Timur",7500000000.0,jakarta timur,pulo gadung,4.0,4.0,0.0,145.0,450.0,AVAILABLE,loc-210,agent-003
+"Rumah Secondary 2,5 Lantai siap huni di Cilangkap - Cipayung",2950000000.0,jakarta timur,cipayung,5.0,3.0,3.0,247.0,350.0,SOLD,loc-202,agent-027
+Rumah Brand New 2 Lantai Bagus Lokasi Strategis di Sunter,2600000000.0,jakarta utara,tanjung priok,3.0,3.0,0.0,65.0,120.0,AVAILABLE,loc-506,agent-047
+Rumah Murah 2 Lantai di Puri Gardena Jakarta Barat,1450000000.0,jakarta barat,kalideres,2.0,2.0,1.0,89.0,85.0,AVAILABLE,loc-403,agent-003
+Rumah Siap Huni 3lt Row 2mobil Duri Kepa Dekat Tanjung Duren Jakarta Barat,1650000000.0,jakarta barat,kebon jeruk,3.0,3.0,1.0,42.0,84.0,AVAILABLE,loc-404,agent-031
+Golf Residence Kemayoran Posisi Huk Ada Taman Samping Rumah,5500000000.0,jakarta pusat,kemayoran,3.0,2.0,2.0,198.0,240.0,AVAILABLE,loc-304,agent-038
+Rumah Modern Klasik,2700000000.0,jakarta barat,kebon jeruk,4.0,4.0,1.0,75.0,125.0,AVAILABLE,loc-404,agent-023
+Rumah Bagus Siap Huni Komplek De Oaze,4200000000.0,jakarta barat,grogol petamburan,4.0,4.0,2.0,86.0,240.0,SOLD,loc-402,agent-047
+Dijual Rumah 3 Lantai Mewah Strategis Luas Modern di Jakarta Dekat Sekolah,5400000000.0,jakarta timur,pulo gadung,5.0,5.0,2.0,105.0,180.0,AVAILABLE,loc-210,agent-020
+Rumah Mewah 3 Lantai di Puri Indah dengan Swimming Pool Indoor,12000000000.0,jakarta barat,kembangan,4.0,4.0,4.0,140.0,400.0,AVAILABLE,loc-405,agent-023
+Rumah 2Lt Siap Huni Bebas Banjir Duri Kepa Dekat Tanjung Duren Jakarta Barat,2450000000.0,jakarta barat,kebon jeruk,4.0,3.0,2.0,130.0,204.0,SOLD,loc-404,agent-020
+Hunian Luas Lega 3 Lantai Premium di Jakarta Dekat Sekolah dan Rumah Sakit,5400000000.0,jakarta utara,tanjung priok,5.0,5.0,4.0,105.0,180.0,AVAILABLE,loc-506,agent-041
+Prime Location! Rumah Cantik Menteng 375M2 4+2Kt Semi Furnished,22500000000.0,jakarta pusat,menteng,5.0,3.0,3.0,300.0,375.0,AVAILABLE,loc-305,agent-020
+Rumah Baru Hadap Danau Dengan Lift Jacuzzi Dan Sauna,17000000000.0,jakarta barat,kalideres,8.0,5.0,5.0,210.0,450.0,AVAILABLE,loc-403,agent-028
+"Rumah Butuh Renovasi Total Semi Furnished SHM Kayu Putih, Jakarta Timur",1250000000.0,jakarta timur,pulo gadung,3.0,2.0,2.0,72.0,72.0,SOLD,loc-210,agent-037
+"Dijual Rumah di Pondok Labu Jakarta Selatan , Harga Dibawah Njop",8000000000.0,jakarta selatan,cilandak,4.0,3.0,3.0,550.0,350.0,AVAILABLE,loc-101,agent-020
+Dijual Rumah Mewah dengan Pool Posisi Hook Lokas Strategis di Segitiga Emas Jakarta Selatan,40000000000.0,jakarta selatan,setiabudi,11.0,11.0,4.0,604.0,800.0,AVAILABLE,loc-109,agent-004
+DIJUAL RUMAH TUA DI SALEMBA RAYA Jakarta Pusat,53000000000.0,jakarta pusat,senen,5.0,5.0,0.0,1494.0,965.0,AVAILABLE,loc-307,agent-013
+Rumah Brand New 2 Lantai Start 900Jt-An Neora @Metland Menteng Cakung,900000000.0,jakarta timur,cakung,2.0,2.0,1.0,55.0,54.0,AVAILABLE,loc-201,agent-008
+Rumah Modern Minimalis 3 Lantai di Jelambar Jalan Cukup Besar,3500000000.0,jakarta barat,grogol petamburan,3.0,4.0,1.0,74.0,142.0,SOLD,loc-402,agent-006
+Murah 1Lt Siap Huni Aman Banjir Dekat Sektor 1 Bintaro,1700000000.0,jakarta selatan,pesanggrahan,4.0,2.0,1.0,109.0,109.0,AVAILABLE,loc-108,agent-021
+"Rumah Mewah Pembawa Hokky, 3 Lantai Didalam Cluster Favorit",27500000000.0,jakarta barat,kembangan,6.0,6.0,6.0,407.0,1000.0,AVAILABLE,loc-405,agent-037
+Rumah 2 Lantai di Mega Kuningan Jakarta Selatan Dekat Pusat Kota,64000000000.0,jakarta selatan,setiabudi,5.0,3.0,6.0,800.0,650.0,AVAILABLE,loc-109,agent-026
+"Dijual Cepat Rumah Full Furnished Siap Huni di Perumahan Permata Mediterania Amethyst, Joglo Jakarta Barat",6500000000.0,jakarta barat,kembangan,4.0,4.0,3.0,162.0,248.0,AVAILABLE,loc-405,agent-035
+Rumah Murah Siap Huni Batu Jaya Town House Condet Jakarta Timur,2500000000.0,jakarta timur,kramat jati,4.0,4.0,1.0,120.0,100.0,AVAILABLE,loc-206,agent-027
+Rumah Murahmangga Besar Pinggir Jalan Raya,4500000000.0,jakarta barat,taman sari,6.0,4.0,2.0,225.0,225.0,AVAILABLE,loc-407,agent-050
+"Rumah Lama, Hitung Tanah Dekat Panglima Polim, Jaksel",5400000000.0,jakarta selatan,kebayoran baru,12.0,4.0,2.0,209.0,250.0,SOLD,loc-103,agent-020
+Murah Jual Cepat Rumah Siap Huni 3 Lantai di Kelapa Gading Barat,3300000000.0,jakarta utara,kelapa gading,6.0,5.0,2.0,102.0,102.0,SOLD,loc-502,agent-007
+Jual Cepat Rumah 3 Lantai Full Furnished Di Cluster Semayang Asya Dekat Aeon Mall Jakarta Garden City,2900000000.0,jakarta timur,cakung,3.0,3.0,2.0,98.0,115.0,AVAILABLE,loc-201,agent-021
+Dijual Cepat Rumah di Jalan Tirtayasa Kebayoran Baru Jakarta Selatan,47000000000.0,jakarta selatan,kebayoran baru,7.0,5.0,6.0,615.0,654.0,AVAILABLE,loc-103,agent-015
+"Rumah Kesehatan Cideng, Kompleks Aman, Bebas Banjir,Dekat Mall Gi",20000000000.0,jakarta pusat,gambir,6.0,6.0,4.0,450.0,600.0,SOLD,loc-302,agent-031
+Rumah Bendungan Hilir Jakarta Pusat,6600000000.0,jakarta pusat,tanah abang,4.0,4.0,2.0,175.0,250.0,SOLD,loc-308,agent-029
+Dijual Rumah Mewah Area Bukit Golf Pondok Indah,110000000000.0,jakarta selatan,kebayoran lama,9.0,7.0,10.0,1300.0,1000.0,AVAILABLE,loc-104,agent-018
+"Rumah Springhill Residence Palmhill Kemayoran, Jakarta Pusat",7000000000.0,jakarta pusat,kemayoran,4.0,4.0,3.0,120.0,480.0,AVAILABLE,loc-304,agent-029
+Rumah 3 Lantai Harga Menarik di Pondok Indah Jakarta Selatan,9000000000.0,jakarta selatan,kebayoran lama,4.0,3.0,5.0,200.0,450.0,AVAILABLE,loc-104,agent-032
+Rumah Pinggir Jalan Puri Indah Kembangan Jakarta Barat,9200000000.0,jakarta barat,kembangan,6.0,4.0,4.0,336.0,320.0,AVAILABLE,loc-405,agent-012
+Dijual Rumah Terawat 2 Lantai di Cempaka Putih Jakarta Pusat,3900000000.0,jakarta pusat,cempaka putih,4.0,3.0,0.0,226.0,250.0,SOLD,loc-301,agent-029
+"Rumah Bagus Minimalis 2 Lantai, Selesai Renov Kelapa Gading",7000000000.0,jakarta utara,kelapa gading,3.0,3.0,2.0,200.0,375.0,AVAILABLE,loc-502,agent-038
+Dijual rumah bagus sangat layak huni di kelapa gading - Jkt Ut,4200000000.0,jakarta utara,kelapa gading,8.0,6.0,2.0,108.0,120.0,AVAILABLE,loc-502,agent-001
+Dijual Harga Nego Rumah 4.5 Tingkat ( 5x15 ) Teluk Gong - Penjaringan,2700000000.0,jakarta utara,penjaringan,5.0,4.0,2.0,75.0,198.0,AVAILABLE,loc-505,agent-038
+Rumah Murah Lokasi Mewah Under 600 Juta Dicempaka Putih Jakarta,475000000.0,jakarta pusat,cempaka putih,2.0,2.0,0.0,21.0,36.0,AVAILABLE,loc-301,agent-047
+"Rumah 3.5 Lantai Sunter 93m², Jalan Lebar",3200000000.0,jakarta utara,tanjung priok,4.0,3.0,1.0,93.0,240.0,SOLD,loc-506,agent-005
+Rumah Dijual Siap Huni,4250000000.0,jakarta utara,penjaringan,4.0,3.0,1.0,175.0,200.0,AVAILABLE,loc-505,agent-032
+Harus Terjual!! Rumah Minimalis Modern 3. Lantai Siap Huni Pondok Bambu Duren Sawit,2600000000.0,jakarta timur,duren sawit,4.0,3.0,2.0,100.0,209.0,AVAILABLE,loc-204,agent-045
+Hunian Mewah 3 Lantai dan 5 Bedroom Dijual Dalam Kondisi Baru di Jakarta Timur,5400000000.0,jakarta timur,duren sawit,5.0,5.0,4.0,105.0,180.0,SOLD,loc-204,agent-045
+"Rumah Dijual 2 Lantai Billy Moon, Pondok Kelapa, Jakarta Timur",2500000000.0,jakarta timur,duren sawit,4.0,4.0,1.0,117.0,113.0,AVAILABLE,loc-204,agent-041
+"Murah,Rumah Tua Terawat Super Strategis Cempaka Putih Jakpus",2500000000.0,jakarta pusat,cempaka putih,2.0,3.0,0.0,205.0,200.0,AVAILABLE,loc-301,agent-030
+"Cipete- Rumah Dlm Komplek, Sgt Strategis, One Gate, 400 M Akses Mrt@ Lokasi Tenang",5800000000.0,jakarta selatan,cilandak,4.0,2.0,1.0,255.0,150.0,AVAILABLE,loc-101,agent-020
+"Rumah 2 Lantai di Cluster North Mississippi, Jakarta Garden City Siap Huni",1700000000.0,jakarta timur,cakung,4.0,4.0,2.0,90.0,95.0,AVAILABLE,loc-201,agent-025
+Dijual Town House Springhill Kemayoran 4lantai vr923,7500000000.0,jakarta pusat,kemayoran,6.0,4.0,2.0,180.0,385.0,AVAILABLE,loc-304,agent-024
+"Rumah Mewah 2 Lantai Fully Furnished di Kelapa Gading Sedayu City, 8X12,5M2, 100M2 Siap Huni!",5270000000.0,jakarta utara,kelapa gading,4.0,2.0,0.0,100.0,142.0,AVAILABLE,loc-502,agent-049
+"Rumah Baru di Lokasi Strategis, Tanjung Duren Jakarta Barat",2900000000.0,jakarta barat,grogol petamburan,3.0,3.0,1.0,90.0,195.0,AVAILABLE,loc-402,agent-035
+"Rumah Bagus di Jl. Lebak Bulus, Cilandak, Jakarta Selatan",11500000000.0,jakarta selatan,cilandak,6.0,4.0,4.0,498.0,350.0,SOLD,loc-101,agent-050
+Di Jual Rumah Bagus Lokasi Strategis,1800000000.0,jakarta barat,kalideres,3.0,2.0,1.0,90.0,150.0,AVAILABLE,loc-403,agent-025
+Bisa KPR Rumah Pik2 6X10 Balcony (2+1 Kamar Tidur),1600000000.0,jakarta utara,penjaringan,3.0,2.0,2.0,60.0,84.0,AVAILABLE,loc-505,agent-011
+"Jual Murah....Diskon Abis..Bu....Rumah 3 Lantai 4 Kamar Hanya 2,65M di Sunter Danau Indah",2650000000.0,jakarta utara,tanjung priok,4.0,3.0,2.0,98.0,121.0,AVAILABLE,loc-506,agent-022
+Rumah Garden House 8X17 Sudah Renov Minimalis Bagus,5900000000.0,jakarta utara,penjaringan,3.0,3.0,1.0,136.0,176.0,SOLD,loc-505,agent-031
+Rumah Muara Karang Ada Kolam Renang Full Furnish Bagus Banget,6500000000.0,jakarta utara,penjaringan,3.0,4.0,4.0,150.0,360.0,AVAILABLE,loc-505,agent-045
+"Layar Permai, Pik1,.2 LT, Hadap Selatan Luas 77M2",2950000000.0,jakarta utara,penjaringan,3.0,3.0,1.0,77.0,100.0,SOLD,loc-505,agent-045
+"Dijual Cepat - Rumah 2 Lantai di Jagakarsa Harga 1,7M",1700000000.0,jakarta selatan,jagakarsa,4.0,4.0,1.0,126.0,200.0,AVAILABLE,loc-102,agent-049
+"Rumah 2 Lantai di Green Lake City, Uk 8X15, Cluster West Europe, Semi Furnished",3250000000.0,jakarta barat,cengkareng,5.0,5.0,2.0,120.0,180.0,AVAILABLE,loc-401,agent-030
+Dijual Rumah Asri Siap Huni Kramat Jati Jakarta Timur,16500000000.0,jakarta timur,kramat jati,6.0,5.0,6.0,1195.0,452.0,SOLD,loc-206,agent-037
+Dijual Rumah Kebayoran Baru Jakarta Selatan,10000000000.0,jakarta selatan,kebayoran baru,5.0,4.0,2.0,298.0,350.0,SOLD,loc-103,agent-017
+Rumah Hitung Tanah Luas 496m Strategis 100m Ke Jl Raya Tmii Di Ceger,4800000000.0,jakarta timur,cipayung,6.0,3.0,4.0,496.0,200.0,SOLD,loc-202,agent-033
+Rumah 2 Lantai Sunrise Garden Lokasi Tenang Dan Homey - LT 238m2,5600000000.0,jakarta barat,grogol petamburan,5.0,4.0,2.0,238.0,350.0,AVAILABLE,loc-402,agent-007
+"Dekat Akses Tol, Rumah, 3 Lantai, SHM, Dekat Akses MRT, Bebas Banjir,",19500000000.0,jakarta pusat,johar baru,11.0,9.0,9.0,910.0,2000.0,AVAILABLE,loc-303,agent-042
+Rumah Murah 2 Lantai Harga di Bawah 1 M Masih Nego Siap Huni Bebas Banjir di Taman Palem Lestari,980000000.0,jakarta barat,cengkareng,3.0,1.0,1.0,46.0,70.0,AVAILABLE,loc-401,agent-045
+Dijual Cepat Rumah 1 Lantai Siap Huni di Citragran Cibubur,1700000000.0,jakarta timur,ciracas,2.0,1.0,1.0,90.0,60.0,AVAILABLE,loc-203,agent-047
+Turun Harga Rumah Mewah Bagus Terawat di Patra Kuningan Jakarta Selatan,55000000000.0,jakarta selatan,setiabudi,8.0,7.0,5.0,713.0,699.0,AVAILABLE,loc-109,agent-021
+Rumah Brand New 3 Lantai di Kayu Putih Jakarta Timur S6491,3650000000.0,jakarta timur,pulo gadung,4.0,4.0,0.0,96.0,220.0,AVAILABLE,loc-210,agent-010
+Rumah Mewah Pik Lotus Palace Harga Murah Siap Huni,37900000000.0,jakarta utara,penjaringan,5.0,8.0,7.0,522.0,1000.0,AVAILABLE,loc-505,agent-004
+Rumah Strategis Dekat Mall Central Park Pusat Kota,8600000000.0,jakarta pusat,gambir,5.0,3.0,2.0,223.0,372.0,AVAILABLE,loc-302,agent-005
+"Rumah Mewah Di Ancol Timur Dekat Dufan 10x25 Sangat Terawat, Jual Cepat",6000000000.0,jakarta utara,pademangan,3.0,3.0,3.0,250.0,350.0,AVAILABLE,loc-504,agent-011
+Dijual Rumah Meruya Jakarta Barat 5X20 2M,2000000000.0,jakarta barat,kembangan,3.0,3.0,0.0,100.0,120.0,AVAILABLE,loc-405,agent-027
+"Brand New Rumah Baru 4,5 Lantai di Rawamangun Cipinang Jak Tim",2900000000.0,jakarta timur,pulo gadung,5.0,4.0,2.0,75.0,260.0,AVAILABLE,loc-210,agent-042
+Jual Cepat Bawah NJOP Gajah Mada Jakarta Pusat,5500000000.0,jakarta pusat,gambir,8.0,5.0,4.0,209.0,209.0,AVAILABLE,loc-302,agent-042
+Dijual Super Cepat Rumah Taman Palem Lestari Rapi Siap Huni. Posisi Hook. Nego,5500000000.0,jakarta barat,cengkareng,8.0,5.0,2.0,252.0,453.0,AVAILABLE,loc-401,agent-032
+"Rumah Dijual Murah, Luas 2 Lt. Pondok Kelapa, Jakarta Timur, SHM",3400000000.0,jakarta timur,duren sawit,5.0,4.0,2.0,263.0,262.0,SOLD,loc-204,agent-012
+Rumah dng Paviliun Lokasi Strategis di Salemba Tengah - Jakarta Pusat,12700000000.0,jakarta pusat,senen,7.0,5.0,8.0,450.0,250.0,AVAILABLE,loc-307,agent-007
+Rumah Full Furnished di Johar Baru Jakarta Pusat Lokasi Strategis,1150000000.0,jakarta pusat,johar baru,3.0,4.0,0.0,62.0,100.0,AVAILABLE,loc-303,agent-032
+Jual Rumah Kantor Tempat Usaha Kebayorab Baru Senopati Area,24000000000.0,jakarta selatan,kebayoran baru,3.0,2.0,2.0,393.0,366.0,SOLD,loc-103,agent-024
+Dijual Cepat Rumah Bagus 3Br. Ciepete. Dekat Fatmawati Lokasi Strategis,7100000000.0,jakarta selatan,cilandak,5.0,4.0,4.0,235.0,350.0,AVAILABLE,loc-101,agent-036
+Dijual Muraahhh !!! Rumah Luas di Cempaka Putih Timur,3900000000.0,jakarta pusat,cempaka putih,5.0,4.0,2.0,226.0,250.0,AVAILABLE,loc-301,agent-047
+Dijual Rumah Siap Huni Jakarta Garden City @ Cluster Alamanda,2300000000.0,jakarta timur,cakung,4.0,4.0,1.0,120.0,123.0,AVAILABLE,loc-201,agent-045
+Dijual Cepat Rumah Cempaka Putih Barat Lebar 10,3500000000.0,jakarta pusat,cempaka putih,9.0,6.0,2.0,198.0,398.0,AVAILABLE,loc-301,agent-003
+Chandra Rumah Lama Ukuran 4X20m di Jelambar,1150000000.0,jakarta barat,grogol petamburan,1.0,1.0,0.0,80.0,60.0,AVAILABLE,loc-402,agent-033
+Dijual Rumah Dalam Komplek Lokasi 5 Menit Pintu Ciledug Bebas Banjir Lokasi Petukangan Selatan,1800000000.0,jakarta selatan,pesanggrahan,3.0,2.0,2.0,120.0,80.0,AVAILABLE,loc-108,agent-002
+Rumah Baru 4 Lantai di Cilandak By Emporio Arsitek Dekat Tol KRL,4000000000.0,jakarta selatan,cilandak,5.0,5.0,2.0,169.0,340.0,AVAILABLE,loc-101,agent-047
+Rumah Bagus 3 Lantai Furnished di Sunter,2600000000.0,jakarta utara,tanjung priok,5.0,3.0,0.0,115.0,270.0,AVAILABLE,loc-506,agent-015
+"Rumah Kemang Jakarta Selatan, Luas 787 Sqm, 2 Lantai, Kolam Renang",24000000000.0,jakarta selatan,mampang prapatan,8.0,8.0,8.0,787.0,600.0,AVAILABLE,loc-105,agent-027
+Taman Palem Lestari Blok A Danamon 2 Lantai Siap Huni,1650000000.0,jakarta barat,cengkareng,4.0,2.0,3.0,90.0,90.0,AVAILABLE,loc-401,agent-049
+KPR Rumah Mewah Salemba Jakarta Pusat,2800000000.0,jakarta pusat,cempaka putih,4.0,4.0,2.0,92.0,172.0,AVAILABLE,loc-301,agent-034
+Rumah Nyaman Murah Cijantung Jakarta Timur,825000000.0,jakarta timur,pasar rebo,3.0,2.0,0.0,67.0,60.0,AVAILABLE,loc-209,agent-018
+"Jual Paling Murah Town House at Verde Kuningan Luas 220sqm,harga 725M nego",7250000000.0,jakarta selatan,setiabudi,2.0,2.0,0.0,220.0,220.0,SOLD,loc-109,agent-027
+Rumah Bagus Sunter Siap Huni Luas 200,5500000000.0,jakarta utara,tanjung priok,5.0,5.0,2.0,200.0,300.0,AVAILABLE,loc-506,agent-028
+Dijual Cepat Rumah Asri dan Tenang di Gunung Sahari Utara 113 m2,2350000000.0,jakarta pusat,sawah besar,3.0,1.0,1.0,113.0,96.0,AVAILABLE,loc-306,agent-040
+Pondok Indah ~ Lt/Lb 357/325 ~ Brand New House,18500000000.0,jakarta selatan,kebayoran lama,6.0,4.0,3.0,357.0,325.0,AVAILABLE,loc-104,agent-044
+Rumah Baru Minimalis Modern 2lt Di Gunung Sahari Kemayoran Jak-pus,1650000000.0,jakarta pusat,kemayoran,2.0,3.0,2.0,56.0,164.0,AVAILABLE,loc-304,agent-038
+Dijual Cepat Rumah Mewah Citra 8 Jakarta Barat,4700000000.0,jakarta barat,kalideres,5.0,4.0,2.0,120.0,200.0,AVAILABLE,loc-403,agent-002
+Rumah Taman Grisenda Pik 1 Bagus 2 Lantai Siap Huni Shm,6300000000.0,jakarta utara,penjaringan,5.0,5.0,1.0,200.0,300.0,AVAILABLE,loc-505,agent-039
+Rumah Mewah Newly Renovated Siap Huni di Menteng,18000000000.0,jakarta pusat,menteng,3.0,3.0,0.0,222.0,345.0,AVAILABLE,loc-305,agent-030
+Dijual Rumah Petojo. Jual Harga NJOP. Murah,2500000000.0,jakarta pusat,gambir,3.0,2.0,4.0,178.0,80.0,SOLD,loc-302,agent-008
+Dipasarkan Rumah Baru di Lokasi Strategis Jakarta Timur,1190000000.0,jakarta timur,pulo gadung,3.0,2.0,1.0,36.0,60.0,AVAILABLE,loc-210,agent-039
+Dijual Rumah Baru Renovasi Berlokasi Strategis Dekat Stasiun Cakung,3000000000.0,jakarta timur,cakung,5.0,4.0,0.0,200.0,200.0,SOLD,loc-201,agent-048
+Rumah Cempaka Putih Dekat Kfc Sangat Strategis,10000000000.0,jakarta pusat,cempaka putih,7.0,3.0,0.0,450.0,500.0,SOLD,loc-301,agent-049
+Rumah Percetakan Negara,4500000000.0,jakarta pusat,johar baru,5.0,6.0,1.0,200.0,300.0,AVAILABLE,loc-303,agent-049
+Rumah Minimalis Sunter Bisma Metro Paradise Sunter Garden Agung Perkasa Hadap Taman Murah,4500000000.0,jakarta utara,tanjung priok,5.0,4.0,2.0,140.0,250.0,SOLD,loc-506,agent-004
+"Rumah Citra Garden. 5X12, 2 Lantai, 2 Kamar Tidur",1900000000.0,jakarta barat,kalideres,3.0,3.0,1.0,60.0,75.0,AVAILABLE,loc-403,agent-044
+Rumah Siap Huni Cengkir Barat Bagus Jalanan Lega,3300000000.0,jakarta utara,kelapa gading,5.0,4.0,2.0,120.0,192.0,AVAILABLE,loc-502,agent-024
+Dijual Cepat Rumah Hitung Tanah. Sangat Cocok Juga Untuk Dibangun Kembali. Terletak Di Dalam Komplek Kelapa Gading,1500000000.0,jakarta utara,kelapa gading,3.0,2.0,2.0,90.0,70.0,SOLD,loc-502,agent-030
+Green Garden,1950000000.0,jakarta barat,kebon jeruk,4.0,3.0,4.0,96.0,196.0,SOLD,loc-404,agent-044
+Rumah Sunter Agung Minimalis Rumah Sunter Sts Sunter Garden Agung Permai Agung Jaya Metro,7250000000.0,jakarta utara,tanjung priok,5.0,5.0,3.0,242.0,500.0,SOLD,loc-506,agent-024
+Di Jual Rumah Menteng Lokasi Eksklusif,50000000000.0,jakarta pusat,menteng,7.0,8.0,6.0,733.0,548.0,AVAILABLE,loc-305,agent-045
+Dijual Cepat Rh Pik 14Lt Siap Huni Jak-Ut,23000000000.0,jakarta utara,penjaringan,8.0,6.0,0.0,412.0,1200.0,AVAILABLE,loc-505,agent-026
+Dijual Cepat Rumah Premium di Green Lake City Cluster Asia,4500000000.0,jakarta barat,cengkareng,5.0,4.0,2.0,120.0,148.0,AVAILABLE,loc-401,agent-022
+Di Jual Rumah Baru Dalam Komplek Harga Super Murah Di Curug Pondok Kelapa Bagus,1280000000.0,jakarta timur,duren sawit,3.0,3.0,1.0,48.0,80.0,AVAILABLE,loc-204,agent-050
+Rumah Dijual Di Petojo,12300000000.0,jakarta pusat,gambir,4.0,4.0,3.0,362.0,441.0,AVAILABLE,loc-302,agent-036
+"Rumah Cantik Minimalis 1,5 Lantai Dalam Kompleks Di Sunter Jakut",3300000000.0,jakarta utara,tanjung priok,5.0,4.0,0.0,144.0,160.0,AVAILABLE,loc-506,agent-006
+Rumah Sherwood Garden Bagus,5250000000.0,jakarta utara,kelapa gading,6.0,5.0,2.0,120.0,350.0,AVAILABLE,loc-502,agent-023
+"Jual* *Rumah Baru Jak - Sel American Classic* *Turun Harga* Dari Rp.14,5 M Jadi *Harga Rp.13,5 M*",13500000000.0,jakarta selatan,cilandak,5.0,4.0,0.0,515.0,400.0,AVAILABLE,loc-101,agent-035
+Rumah Hook 2 Lantai Intercon Kebon Jeruk Bebas Banjir - LT 450M2,10900000000.0,jakarta barat,kembangan,6.0,5.0,4.0,450.0,480.0,AVAILABLE,loc-405,agent-021
+"Dijual Rumah Hoek Mewah Di Komplek Taman Berdikari Sentosa, Siap Huni!",15000000000.0,jakarta timur,pulo gadung,8.0,6.0,4.0,557.0,420.0,SOLD,loc-210,agent-015
+Rumah Bagus Luas Bintaro Siap Huni Open Request Full Furnished,5300000000.0,jakarta selatan,pesanggrahan,6.0,5.0,4.0,277.0,500.0,AVAILABLE,loc-108,agent-006
+TOWN HOUSE EXCLUSIVE PEJATEN INDAH HANYA 14 RUMAH,13000000000.0,jakarta selatan,pasar minggu,7.0,5.0,5.0,480.0,380.0,AVAILABLE,loc-107,agent-008
+"Rumah Minimalis The Bukit, Termurah.turun Harga. Ancol Barat.",4200000000.0,jakarta utara,pademangan,5.0,5.0,3.0,162.0,351.0,AVAILABLE,loc-504,agent-037
+Dijual Rumah Pik 1 Mayang Permai Pinisi SHM Hadap Selatan.,6500000000.0,jakarta utara,penjaringan,6.0,6.0,2.0,150.0,400.0,SOLD,loc-505,agent-032
+"Rumah Standar, Hitung Tanah, Masih Layak Pakai, bisa KPR, Sunter",2350000000.0,jakarta utara,tanjung priok,4.0,2.0,2.0,144.0,144.0,AVAILABLE,loc-506,agent-028
+"Rumah di Menteng Jarang Ada, Daerah Tenang",20000000000.0,jakarta pusat,menteng,5.0,5.0,0.0,309.0,211.0,AVAILABLE,loc-305,agent-012
+Jual Rumah Di Jl Pinang Raya Pondok Labu Cilandak Jaksel,6700000000.0,jakarta selatan,cilandak,4.0,3.0,2.0,250.0,365.0,SOLD,loc-101,agent-032
+Rumah Brand New 2 Lantai Start 900Jt-An Neora @Metland Menteng Cakung,900000000.0,jakarta timur,cakung,2.0,2.0,1.0,55.0,54.0,AVAILABLE,loc-201,agent-010
+Cash & KPR - Rumah Pik 2 Kuningan Village [10X20m],7400000000.0,jakarta utara,penjaringan,4.0,3.0,2.0,200.0,250.0,AVAILABLE,loc-505,agent-008
+Luxurious House At Senayan Area Luas 1026M2 With Backyard Pool,77000000000.0,jakarta selatan,kebayoran baru,9.0,6.0,14.0,1026.0,750.0,AVAILABLE,loc-103,agent-029
+Dijual Paling Murah Harga Nego Rumah Baru Bangun ( 4X15 ) Teluk Gong - Penjaringan,1700000000.0,jakarta utara,penjaringan,3.0,2.0,1.0,60.0,142.0,SOLD,loc-505,agent-047
+Dijual Cepat Rumah di Kawasan Kemayoran,950000000.0,jakarta pusat,kemayoran,3.0,1.0,0.0,94.0,80.0,AVAILABLE,loc-304,agent-048
+"Dijual Rumah Pondok Kelapa,Duren Sawit Jakarta Timur 2 Lantai",3700000000.0,jakarta timur,duren sawit,7.0,3.0,3.0,230.0,200.0,AVAILABLE,loc-204,agent-013
+Rumah Modern Tropis Privet Pool Lift di Taman Cilandak Belakang MRT Fatmawati Jakarta Selatan,17500000000.0,jakarta selatan,cilandak,5.0,4.0,14.0,1014.0,800.0,AVAILABLE,loc-101,agent-002
+Rumah Taman Surya 3 (8X18m),3000000000.0,jakarta barat,kalideres,1.0,2.0,0.0,144.0,224.0,SOLD,loc-403,agent-030
+Rumah Siap Huni di Taman Kebon Jeruk Intercon Jakarta Barat,3800000000.0,jakarta barat,kembangan,4.0,4.0,2.0,144.0,250.0,AVAILABLE,loc-405,agent-023
+Rumah 2 Lantai di Cipete Jakarta Selatan Dekat Stasiun MRT,19500000000.0,jakarta selatan,cilandak,5.0,5.0,10.0,752.0,400.0,SOLD,loc-101,agent-029
+Rumah Mewah Gunung Sahari Ada Kolam Renang & Ruang Aula,9700000000.0,jakarta pusat,kemayoran,6.0,7.0,3.0,280.0,420.0,AVAILABLE,loc-304,agent-017
+Petojo Rumah Lama Kondisi Baik Akses Mudah,10500000000.0,jakarta pusat,gambir,4.0,3.0,3.0,305.0,280.0,AVAILABLE,loc-302,agent-043
+RUMAH DIJUAL KEMAYORAN,2500000000.0,jakarta pusat,kemayoran,3.0,2.0,1.0,70.0,175.0,AVAILABLE,loc-304,agent-049
+"Rumah Siap Huni 2 Lantai di Tebet , Bangunan 2024",3900000000.0,jakarta selatan,tebet,6.0,5.0,1.0,153.0,200.0,AVAILABLE,loc-110,agent-015
+Dijual Rumah Bagus Siap Huni Murah Akses 1Mobil Lokasi Tebet Barat,2600000000.0,jakarta selatan,tebet,2.0,1.0,2.0,90.0,60.0,AVAILABLE,loc-110,agent-016
+- Murah !! Dijual Rumah Siap Huni 12X20 Jalan 3 Mobil di Janur Kuning Hadap Utara,7500000000.0,jakarta utara,kelapa gading,5.0,4.0,2.0,240.0,280.0,AVAILABLE,loc-502,agent-030
+Dijual Rumah Murah di Setu Cipayung Jakarta Timur,750000000.0,jakarta timur,cipayung,2.0,1.0,2.0,69.0,45.0,SOLD,loc-202,agent-043
+"Rumah Baru 5 Menit Dari Mkg 2 Lantai Gading Griya, Siap Huni Bisa Kpr",1720000000.0,jakarta utara,kelapa gading,3.0,2.0,1.0,75.0,90.0,AVAILABLE,loc-502,agent-048
+Dijual Rumah Terstrategis di Johar Jakarta Pusat,2900000000.0,jakarta pusat,johar baru,3.0,2.0,0.0,180.0,180.0,AVAILABLE,loc-303,agent-033
+"Dijual Rumah Meruya Jakarta Barat 5X20 2,2M",2200000000.0,jakarta barat,kembangan,3.0,3.0,0.0,100.0,120.0,AVAILABLE,loc-405,agent-042
+Jual Cepat Siap Nego 4Br Citra Graden Puri Elecio [ C1 ],2700000000.0,jakarta barat,kembangan,4.0,3.0,1.0,105.0,98.0,AVAILABLE,loc-405,agent-034
+"Rumah 6X13 - Jl. Pulo Kenanga, Jakarta Selatan Siap Huni",2200000000.0,jakarta selatan,kebayoran lama,3.0,2.0,1.0,78.0,120.0,AVAILABLE,loc-104,agent-044
+Rumah Di.jual.di Kemanggisan. Dekat Perkantoran.,19000000000.0,jakarta barat,palmerah,10.0,9.0,4.0,1011.0,462.0,AVAILABLE,loc-406,agent-036
+Rumah 8x18 Bagus Siap Huni 3lantai Komplek Dekat Tanjung Duren Jakarta Barat,2850000000.0,jakarta barat,kebon jeruk,5.0,4.0,2.0,144.0,312.0,AVAILABLE,loc-404,agent-012
+Di Jual Rumah Baru di Percetakan Negara Dekat Bpom,1470000000.0,jakarta pusat,cempaka putih,3.0,2.0,2.0,43.0,75.0,AVAILABLE,loc-301,agent-028
+Dijual Rumah Hoek 2Lt Garden House Pantai Indah Kapuk,9500000000.0,jakarta utara,penjaringan,4.0,3.0,2.0,195.0,300.0,SOLD,loc-505,agent-008
+Rumah Type Classic Permata Hijau Jakarta Selatan,19000000000.0,jakarta selatan,kebayoran lama,6.0,6.0,6.0,516.0,544.0,AVAILABLE,loc-104,agent-027
+Rumah Permata Buana Puri 2Lt Negoo Abissszz,4300000000.0,jakarta barat,kembangan,4.0,3.0,1.0,144.0,225.0,AVAILABLE,loc-405,agent-035
+"Rumah di Tebet Barat, Akses Jalan 2 Mobil, Siap Huni Dekat Taman Ecopark",5250000000.0,jakarta selatan,tebet,5.0,5.0,2.0,130.0,200.0,AVAILABLE,loc-110,agent-026
+Rumah di Pondok Indah Jakarta Selatan Jalan Besar Lingkungan Asri SHM,16000000000.0,jakarta selatan,kebayoran lama,5.0,4.0,3.0,394.0,300.0,SOLD,loc-104,agent-019
+Dijual Rumah Hunian Modern Tipe L8 di Cluster Mississippi - Desain Elegan & Ruang Maksimal! Hanya 1.7M!,1700000000.0,jakarta timur,cakung,4.0,4.0,1.0,112.0,90.0,AVAILABLE,loc-201,agent-043
+"Rumah Dijual di Cilandak, Belakang Citos",5900000000.0,jakarta selatan,cilandak,6.0,4.0,1.0,301.0,200.0,AVAILABLE,loc-101,agent-029
+Rumah 2 Lantai (Cluster Exclusive) di Cengkareng,800000000.0,jakarta barat,cengkareng,2.0,2.0,1.0,39.0,65.0,AVAILABLE,loc-401,agent-016
+Dijual Townhouse Mewah 4 Lantai Turun Harga di Pondok Indah,7500000000.0,jakarta selatan,kebayoran lama,5.0,5.0,3.0,146.0,373.0,AVAILABLE,loc-104,agent-049
+Cluster Terbaik Citra Homes Halim Dekat Bandara Hali,1670000000.0,jakarta timur,makasar,3.0,2.0,2.0,72.0,60.0,SOLD,loc-207,agent-014
+Rumah Brand New 3 Lantai Dijual Tanjung Duren Hadap Utara - 52M2,2050000000.0,jakarta barat,grogol petamburan,4.0,3.0,2.0,52.0,108.0,AVAILABLE,loc-402,agent-044
+"Rumah Bagus Dijual Di Sunter 1,5 Lt.shm Lokasi Strtegis",3500000000.0,jakarta utara,tanjung priok,3.0,3.0,2.0,160.0,200.0,AVAILABLE,loc-506,agent-050
+Rumah Brand New 3 Lantai Semi Furnish Siap Huni di Duri Kepa,3500000000.0,jakarta barat,kebon jeruk,6.0,5.0,2.0,90.0,180.0,SOLD,loc-404,agent-041
+Rumah Bagus di Metland Cakung,1850000000.0,jakarta timur,cakung,2.0,2.0,2.0,96.0,100.0,AVAILABLE,loc-201,agent-008
+Rumah di Dalam Komplek Bukit Golf Pondok Indah Luas 1430M2,99900000000.0,jakarta selatan,kebayoran lama,8.0,8.0,9.0,1430.0,1220.0,AVAILABLE,loc-104,agent-029
+Rumah Dijual di Pinggir Jalan Raya Jakarta Pusat,20000000000.0,jakarta pusat,tanah abang,5.0,5.0,3.0,368.0,249.0,AVAILABLE,loc-308,agent-020
+Dijual rumah bagus minimalis lokasi strategis Taman Villa Meruya - Jakarta Barat,7500000000.0,jakarta barat,kembangan,5.0,4.0,0.0,351.0,450.0,AVAILABLE,loc-405,agent-007
+*Turun Harga Dratastis* di Jual Rumah Mewah (Siap Huni/Fully Furnished ) di Tanah Abang Jakarta Pusat,24000000000.0,jakarta pusat,tanah abang,5.0,3.0,3.0,585.0,501.0,AVAILABLE,loc-308,agent-039
+Dijual Rumah Daerah Meruya,3700000000.0,jakarta barat,kembangan,5.0,4.0,0.0,128.0,384.0,AVAILABLE,loc-405,agent-047
+Rumah Mewah Siap Huni Ada Pool di Cilandak Kko,8900000000.0,jakarta selatan,cilandak,6.0,6.0,4.0,370.0,400.0,SOLD,loc-101,agent-037
+"Rumah Green Lake City, West Europe 6X15, 3Br, SHM, Utara, Hrg 2.5 Milyar",2500000000.0,jakarta barat,cengkareng,4.0,4.0,2.0,90.0,130.0,AVAILABLE,loc-401,agent-036
+Dijual Rumah Pondok Kelapa Billy Moon Jakarta Timur,3750000000.0,jakarta timur,duren sawit,4.0,4.0,2.0,252.0,220.0,SOLD,loc-204,agent-048
+Dijual Rumah 2 Lantai di Duren Sawit Jakarta Timur,2500000000.0,jakarta timur,duren sawit,6.0,2.0,2.0,157.0,150.0,AVAILABLE,loc-204,agent-028
+"Cicil 174 Juta atau 16,1M Rumah 13X25 Peninsula Residence Depan Pantai Pasir Putih Pik2",174000000.0,jakarta utara,penjaringan,5.0,5.0,4.0,325.0,356.0,AVAILABLE,loc-505,agent-012
+"Turun Harga! Rumah Brand New Semi Furnished Cilandak LT 515M², Harga 12.8 M",12800000000.0,jakarta selatan,cilandak,4.0,4.0,4.0,515.0,400.0,AVAILABLE,loc-101,agent-030
+Dijual Cepat Rumah Hook Harga Dibawah NJOP di Komplek Pejaten Pancoran Jakarta Selatan,1500000000.0,jakarta selatan,pancoran,4.0,3.0,0.0,178.0,130.0,SOLD,loc-106,agent-011
+"Dijual Rumah Di Kelapa Nias, Kelapa Gading, Jakarta Utara.",3240000000.0,jakarta utara,kelapa gading,5.0,4.0,0.0,120.0,200.0,AVAILABLE,loc-502,agent-046
+Di Jual Rmh Modern di Petojo Selatan Siap Huni,3500000000.0,jakarta pusat,gambir,3.0,2.0,2.0,150.0,210.0,SOLD,loc-302,agent-032
+Rumah Menteng Siap Huni Dekat Jl Diponegoro,58000000000.0,jakarta pusat,menteng,5.0,1.0,0.0,717.0,1200.0,AVAILABLE,loc-305,agent-005
+Dijual Rumah Huni dan Kostan di Cempaka Putih,8800000000.0,jakarta pusat,cempaka putih,7.0,5.0,5.0,360.0,600.0,AVAILABLE,loc-301,agent-042
+Rumah Minimalis Baru di Sunter,4300000000.0,jakarta utara,tanjung priok,4.0,3.0,0.0,126.0,300.0,AVAILABLE,loc-506,agent-014
+Rumah 2 Lantai Dijual Duri Kepa - LT 535M2d,5500000000.0,jakarta barat,kebon jeruk,6.0,6.0,3.0,535.0,410.0,AVAILABLE,loc-404,agent-018
+"Dijual Rumah Jl Kali Baru Timur,Jkt Pus",1300000000.0,jakarta pusat,senen,2.0,2.0,0.0,125.0,100.0,AVAILABLE,loc-307,agent-023
+Rumah Mewah Siap Huni Bebas Banjir SHM di Komplek Abadi Jakarta Timur Duren Sawit,4200000000.0,jakarta timur,duren sawit,4.0,5.0,2.0,174.0,300.0,AVAILABLE,loc-204,agent-042
+Dijual Rumah Mewah 3 Lantai Kondisi Baru di Metland Menteng Jakarta Best Deal!,6800000000.0,jakarta timur,cakung,5.0,6.0,4.0,160.0,215.0,AVAILABLE,loc-201,agent-007
+Bisa KPR Rumah Golf Island Pik 5X15 (3 Lantai),3000000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,75.0,133.0,AVAILABLE,loc-505,agent-028
+Dijual Cepat !! Rumah Asri Siap Huni Area Kramat Akses Jalan 2 Mobil Lebar,9000000000.0,jakarta pusat,senen,6.0,3.0,2.0,300.0,150.0,AVAILABLE,loc-307,agent-026
+Rumah Bagus Siap Huni bisa Usaha di Johar Baru Jakarta Pusat,3600000000.0,jakarta pusat,johar baru,6.0,5.0,0.0,175.0,250.0,AVAILABLE,loc-303,agent-029
+Rumah Hook Paling Murah Terawat di Citra Garden Jakarta Barat,3300000000.0,jakarta barat,kalideres,3.0,3.0,3.0,100.0,133.0,AVAILABLE,loc-403,agent-043
+Di Jual Rumah Intercon Blok Favorite Ada Kolam Termewah Rapi Siap Huni,69000000000.0,jakarta barat,kembangan,7.0,1.0,0.0,2593.0,2237.0,AVAILABLE,loc-405,agent-014
+Dijual Murah Rumah 2 LT Dlm Kav Dki Pdk Kelapa Duren Sawit Jaktim,2350000000.0,jakarta timur,duren sawit,4.0,2.0,2.0,157.0,250.0,AVAILABLE,loc-204,agent-031
+DIJUAL RUMAH KOST FURNISHED JATINEGARA 15 KAMAR JAKARTA TIMUR DEKAT STASIUN KRL,3100000000.0,jakarta timur,jatinegara,15.0,8.0,1.0,77.0,310.0,AVAILABLE,loc-205,agent-049
+Chandra Rumah Bagus Ukuran 4.65X16m di Komplek Kavling Polri Jelambar,3300000000.0,jakarta barat,grogol petamburan,3.0,4.0,0.0,74.0,142.0,AVAILABLE,loc-402,agent-049
+"Rumah di Sumur Batu Kemayoran - Bangunan 2,5 Lantai",2000000000.0,jakarta pusat,kemayoran,5.0,5.0,1.0,75.0,135.0,AVAILABLE,loc-304,agent-049
+Rumah Tua Hitung Tanah Sunter,20500000000.0,jakarta utara,tanjung priok,6.0,6.0,7.0,748.0,680.0,AVAILABLE,loc-506,agent-050
+Harus Terjual Rumah Standar Butuh Renovasi Di Cipinang Muara,1500000000.0,jakarta timur,pulo gadung,4.0,2.0,1.0,106.0,84.0,SOLD,loc-210,agent-031
+Cempaka Putih Timur Luas 415 Dgn Halaman Sangat Luas,9000000000.0,jakarta pusat,cempaka putih,4.0,6.0,5.0,415.0,500.0,AVAILABLE,loc-301,agent-027
+Rumah Menteng 519M²,38000000000.0,jakarta pusat,menteng,7.0,6.0,4.0,519.0,470.0,AVAILABLE,loc-305,agent-007
+Dibawah Njop!!! Rumah Di Cideng,6000000000.0,jakarta pusat,gambir,5.0,3.0,1.0,247.0,145.0,AVAILABLE,loc-302,agent-008
+"Rumah Murah Bawah Pasar di Cipinang Indah 1 ,Jakarta",1950000000.0,jakarta timur,pulo gadung,3.0,2.0,2.0,148.0,155.0,AVAILABLE,loc-210,agent-041
+"Rumah Kos 63 Kamar Occ 90%,Di Tanjung Duren Jakarta Barat S8972",12000000000.0,jakarta barat,grogol petamburan,64.0,64.0,0.0,284.0,1000.0,SOLD,loc-402,agent-039
+"JARANG ADA RUMAH DIATAS MALL, THE VILLAS HARGA TERBAIK",4500000000.0,jakarta utara,kelapa gading,5.0,4.0,0.0,150.0,242.0,AVAILABLE,loc-502,agent-018
+Rumah Kost D Ikali Baru Timur Poncol Senen di Bawah NJOP,1350000000.0,jakarta pusat,senen,17.0,11.0,0.0,124.0,170.0,AVAILABLE,loc-307,agent-034
+Dijual Rumah di Griya Inti Sentosa Sunter,7000000000.0,jakarta utara,tanjung priok,4.0,3.0,0.0,185.0,250.0,AVAILABLE,loc-506,agent-019
+Rumah di Percetakan Negara Jakarta Pusat,6500000000.0,jakarta pusat,johar baru,5.0,3.0,2.0,306.0,280.0,SOLD,loc-303,agent-046
+"Rumah Lama di Jual Murah Area Petukangan, Pesanggrahan, Jaksel",2500000000.0,jakarta selatan,pesanggrahan,5.0,3.0,1.0,268.0,180.0,AVAILABLE,loc-108,agent-015
+Rumah Brand New Hoek Metland Puri. @Metland Puri. Jakarta Barat,4000000000.0,jakarta barat,cengkareng,3.0,3.0,2.0,127.0,330.0,AVAILABLE,loc-401,agent-009
+Rumah Dijual Duri Kepa Hook Hitung Tanah - LT 165M2,2700000000.0,jakarta barat,kebon jeruk,3.0,3.0,1.0,165.0,200.0,AVAILABLE,loc-404,agent-007
+Rumah 2 Lantai Green Lake City Sudah Renovasi Jual Cepat!!,3650000000.0,jakarta barat,cengkareng,4.0,3.0,2.0,120.0,160.0,SOLD,loc-401,agent-036
+"Termurah di Pik 1, Walet Permai 3 Lantai 340M Huk, Hitung Tanah Saja",8500000000.0,jakarta utara,penjaringan,4.0,4.0,5.0,340.0,590.0,AVAILABLE,loc-505,agent-005
+Best Price - Rumah LT 260 M² di Pondok Bambu Duren Sawit,3200000000.0,jakarta timur,duren sawit,6.0,4.0,1.0,260.0,248.0,AVAILABLE,loc-204,agent-011
+Rumah Modern Mewah One Gate System Di Cempaka Putih Tengah,7200000000.0,jakarta pusat,cempaka putih,6.0,5.0,0.0,180.0,250.0,SOLD,loc-301,agent-047
+"Dijual Murah Rumah di Jgc, Jakarta Garden Citycluster Shinano Luas 185 M², Cakung Jakarta Timur",2150000000.0,jakarta timur,cakung,3.0,3.0,1.0,185.0,156.0,SOLD,loc-201,agent-021
+Rumah Golf Island Pik Mozart View Laut 12X25 (3+1 Kamar Tidur),13400000000.0,jakarta utara,penjaringan,4.0,5.0,2.0,300.0,436.0,AVAILABLE,loc-505,agent-026
+"Rumah Eksklusif Kaca Cantik & Sejuk.sirkulasi Bagus., Bebas Banjir Lingkungan Tenang#Jualcepat. 2 Lantai SHM",8500000000.0,jakarta selatan,cilandak,5.0,6.0,4.0,502.0,250.0,AVAILABLE,loc-101,agent-006
+Rumah Mewah Tanpa Indant Promo Ratusan Juta Tanpa DP Free Biaya2.anti Banjir.di Bantu Lolos KPR Tanpa Ribet Didampingi Sampai Dapet Kunci Jgc Cakung Jakarta Timur,2070000000.0,jakarta timur,cakung,3.0,3.0,3.0,102.0,112.0,AVAILABLE,loc-201,agent-035
+Dijual Rumah Pluit 8X20 3 Lantai,4800000000.0,jakarta utara,penjaringan,5.0,5.0,2.0,160.0,350.0,AVAILABLE,loc-505,agent-046
+Rumah Modern Siap Huni Kelapa Gading Jakarta Utara,2800000000.0,jakarta utara,kelapa gading,4.0,2.0,2.0,102.0,180.0,AVAILABLE,loc-502,agent-048
+Dijual Rumah Bagus Hook Jalan Lebar Citra Garden 7,3700000000.0,jakarta barat,kalideres,6.0,4.0,2.0,182.0,250.0,AVAILABLE,loc-403,agent-002
+Dijual Rumah Jakarta Garden City Cluster La Seine Siap Huni,2700000000.0,jakarta timur,cakung,3.0,2.0,2.0,105.0,86.0,AVAILABLE,loc-201,agent-040
+"Rumah Purwodadi Menteng, Jakarta Pusat",8500000000.0,jakarta pusat,menteng,13.0,13.0,2.0,150.0,350.0,AVAILABLE,loc-305,agent-050
+Promo Jual Rumah Early Bird Murah 3 Kamar Tidur Citra Homes Jakarta Timur,1700000000.0,jakarta timur,makasar,3.0,2.0,2.0,60.0,75.0,AVAILABLE,loc-207,agent-012
+Rumah Minimalis 2 Lntai Lokasi Dekat Tol Tj Priok,865000000.0,jakarta utara,koja,2.0,2.0,2.0,38.0,51.0,AVAILABLE,loc-503,agent-046
+"Menteng Luxury Residence - Private, Elite & Prestigious",41000000000.0,jakarta pusat,menteng,4.0,6.0,5.0,512.0,480.0,AVAILABLE,loc-305,agent-022
+Rumah Bagus Siap Huni Luas 140 Hadap Selatan di Sunter Mas,3500000000.0,jakarta utara,tanjung priok,5.0,3.0,3.0,140.0,325.0,AVAILABLE,loc-506,agent-044
+Brand New Rumah Modern 4 LT Ditengah Kota di Fatmawati Cilandak,4650000000.0,jakarta selatan,cilandak,4.0,3.0,2.0,102.0,250.0,AVAILABLE,loc-101,agent-048
+Dijual Rumah Dukuh Patra Kuningan Jakarta Selatan,73000000000.0,jakarta selatan,setiabudi,8.0,6.0,8.0,1845.0,1000.0,AVAILABLE,loc-109,agent-008
+Murah! Rumah di Glc 6*18 Cluster Favorit Hadap Utara,2750000000.0,jakarta barat,cengkareng,4.0,3.0,1.0,108.0,100.0,AVAILABLE,loc-401,agent-018
+Rumah 3 Lantai Akses Mobil Percetakan Negara,950000000.0,jakarta pusat,cempaka putih,3.0,3.0,1.0,25.0,70.0,SOLD,loc-301,agent-032
+Jual Cepat Rumah Muara Karang Blok 5. Cash/Kpr,3950000000.0,jakarta utara,penjaringan,3.0,3.0,2.0,180.0,315.0,AVAILABLE,loc-505,agent-013
+Dijual Rumah Full Furnished Dibukit Podomoro,6500000000.0,jakarta timur,duren sawit,5.0,5.0,3.0,105.0,180.0,AVAILABLE,loc-204,agent-042
+Dijual Sangat Murah Via Lelang Dibawah Pasar Rumah Mewah Kelapa Gading Lokasi Strategis Komplek Gading Cipta Residen Unit Siap Huni Luas dan Nyaman,3600000000.0,jakarta utara,kelapa gading,4.0,3.0,3.0,273.0,320.0,AVAILABLE,loc-502,agent-032
+Rumah Luas Dekat Dengan Kawasan Embassy Di Menteng Jakpus,170000000000.0,jakarta pusat,menteng,5.0,6.0,10.0,1382.0,800.0,AVAILABLE,loc-305,agent-009
+"Jual Cepat Rumah Standart Tusuk Sate di Sunter Indah, bisa Nego",4500000000.0,jakarta utara,tanjung priok,5.0,3.0,1.0,200.0,1.0,AVAILABLE,loc-506,agent-017
+Rumah 2Lt Siap Huni di Gunung Sahari Jakarta Pusat,3000000000.0,jakarta pusat,kemayoran,5.0,5.0,2.0,166.0,300.0,AVAILABLE,loc-304,agent-048
+"Rumah Citra Garden City 8, Malta , ukuran 8x15",4800000000.0,jakarta barat,kalideres,4.0,3.0,3.0,179.0,216.0,AVAILABLE,loc-403,agent-049
+Rumah Mewah Baru Private Pool Area Premiun Kemang Jakarta Selatan,12900000000.0,jakarta selatan,mampang prapatan,7.0,7.0,4.0,209.0,450.0,SOLD,loc-105,agent-043
+Rumah Bagus Modern Siap Huni di Rawamangun Jakarta Timur,3300000000.0,jakarta timur,pulo gadung,6.0,4.0,2.0,146.0,200.0,SOLD,loc-210,agent-040
+Rumah Hook Intercon Kebon Jeruk Jakarta Barat,12500000000.0,jakarta barat,kebon jeruk,4.0,5.0,2.0,500.0,600.0,AVAILABLE,loc-404,agent-046
+Dijual Rumah Minimalis 2 Lantai di Kemayoran,2500000000.0,jakarta pusat,kemayoran,4.0,3.0,1.0,120.0,220.0,AVAILABLE,loc-304,agent-044
+Dijual Rumah Kuningan Jakarta Selatan,15000000000.0,jakarta selatan,setiabudi,8.0,5.0,4.0,391.0,407.0,AVAILABLE,loc-109,agent-047
+Rumah Taman Palem Lestari Siap Huni,3000000000.0,jakarta barat,cengkareng,5.0,3.0,0.0,120.0,180.0,AVAILABLE,loc-401,agent-036
+Dijual Cepat Pluit Murni 7X20 Jalan Lega,4500000000.0,jakarta utara,penjaringan,5.0,5.0,3.0,140.0,420.0,SOLD,loc-505,agent-010
+Rumah 2.5 lantai jln samudra oxford koja,3400000000.0,jakarta utara,koja,6.0,4.0,2.0,255.0,260.0,AVAILABLE,loc-503,agent-042
+Jual Rumah Kelapa Gading,14000000000.0,jakarta utara,kelapa gading,6.0,4.0,7.0,552.0,1311.0,AVAILABLE,loc-502,agent-007
+Rumah New 10X17 Hadap Timur @ Muara Karang,9000000000.0,jakarta utara,penjaringan,5.0,4.0,2.0,170.0,350.0,AVAILABLE,loc-505,agent-003
+Rmh Siap Huni Rapih Bersih Nyaman,2100000000.0,jakarta utara,penjaringan,3.0,3.0,2.0,80.0,112.0,AVAILABLE,loc-505,agent-014
+DIJUAL RUMAH SUPER BAGUS MERUYA FINISHING,2450000000.0,jakarta barat,kembangan,4.0,4.0,0.0,125.0,156.0,AVAILABLE,loc-405,agent-045
+"Hot Sale Rumah Bagus Siap Huni, Taman Luas di Cempaka Bintaro Jakarta Selatan",9500000000.0,jakarta selatan,pesanggrahan,5.0,4.0,2.0,867.0,584.0,AVAILABLE,loc-108,agent-023
+Rumah Tomang Rapi Siap Huni Strategis Tidak Banjir Dekat Mall,6500000000.0,jakarta barat,grogol petamburan,4.0,3.0,2.0,249.0,159.0,AVAILABLE,loc-402,agent-040
+"Rumah Mewah dan Modern di Pondok Indah, Jakarta Selatan",40000000000.0,jakarta selatan,kebayoran lama,11.0,7.0,0.0,590.0,800.0,SOLD,loc-104,agent-044
+Rumah Second Terawat Siap Huni Dalam Komplek di Pondok Kelapa,2100000000.0,jakarta timur,duren sawit,4.0,3.0,1.0,90.0,120.0,AVAILABLE,loc-204,agent-030
+Rumah Dijual Duri Kepa 3 Lantai Ada Rooftop - LT 45M2 SHM,1600000000.0,jakarta barat,kebon jeruk,2.0,3.0,1.0,45.0,125.0,SOLD,loc-404,agent-042
+Rumah Golf Island Semi Furnish,11000000000.0,jakarta utara,penjaringan,4.0,3.0,0.0,260.0,500.0,AVAILABLE,loc-505,agent-012
+Dijual Rumah Tinggal+Kantor di Rancho Indah Jakarta Selatan,20000000000.0,jakarta selatan,jagakarsa,4.0,4.0,0.0,1800.0,2105.0,AVAILABLE,loc-102,agent-007
+Rumah 2 Lantai 180M2 Grisenda,5000000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,171.0,250.0,AVAILABLE,loc-505,agent-046
+Dijual Murah Rumah Mewah Strategis Dekat Senayan Jakarta,7500000000.0,jakarta barat,palmerah,9.0,10.0,4.0,206.0,670.0,AVAILABLE,loc-406,agent-044
+"Best Price !! Rumah Keluarga Ideal 2 Lantai Pondok Kelapa, Duren Sawit | LT 209 M² - All In",1800000000.0,jakarta timur,duren sawit,4.0,3.0,2.0,209.0,191.0,AVAILABLE,loc-204,agent-013
+Rumah Kemayoran View Golf Double Decker Luas300 Meter,11000000000.0,jakarta pusat,kemayoran,4.0,4.0,4.0,300.0,450.0,AVAILABLE,loc-304,agent-039
+Rumah 2 Lantai Dalam Komplek Lokasi Strategis dan Nyaman Bebas Banjir,8000000000.0,jakarta pusat,cempaka putih,10.0,5.0,1.0,490.0,230.0,SOLD,loc-301,agent-035
+Dijual Rumah Cempaka Putih Dibawah NJOP,8500000000.0,jakarta pusat,cempaka putih,6.0,4.0,4.0,450.0,310.0,AVAILABLE,loc-301,agent-021
+"Rumah 1,5 Lantai Di Ulujami Pesanggrahan Jkt Selatan",1850000000.0,jakarta selatan,pesanggrahan,4.0,2.0,1.0,130.0,180.0,AVAILABLE,loc-108,agent-035
+Rumah 2Lt 5X17 85M Type 2Kt Cluster La Seine Jgc Jakarta Garden City Cakung,1400000000.0,jakarta timur,cakung,2.0,2.0,1.0,85.0,60.0,AVAILABLE,loc-201,agent-034
+Hunian Nyaman Rumah 3 Lantai Full Furnished Baru Renov di Sunter,4500000000.0,jakarta utara,tanjung priok,4.0,3.0,1.0,95.0,198.0,AVAILABLE,loc-506,agent-031
+"Rumah Gandeng 2 Jadi 1 Bagus Shm Luas T 180, Gading Elok Timur",3800000000.0,jakarta utara,kelapa gading,10.0,4.0,6.0,180.0,120.0,SOLD,loc-502,agent-037
+Rumah Cantik di Pluit Mas Uk7x21.4 M2 SHM Jakarta Utara,4500000000.0,jakarta utara,penjaringan,3.0,3.0,2.0,150.0,210.0,AVAILABLE,loc-505,agent-012
+Dijual Rumah Bagus Murah Siap Huni Di Cilandak Full Furnished Dalam Cluster Strategis Dekat Mrt Fatmawati,2800000000.0,jakarta selatan,cilandak,4.0,4.0,2.0,105.0,183.0,AVAILABLE,loc-101,agent-014
+"Dijual / Disewakan Cepat Rumah Villa Permata Gading, Siap Huni Kondisi Bagus",4500000000.0,jakarta utara,kelapa gading,4.0,4.0,1.0,140.0,240.0,AVAILABLE,loc-502,agent-001
+Rumah Dalam Cluster Mini Strategis Siap Huni di Pondok Kelapa,1960000000.0,jakarta timur,duren sawit,3.0,3.0,2.0,78.0,100.0,AVAILABLE,loc-204,agent-001
+Rumah Bagus 2Lt Siap Huni di Kampung Ambon Kayu Putih Jakarta Timur,3500000000.0,jakarta timur,pulo gadung,4.0,3.0,2.0,165.0,190.0,AVAILABLE,loc-210,agent-020
+"Dijual Rumah Siap Huni Hook, LT 274/Lb 400, Utara Timur, Cluster, Bebas Banjir",13500000000.0,jakarta barat,kembangan,5.0,4.0,4.0,274.0,400.0,AVAILABLE,loc-405,agent-012
+Dijual Cepat Rumah 3 Lantai di Villa Permata Gading,8500000000.0,jakarta utara,kelapa gading,5.0,5.0,0.0,200.0,400.0,AVAILABLE,loc-502,agent-021
+Di Jual Rumah di Cilandak Jakarta Selatan Mewah Siap Huni,12800000000.0,jakarta selatan,cilandak,5.0,4.0,0.0,515.0,400.0,SOLD,loc-101,agent-001
+"Jual Rumah Hitung Tanah, di Jl Raya Pejaten Barat",1300000000.0,jakarta selatan,pasar minggu,5.0,3.0,0.0,90.0,90.0,AVAILABLE,loc-107,agent-041
+Rumah halaman luas tenang lokasi strategis di Menteng Jakarta Pusat,106000000000.0,jakarta pusat,menteng,6.0,7.0,15.0,2130.0,1000.0,SOLD,loc-305,agent-008
+Rumah Strategis di Cisanggiri Senopati Kebayoran Baru Jakarta Selatan,22000000000.0,jakarta selatan,kebayoran baru,6.0,4.0,4.0,366.0,500.0,AVAILABLE,loc-103,agent-033
+Dijual Rumah Tua Hitung Tanah Jalan 2mobil Shm Kemayoran,2300000000.0,jakarta pusat,kemayoran,2.0,1.0,0.0,135.0,100.0,AVAILABLE,loc-304,agent-013
+"Jual Cepat Rumah Standart Jalan 3 Mobil di Taman Nyiur, Bisa Nego",3900000000.0,jakarta utara,tanjung priok,4.0,2.0,0.0,211.0,1.0,SOLD,loc-506,agent-022
+"Rumah di Jl Cilandak Tengah , jakarta selatan",14000000000.0,jakarta selatan,cilandak,5.0,4.0,2.0,590.0,350.0,AVAILABLE,loc-101,agent-007
+Rumah Lama Hitung Tanah di Thamrin Hadap Selatan,60000000000.0,jakarta pusat,menteng,1.0,1.0,0.0,694.0,694.0,AVAILABLE,loc-305,agent-035
+Dijual Rumah + Kontrakan Cempaka Baru Kemayoran Jakarta Pusat,2000000000.0,jakarta pusat,kemayoran,4.0,2.0,2.0,172.0,112.0,AVAILABLE,loc-304,agent-028
+"Rumah 2 Lantai Siap Huni di Citra Garden Puri Cluster Casco, Jakarta Barat",1850000000.0,jakarta barat,kalideres,2.0,2.0,1.0,75.0,65.0,AVAILABLE,loc-403,agent-048
+Rumah Hitung Tanah dalam Komplek di Pondok Kelapa Jakarta Timur,6800000000.0,jakarta timur,duren sawit,3.0,3.0,4.0,591.0,350.0,AVAILABLE,loc-204,agent-005
+Rumah Murah Dekat Rs Persahabatan Jakarta Timur,925000000.0,jakarta timur,pulo gadung,2.0,2.0,1.0,32.0,53.0,AVAILABLE,loc-210,agent-044
+Rumah Asri Adem Bagus Terawat dengan Innercord Dijual Area Menteng Jakarta Pusat,39000000000.0,jakarta pusat,menteng,10.0,8.0,5.0,510.0,650.0,AVAILABLE,loc-305,agent-001
+Ana Rumah Baru 3Lt Luas 5X15m Hadap Timur di Jelambar - * Good- Deal !!*,2500000000.0,jakarta barat,grogol petamburan,4.0,5.0,2.0,75.0,158.0,AVAILABLE,loc-402,agent-028
+"Harga NJOP. Rumah Mewah Kelapa Gading.jl. Pelepah Kuning Ii Blok Wu 2 No.14, Kelurahan Kelapa Gading Timur, Kecamatan Kelapa Gading, Kota Jakarta Utara",8199999999.999999,jakarta utara,kelapa gading,7.0,6.0,4.0,370.0,600.0,AVAILABLE,loc-502,agent-023
+Dijual Rumah Baru di Jln Rukun Setu Cipayung Jakarta Timur,1250000000.0,jakarta timur,cipayung,3.0,2.0,3.0,60.0,66.0,AVAILABLE,loc-202,agent-042
+Rumah Baru 3 Lantai 1Milyar Percetakan Negara Jakarta Pusat,1030000000.0,jakarta pusat,johar baru,3.0,3.0,0.0,27.0,81.0,AVAILABLE,loc-303,agent-018
+Rumah Dijual Bu di Citra Garden Kalideres Cengkareng Jakarta Barat,1600000000.0,jakarta barat,kalideres,4.0,4.0,3.0,144.0,112.0,AVAILABLE,loc-403,agent-017
+Rumah Pluit Minimalis 10x20 Mewah | Hadap Utara,9000000000.0,jakarta utara,penjaringan,4.0,4.0,4.0,200.0,600.0,AVAILABLE,loc-505,agent-041
+Dijual Rumah Siap Huni Di Pulomas Kayu Putih Jakarta Timur,6800000000.0,jakarta timur,pulo gadung,6.0,4.0,0.0,241.0,362.0,SOLD,loc-210,agent-028
+Rumah Murah Letak Strategis dekat LRT! Siap Huni di Kayu putih,6500000000.0,jakarta timur,pulo gadung,5.0,3.0,1.0,277.0,200.0,SOLD,loc-210,agent-023
+Rumah Mewah di Denpasar Karangasem Mega Kuningan,95000000000.0,jakarta selatan,setiabudi,7.0,6.0,0.0,1200.0,1200.0,AVAILABLE,loc-109,agent-045
+Rumah Anyar Dlm Komplek Daerah Recomended Cempaka Putih,6200000000.0,jakarta pusat,cempaka putih,5.0,4.0,0.0,150.0,400.0,AVAILABLE,loc-301,agent-042
+"Luxurious Brand New House Full Furnished Desain American Classic di Kemang, Jakarta Selatan",38000000000.0,jakarta selatan,mampang prapatan,6.0,6.0,10.0,517.0,760.0,SOLD,loc-105,agent-043
+Dijual Rumah Ozone Residence 3 BR Di Bintaro Jakarta Selatan,5000000000.0,jakarta selatan,pesanggrahan,4.0,4.0,2.0,150.0,164.0,AVAILABLE,loc-108,agent-006
+Dijual Menteng Rumah Mewah Prime Area,54000000000.0,jakarta pusat,menteng,5.0,3.0,8.0,795.0,1000.0,SOLD,loc-305,agent-044
+Rumah Tomang Jakarta Barat - Rumah Dekat Cp & Tol Dalam Kota,6900000000.0,jakarta barat,grogol petamburan,3.0,3.0,1.0,160.0,230.0,AVAILABLE,loc-402,agent-033
+"Dijual rumah di Taman Ratu Indah .bagus.wow jarang ada.luas tanah 9 x11 MTR,",2800000000.0,jakarta barat,kebon jeruk,4.0,3.0,2.0,99.0,177.0,AVAILABLE,loc-404,agent-022
+"Turun Harga! Mayang Permai 9,4X16 Bangunan Kontraktor 3,5 Lantai",7600000000.0,jakarta utara,penjaringan,6.0,6.0,2.0,150.0,325.0,AVAILABLE,loc-505,agent-023
+Rumah Lahan Luas Lokasi Premium di Pejaten Barat Harga NJOP,26300000000.0,jakarta selatan,pasar minggu,9.0,7.0,13.0,1920.0,500.0,AVAILABLE,loc-107,agent-012
+Dijual Rumah Mewah di Cempaka Putih Dekat Yarsi,2380000000.0,jakarta timur,pulo gadung,3.0,3.0,2.0,53.0,78.0,AVAILABLE,loc-210,agent-035
+Jual Rumah Cantik Hoek Gading Park View Kelapa Gading Jakut,9800000000.0,jakarta utara,kelapa gading,5.0,3.0,3.0,258.0,230.0,SOLD,loc-502,agent-030
+"Gunung Sahari. Jual cepat, rumah tua hitung tanah saja. Cocok untuk kos.",2300000000.0,jakarta pusat,kemayoran,2.0,1.0,0.0,244.0,200.0,AVAILABLE,loc-304,agent-031
+Dijual Rumah Bagus Di Cempaka Putih Tengah,9500000000.0,jakarta pusat,cempaka putih,6.0,4.0,4.0,400.0,460.0,AVAILABLE,loc-301,agent-012
+Beli Rumah Dapat Gambar Desain,9800000000.0,jakarta timur,pulo gadung,5.0,3.0,4.0,583.0,350.0,AVAILABLE,loc-210,agent-003
+"Di Bawah Harga Pasar, Rumah Cantik 2 Lantai di Tebet Jakarta Selatan, Bergaya Klasik, Asri, Bagus Terawat, Istimewa, Siap Huni, SHM, Mudah Akses",2350000000.0,jakarta selatan,tebet,4.0,2.0,1.0,126.0,160.0,AVAILABLE,loc-110,agent-025
+Rumah Sunter Hadap Timur,2800000000.0,jakarta utara,tanjung priok,5.0,3.0,0.0,144.0,230.0,SOLD,loc-506,agent-030
+"Dijual Cepat Rumah Murah di Setia Budi Jakarta Selatan, Posisi Hoek Luas Lokasi Premium",25000000000.0,jakarta selatan,setiabudi,6.0,3.0,3.0,460.0,300.0,AVAILABLE,loc-109,agent-020
+Good Deal! Rumah Cantik Full Furnished 10X20 di Concerto Beach Golf Island Pik,8500000000.0,jakarta utara,penjaringan,3.0,3.0,0.0,200.0,200.0,AVAILABLE,loc-505,agent-015
+"Hitung Tanah Di Puri Media, Hadap Timur",3500000000.0,jakarta barat,kembangan,4.0,3.0,0.0,135.0,180.0,AVAILABLE,loc-405,agent-041
+Rumah Hook 2 Lantai Bagus SHM di Cipinang Elok Jakarta Timur,5750000000.0,jakarta timur,pulo gadung,5.0,3.0,5.0,278.0,340.0,AVAILABLE,loc-210,agent-027
+"Rumah Murah Cluster South Thames di Jakarta Garden City Dekat Tol Cakung, 3+1 KT, Harga 1,55 M Nego",1550000000.0,jakarta timur,cakung,4.0,3.0,2.0,90.0,63.0,SOLD,loc-201,agent-043
+Rumah Cideng Jl Cikande Jakarta Pusat Termurah Lelang Bank,6800000000.0,jakarta pusat,gambir,1.0,3.0,0.0,372.0,250.0,AVAILABLE,loc-302,agent-010
+Rumah Minimalis Modern Siap Huni & Bebas Banjir Mandala - Tomang,4900000000.0,jakarta barat,grogol petamburan,5.0,6.0,2.0,137.0,231.0,AVAILABLE,loc-402,agent-012
+"Dijual Rumah Bagus Di Cimalaya, Cideng, Jakarta Pusat",8000000000.0,jakarta pusat,gambir,4.0,3.0,4.0,250.0,500.0,SOLD,loc-302,agent-047
+Rumah 2 Lantai Taman Permata Buana Hadap Selatan - LT 144M2,4200000000.0,jakarta barat,kembangan,4.0,3.0,3.0,144.0,150.0,AVAILABLE,loc-405,agent-019
+Rumah Brand New 2 Lantai Start 900Jt-An Neora @Metland Menteng Cakung,900000000.0,jakarta timur,cakung,2.0,2.0,0.0,55.0,54.0,AVAILABLE,loc-201,agent-002
+Rumah Sunter Agung 180M,4500000000.0,jakarta utara,tanjung priok,2.0,2.0,1.0,180.0,160.0,AVAILABLE,loc-506,agent-008
+Rumah Hoek Mewah di Kelapa Gading Jakarta Utara,15000000000.0,jakarta utara,kelapa gading,6.0,4.0,5.0,552.0,1311.0,AVAILABLE,loc-502,agent-003
+"Ana Rumah Di Kav Polri Luas 14x16m 1.5lt Jarang Ada, Semifurnish Lokasi Bagus Jelambar - * Good- Deal !!*",4900000000.0,jakarta barat,grogol petamburan,6.0,4.0,6.0,224.0,318.0,AVAILABLE,loc-402,agent-016
+Rumah Bagus 2 Lantai Di Duren Sawit Jakarta Timur Bisa Kpr,2500000000.0,jakarta timur,duren sawit,4.0,4.0,3.0,100.0,150.0,AVAILABLE,loc-204,agent-016
+"Rumah Muara Karang, 6X15mtr Layak Huni",2700000000.0,jakarta utara,penjaringan,2.0,2.0,1.0,90.0,120.0,AVAILABLE,loc-505,agent-028
+Dijual Brand New Town House Cempaka Putih,1750000000.0,jakarta pusat,cempaka putih,4.0,3.0,1.0,60.0,100.0,AVAILABLE,loc-301,agent-004
+"Rumah Luas di Tebet Raya Cocok untuk Kantor, Tempat Usaha, Lokasi Sangat Strategis",25000000000.0,jakarta selatan,tebet,5.0,3.0,0.0,569.0,352.0,AVAILABLE,loc-110,agent-028
+"Jual Murah,,,,,,Rumah Baru Minimalis ,,,,,,,,,,3 Lantai ,7 Kamar ,Bebas Banjir, Jalan Lebar ,Di Janur Elok Kelapa Gading",5700000000.0,jakarta utara,kelapa gading,8.0,5.0,4.0,153.0,459.0,AVAILABLE,loc-502,agent-016
+Jual Rumah Baru Sunter 4+1 KT Kamar,7000000000.0,jakarta utara,tanjung priok,4.0,5.0,3.0,150.0,354.0,AVAILABLE,loc-506,agent-001
+Rumah Minimalis Siap Huni Taman Modern Cakung Jaktim,2100000000.0,jakarta timur,cakung,4.0,3.0,2.0,162.0,200.0,AVAILABLE,loc-201,agent-040
+"Rumah Lokasi Terbaik Cipete Jakarta Selatan,dekat Mrt Stasiun, Hanya Hitung Harga Tanah Investasi Menguntungkan Rumah Butuh Minim Renovasi di Jl. Gaharu IV No. 1, Cilandak Barat, Cilandak, Kota Jakarta Selatan, DKI Jakarta, Indonesia, 12430, Cilandak SHM",22500000000.0,jakarta selatan,cilandak,5.0,6.0,0.0,912.0,450.0,AVAILABLE,loc-101,agent-014
+Rumah Hoky.krekot Kartini.jakarta Pusat,6500000000.0,jakarta pusat,sawah besar,4.0,4.0,3.0,182.0,500.0,SOLD,loc-306,agent-012
+Dijual Rumah Hoek Luas Dgn Lantai Marmer di Janur Elok @7.5M,7100000000.0,jakarta utara,kelapa gading,4.0,3.0,3.0,306.0,570.0,AVAILABLE,loc-502,agent-013
+Rumah Karang Anyar Jalan A .Pingir Jalan Raya. 3 Lantai,3300000000.0,jakarta pusat,sawah besar,6.0,4.0,2.0,86.0,240.0,AVAILABLE,loc-306,agent-013
+GUEST HOUSE EXCLUSIVE DI KEBAYORAN BARU LT 1784m2 4 LANTAI 26 KAMAR Rp 125M,125000000000.0,jakarta selatan,kebayoran baru,31.0,31.0,22.0,1784.0,5900.0,SOLD,loc-103,agent-045
+Jual Rumah Siap Huni Di Kawasan Elite Kemang,9000000000.0,jakarta selatan,mampang prapatan,4.0,3.0,5.0,420.0,500.0,AVAILABLE,loc-105,agent-028
+Murah! Rumah Baru Siap Huni di Cilandak Kko Aman dan Private Rumah Bagus SHM di Cilandak,18500000000.0,jakarta selatan,cilandak,9.0,8.0,10.0,780.0,600.0,AVAILABLE,loc-101,agent-037
+"Hitung Tanah! Rumah di Benhil 137 m2, Dekat SCBD dan Gatot Subroto, Bebas Banjir",4600000000.0,jakarta pusat,tanah abang,3.0,2.0,1.0,137.0,100.0,SOLD,loc-308,agent-029
+"Dijual Cepat Rumah Pondok Indah , Jakarta Selatan",14500000000.0,jakarta selatan,kebayoran lama,5.0,4.0,0.0,348.0,200.0,AVAILABLE,loc-104,agent-007
+Rumah Middle Up Siap Huni di Riviera Metland Puri,3700000000.0,jakarta barat,cengkareng,3.0,3.0,2.0,120.0,135.0,AVAILABLE,loc-401,agent-030
+Rumah Malabar Turun Harga Hrs Terjual Bulan Ini,8500000000.0,jakarta selatan,setiabudi,5.0,6.0,0.0,280.0,500.0,AVAILABLE,loc-109,agent-049
+"Rumah Mewah Luas 520 M² di Prime Area Menteng, Bentuk Tanah Kotak, Lokasi Dekat Rumah Dinas Wapres Ri",37000000000.0,jakarta pusat,menteng,6.0,5.0,0.0,520.0,470.0,AVAILABLE,loc-305,agent-046
+Dijual rumah mewah pantai indah kapuk cluster elite,45500000000.0,jakarta utara,penjaringan,5.0,8.0,0.0,630.0,1300.0,AVAILABLE,loc-505,agent-019
+Tinggal Nyaman di Lokasi Premium Cempaka Putih Timur-Akses Mudah,1470000000.0,jakarta pusat,cempaka putih,3.0,3.0,2.0,42.0,72.0,AVAILABLE,loc-301,agent-022
+Rumah Cantik Siap Huni Berbentuk Kotak Di Salemba Jakarta Pusat,13000000000.0,jakarta pusat,senen,7.0,3.0,3.0,387.0,387.0,AVAILABLE,loc-307,agent-011
+Dijual Rumah Baru 2 Lt Di Walikota Kelapa Gading Jakarta Utara,1870000000.0,jakarta utara,kelapa gading,3.0,3.0,1.0,54.0,65.0,AVAILABLE,loc-502,agent-022
+Rumah Baru Hadap Selatan Minimalis di Kayu Putih Jakarta Timur,4050000000.0,jakarta timur,pulo gadung,8.0,2.0,0.0,130.0,220.0,AVAILABLE,loc-210,agent-020
+"Dijual Cepat Alam Segar Pondok Indah Harga Murah Semi Furnished Bagus, Rumah Pondok Indah",11000000000.0,jakarta selatan,kebayoran lama,7.0,7.0,0.0,260.0,310.0,AVAILABLE,loc-104,agent-046
+"Rumah Mewah Puri Kembangan 3,5Lt 10,5X20 Semi Furnish Sudah Renov",11000000000.0,jakarta barat,kembangan,5.0,4.0,2.0,210.0,470.0,AVAILABLE,loc-405,agent-025
+"DIJUAL RUMAH di Jl BRAWIJAYA RAYA, KEBAYORAN BARU, JAKSEL",45000000000.0,jakarta selatan,kebayoran baru,5.0,4.0,0.0,325.0,500.0,SOLD,loc-103,agent-044
+Rumah Mewah Menteng 753M SHM Pool 58M Nego,58000000000.0,jakarta pusat,menteng,3.0,4.0,7.0,753.0,520.0,AVAILABLE,loc-305,agent-047
+Rumah Klasik N Mewah Cempaka Putih,13800000000.0,jakarta pusat,cempaka putih,5.0,5.0,2.0,360.0,900.0,AVAILABLE,loc-301,agent-013
+Rumah Tinggal Area Dharmawangsa Square,45000000000.0,jakarta selatan,kebayoran baru,5.0,4.0,7.0,984.0,400.0,AVAILABLE,loc-103,agent-011
+Dijual Rumah Di Jalan Raya Kemanggisan Cocok Untuk Usaha Dan Hunian,19000000000.0,jakarta barat,palmerah,4.0,4.0,2.0,649.0,300.0,AVAILABLE,loc-406,agent-026
+Dijual Rumah Brand New Dlm Cluster Klp Gading 3Lt 2.7M,2700000000.0,jakarta utara,kelapa gading,4.0,5.0,1.0,74.0,155.0,AVAILABLE,loc-502,agent-012
+Rumah Jual Cepat di Muara Karang 8X15 Dekat Pasar,3500000000.0,jakarta utara,penjaringan,4.0,4.0,1.0,120.0,250.0,AVAILABLE,loc-505,agent-007
+Dijual Rumah Siap Huni di Permata Buana Jakarta Barat,8500000000.0,jakarta barat,kembangan,5.0,4.0,2.0,230.0,210.0,AVAILABLE,loc-405,agent-047
+Rumah Mewah di Lokasi.strategis Lingkungan Nyaman di Cempaka.putih Jakarta Pusat,1400000000.0,jakarta pusat,cempaka putih,4.0,4.0,1.0,42.0,77.0,SOLD,loc-301,agent-010
+"Hot Sale Cepat! Jarang Ada Rumah Siap Huni di Pesanggrahan Jakarta Selatan, Harga Nego",2900000000.0,jakarta selatan,pesanggrahan,6.0,5.0,2.0,228.0,362.0,SOLD,loc-108,agent-018
+Dijual Rumah Akses 2 Mobil,4200000000.0,jakarta selatan,tebet,5.0,3.0,2.0,133.0,200.0,SOLD,loc-110,agent-034
+Rumah Exclusive,2600000000.0,jakarta selatan,jagakarsa,3.0,3.0,2.0,96.0,170.0,AVAILABLE,loc-102,agent-039
+Hunian Strategis SHM Hadap Utara Bebas Banjir Komplek PU,3500000000.0,jakarta timur,duren sawit,4.0,2.0,2.0,215.0,150.0,AVAILABLE,loc-204,agent-009
+Dijual Rumah 2 Lantai Di Cempaka Putih Timur Jakarta Pusat,5500000000.0,jakarta pusat,cempaka putih,9.0,5.0,0.0,250.0,296.0,AVAILABLE,loc-301,agent-044
+Rumah Siap Huni dengan 4 Kamar Tidur Dekat Lebak Bulus I,4500000000.0,jakarta selatan,cilandak,4.0,3.0,2.0,200.0,350.0,AVAILABLE,loc-101,agent-032
+"Rumah Camden House, 2 Lantai, di Kembangan, Brandnew",3900000000.0,jakarta barat,kembangan,3.0,3.0,2.0,120.0,280.0,AVAILABLE,loc-405,agent-024
+Dijual Rumah di Jl. Hang Tuah - Kebayoran Baru. Luas Tanah 667M Rp.48 M Nego,48000000000.0,jakarta selatan,kebayoran baru,5.0,4.0,5.0,667.0,800.0,SOLD,loc-103,agent-018
+Rumah Lama Terawat D Area Menteng. Jarang Ada.,100000000000.0,jakarta pusat,menteng,7.0,4.0,5.0,855.0,400.0,AVAILABLE,loc-305,agent-005
+Dijual Cepat Rumah Siap Huni ( 4.5X15 ) Teluk Gong - Penjaringan,2500000000.0,jakarta utara,penjaringan,4.0,3.0,2.0,67.0,135.0,AVAILABLE,loc-505,agent-035
+Rumah Baru Cluster Cilandak Timur 4 Lantai dengan Rooftop Cabin,3840000000.0,jakarta selatan,cilandak,5.0,5.0,2.0,105.0,198.0,AVAILABLE,loc-101,agent-015
+"Hunian 3,5 Lantai Konsep Scandinavian Ala Apartement di Cilandak.",1470000000.0,jakarta selatan,cilandak,4.0,3.0,1.0,40.0,105.0,AVAILABLE,loc-101,agent-001
+Dijualrumaheksclusif 2Lantai di Jakarta Barat,2900000000.0,jakarta barat,kalideres,5.0,4.0,2.0,96.0,170.0,AVAILABLE,loc-403,agent-024
+Dibawah NJOP Citra Garden 1 Luas 8X15 1 1/4 Lantai,1500000000.0,jakarta barat,kalideres,3.0,2.0,1.0,120.0,108.0,AVAILABLE,loc-403,agent-037
+Gak Main-Main! Rumah 700M² di Sanur Indah Bgv Kelapa Gading,35000000000.0,jakarta utara,kelapa gading,6.0,5.0,0.0,504.0,700.0,AVAILABLE,loc-502,agent-025
+Dijual Rumah Di Kompleks Walikota Lebar 8 Hny 1.8m (nego),1800000000.0,jakarta utara,kelapa gading,3.0,1.0,1.0,90.0,120.0,AVAILABLE,loc-502,agent-012
+Rumah Bagus Dalam Cluster,8000000000.0,jakarta timur,duren sawit,5.0,4.0,4.0,328.0,350.0,AVAILABLE,loc-204,agent-019
+Dijual Rumah Tua Hook Layak Huni di Pulo Nangka Timur Jaktim,4750000000.0,jakarta timur,pulo gadung,5.0,7.0,1.0,316.0,500.0,AVAILABLE,loc-210,agent-030
+Tebet - Modern Contemporary Semifurnished,4100000000.0,jakarta selatan,tebet,7.0,5.0,4.0,170.0,250.0,SOLD,loc-110,agent-008
+Dijual Cepat Rumah Bagus Minimalis.2 Lantai Sunter Hijau,2900000000.0,jakarta utara,tanjung priok,2.0,2.0,2.0,102.0,150.0,AVAILABLE,loc-506,agent-026
+Dijual Rumah Mewah Golf Residence Kemayoran Golf View Kemayoran Pusat Kota,10000000000.0,jakarta pusat,kemayoran,4.0,3.0,4.0,200.0,285.0,AVAILABLE,loc-304,agent-028
+"Rumah 2,5 Lantai di Kartini, Sawah Besar, Jakarta Pusat",1750000000.0,jakarta pusat,sawah besar,4.0,2.0,0.0,97.0,154.0,SOLD,loc-306,agent-028
+For Sale Rumah Komersial Murah Dibawah NJOP Kramat Jakarta Pusat,11000000000.0,jakarta pusat,senen,4.0,3.0,3.0,533.0,400.0,AVAILABLE,loc-307,agent-024
+Jual B U Rumah Di Komplek 42,4500000000.0,jakarta pusat,kemayoran,5.0,4.0,2.0,190.0,300.0,AVAILABLE,loc-304,agent-007
+Jual di Bawah Harga Pasar Rumah 2 Lantai di Pulomas Jakarta Timur,3300000000.0,jakarta timur,pulo gadung,8.0,4.0,2.0,240.0,300.0,AVAILABLE,loc-210,agent-047
+Rumah Mewah Strategis Dekat Akses KRL di Menteng Jakpus Lr-7405,55000000000.0,jakarta pusat,menteng,4.0,3.0,5.0,575.0,318.0,AVAILABLE,loc-305,agent-023
+Dijual Via Lelang Rumah Mewah Raya Kemang Utara 16Kt Murah,26000000000.0,jakarta selatan,mampang prapatan,17.0,21.0,20.0,1493.0,1374.0,AVAILABLE,loc-105,agent-021
+Rumah Baru Minimalis Bebas Banjir Dekat Central Park Mall,2750000000.0,jakarta barat,kebon jeruk,6.0,5.0,1.0,86.0,200.0,AVAILABLE,loc-404,agent-004
+"Pondok Indah Luas 300M Hanya 13 M . Jalan Lebar dan Tenang, Dalam Portal",12600000000.0,jakarta selatan,kebayoran lama,2.0,2.0,2.0,300.0,150.0,AVAILABLE,loc-104,agent-028
+"Rumah Elite di Kertanegara ,Kebayoran Baru Dekat Ri 1",218000000000.0,jakarta selatan,kebayoran baru,8.0,7.0,4.0,1644.0,630.0,SOLD,loc-103,agent-026
+RUMAH BAGUS DI KELAPA GADING,9000000000.0,jakarta utara,kelapa gading,7.0,4.0,5.0,440.0,276.0,AVAILABLE,loc-502,agent-007
+Rumah Asri di Jl Kemang Utara Jakarta Selatan,22000000000.0,jakarta selatan,mampang prapatan,5.0,3.0,6.0,622.0,400.0,AVAILABLE,loc-105,agent-049
+Dijual Rumah Siap Huni 2 Lantai Pejompongan Jakarta Pusat,8500000000.0,jakarta pusat,tanah abang,6.0,4.0,0.0,242.0,400.0,SOLD,loc-308,agent-048
+Dijual Cepat Rumah Blossom Residance Kemayoran Jakarta Pusat,11000000000.0,jakarta pusat,kemayoran,5.0,5.0,4.0,250.0,250.0,AVAILABLE,loc-304,agent-003
+"Jual Cepat, Rumah Kost 13Pintu Rapih Furnished di Kartini",10900000000.0,jakarta pusat,sawah besar,18.0,9.0,0.0,169.0,400.0,AVAILABLE,loc-306,agent-038
+Termurah! 35% Dibawah N J O P Town Home Springhill Golf Residence Kemayoran Jakarta,3500000000.0,jakarta pusat,kemayoran,4.0,4.0,4.0,153.0,360.0,AVAILABLE,loc-304,agent-039
+Jarang Ada Rumah Dijual di Pondok Indah Prime Area,20500000000.0,jakarta selatan,kebayoran lama,5.0,4.0,1.0,473.0,412.0,AVAILABLE,loc-104,agent-006
+Rumah.mewah.megah.di Kawasan Elite Villa Artha Gading,20000000000.0,jakarta utara,kelapa gading,7.0,7.0,7.0,300.0,865.0,AVAILABLE,loc-502,agent-024
+Rumah Modern Minimalis Dijual Kavling Dki Meruya Utara,2350000000.0,jakarta barat,kembangan,4.0,4.0,3.0,125.0,130.0,SOLD,loc-405,agent-049
+Rumah Lama Hoek Terawat Cantikk Lega 2 Lantai di Pondok Indah,30000000000.0,jakarta selatan,kebayoran lama,7.0,6.0,4.0,768.0,825.0,AVAILABLE,loc-104,agent-038
+Rumah Mewah Casa Varya Puri Gardena Jakarta Barat,2500000000.0,jakarta barat,kalideres,3.0,3.0,2.0,105.0,155.0,AVAILABLE,loc-403,agent-027
+"Murah!! Rumah Citra Garden 5 Luas 6X16 1,5 Lantai Siap Huni",1350000000.0,jakarta barat,kalideres,4.0,2.0,1.0,96.0,120.0,AVAILABLE,loc-403,agent-045
+Rumah Kost 42 Kamar Omset Manis Dijakpus,12000000000.0,jakarta pusat,kemayoran,38.0,36.0,2.0,332.0,800.0,AVAILABLE,loc-304,agent-043
+Jual Cepat Rumah Jln Petojo Selatan Gambir Jak Pusat,1350000000.0,jakarta pusat,gambir,4.0,3.0,2.0,92.0,98.0,AVAILABLE,loc-302,agent-043
+Rumah Baru Skena di Jagakarsa Kalcer Bingits,2400000000.0,jakarta selatan,pasar minggu,4.0,5.0,2.0,101.0,140.0,AVAILABLE,loc-107,agent-006
+Rumah Mewah Crown Golf Pik Tropical Modern 3 Lantai 16X26 Huk,30000000000.0,jakarta utara,penjaringan,4.0,5.0,3.0,416.0,600.0,AVAILABLE,loc-505,agent-039
+Rumah Hook Luas Dlm Perum 5Menit ke Jl Protokol di Duren Sawit,3100000000.0,jakarta timur,duren sawit,8.0,6.0,2.0,319.0,500.0,AVAILABLE,loc-204,agent-018
+Rumah pondok indah Drop price SHM Depan Taman,5490000000.0,jakarta selatan,kebayoran lama,5.0,3.0,1.0,186.0,220.0,AVAILABLE,loc-104,agent-007
+"Dijual Rumah Baru di Tomang, Jakarta Barat 4,5X18",2600000000.0,jakarta barat,grogol petamburan,4.0,5.0,0.0,81.0,81.0,AVAILABLE,loc-402,agent-029
+New Condition Rumah Modern 2 Lantai Bagus Nyaman di Dalam Cluster,3400000000.0,jakarta timur,duren sawit,3.0,2.0,4.0,105.0,108.0,AVAILABLE,loc-204,agent-048
+Rumah Murah Dibawah NJOP bisa untuk Usaha Kepu Selatan Kemayoran,8500000000.0,jakarta pusat,kemayoran,5.0,5.0,5.0,410.0,400.0,AVAILABLE,loc-304,agent-016
+Tahap Dua Unit Terbatas Cluster Baru Neora Metland Menteng Exclusive 75 Unit Saja bisa KPR,1200000000.0,jakarta timur,cakung,3.0,2.0,2.0,72.0,73.0,AVAILABLE,loc-201,agent-010
+Turun Harga 800 Juta! Jual Rugi Rumah Cluster Wisteria Metland Menteng - Brand New Furnished & Attic Room (028 Co 030),2100000000.0,jakarta timur,cakung,3.0,2.0,1.0,84.0,79.0,AVAILABLE,loc-201,agent-033
+"Rumah Minimalis Murah Di.tanjung Duren Dekat Central Park Mall, Bebas Banjir",1870000000.0,jakarta barat,grogol petamburan,3.0,3.0,1.0,49.0,110.0,AVAILABLE,loc-402,agent-018
+Dijual Rumah Mewah Siap Huni di Grand Orchard Kelapa Gading Jakarta Utara,6500000000.0,jakarta utara,kelapa gading,4.0,3.0,2.0,210.0,300.0,AVAILABLE,loc-502,agent-048
+"Rumah Mewah 3,5 Lantai ±900 M² di Cempaka Putih - Langka di Jakarta Pusat! (Nb)",13500000000.0,jakarta pusat,cempaka putih,7.0,6.0,5.0,360.0,900.0,AVAILABLE,loc-301,agent-004
+Dijual Rumah Bagus Sudah Hgb Bisa KPR Di Ancol,2300000000.0,jakarta utara,pademangan,2.0,1.0,2.0,82.0,60.0,AVAILABLE,loc-504,agent-009
+Rumah Cempaka Putih Tengah Dijual Second,15000000000.0,jakarta pusat,cempaka putih,5.0,4.0,2.0,375.0,600.0,AVAILABLE,loc-301,agent-001
+Dijual Rumah Baru 2 Lantai Mewah Premium Luas 105/156 M2 Dekat Lippo Puri Mall,4800000000.0,jakarta barat,kembangan,4.0,3.0,4.0,105.0,156.0,SOLD,loc-405,agent-039
+Rumah Murah Semifurnished 2.5 Lantai di Citra Garden 7,3400000000.0,jakarta barat,kalideres,4.0,3.0,2.0,120.0,220.0,AVAILABLE,loc-403,agent-047
+Rumah Lama 2 Lantai Kebayoran Baru Jl Melawai Jakarta Selatan LT 347M2 Murah.cash Only,15000000000.0,jakarta selatan,kebayoran baru,4.0,3.0,4.0,347.0,380.0,SOLD,loc-103,agent-049
+Rumah Minimalis Luxury Design Premium Pulomas,7250000000.0,jakarta timur,pulo gadung,3.0,4.0,4.0,145.0,450.0,AVAILABLE,loc-210,agent-008
+"Rumah Super Strategis, Jalan Ki Mangunsarkoro, Menteng, Jakarta Pusat",62000000000.0,jakarta pusat,menteng,7.0,5.0,4.0,736.0,500.0,AVAILABLE,loc-305,agent-024
+Rumah Hook Drkat Jalan Benda Jagakarsa Harga Siap Nego Siap Huni,3600000000.0,jakarta selatan,jagakarsa,5.0,5.0,2.0,201.0,160.0,SOLD,loc-102,agent-041
+"Dijual Rumah Bagus Dan Mewah di Cideng Timur, Jakarta Pusat.",12500000000.0,jakarta pusat,gambir,4.0,4.0,0.0,190.0,450.0,AVAILABLE,loc-302,agent-040
+Rumah Mewah Dalam Komplek Premium Pondok Indah,39000000000.0,jakarta selatan,kebayoran lama,11.0,7.0,4.0,938.0,600.0,AVAILABLE,loc-104,agent-031
+Dijual Murah Gading Kirana Dibawah Pasaran. Bebas Banjir Daerah Elite Jarang Ada. Jalan Lebar,6250000000.0,jakarta utara,kelapa gading,5.0,4.0,3.0,220.0,300.0,AVAILABLE,loc-502,agent-009
+Rumah Brand New 3 Lantai Dijual di Duri Kepa Hadap Utara 90M2,3500000000.0,jakarta barat,kebon jeruk,4.0,4.0,3.0,90.0,200.0,AVAILABLE,loc-404,agent-032
+Dijual Murah Rumah 2 Lantai Rapi Siap Huni Kamar Ada 3 di Citra 2 Ext,1650000000.0,jakarta barat,kalideres,3.0,2.0,2.0,72.0,125.0,AVAILABLE,loc-403,agent-036
+Rumah 3Lantai Murahhh Jelambar Selatan Jakbar,1500000000.0,jakarta barat,grogol petamburan,3.0,3.0,0.0,83.0,240.0,AVAILABLE,loc-402,agent-024
+Tanah Bonus Rumah Halaman Depan Belakang Masih Luas bisa Buat Hidden Cafe,5400000000.0,jakarta selatan,pesanggrahan,5.0,3.0,1.0,496.0,263.0,SOLD,loc-108,agent-039
+Tanah Luas Harga NJOP Bonus Rumah Tua 2 Lantai di Pejaten Timur,4500000000.0,jakarta selatan,pasar minggu,6.0,4.0,0.0,572.0,300.0,SOLD,loc-107,agent-020
+Rumah Siaphuni Tanah 150 Meter Dekat Tol Cinere Di Jual Murah,1600000000.0,jakarta selatan,cilandak,3.0,3.0,2.0,150.0,100.0,AVAILABLE,loc-101,agent-027
+Jual Rumah Kelapa Gading Brand New 9X20 Minimalis Jalan Besar,5500000000.0,jakarta utara,kelapa gading,5.0,4.0,2.0,180.0,270.0,AVAILABLE,loc-502,agent-019
+Rumah Bagus di Pondok Indah Alam Jakarta Selatan By.parama Dharma,18500000000.0,jakarta selatan,kebayoran lama,6.0,6.0,4.0,335.0,450.0,AVAILABLE,loc-104,agent-042
+Ana Rumah Komp. Dutamas Luas 7X20m 2Lt Full Furnish di Jelambar - * Good- Deal !!*,3800000000.0,jakarta barat,grogol petamburan,4.0,6.0,4.0,140.0,258.0,SOLD,loc-402,agent-042
+Jual Cepat Termurah Bojong Indah Jakarta Barat Dekat Puri Indah,1700000000.0,jakarta barat,cengkareng,5.0,2.0,1.0,102.0,204.0,AVAILABLE,loc-401,agent-031
+Rumah di Ozone Residence Bintaro Jaksel,4500000000.0,jakarta selatan,pesanggrahan,3.0,3.0,0.0,164.0,150.0,AVAILABLE,loc-108,agent-032
+Rumah Cantik Terawat Cipinang Indah,7500000000.0,jakarta timur,duren sawit,3.0,4.0,5.0,225.0,250.0,AVAILABLE,loc-204,agent-034
+Rumah Siap Huni Bagus Nego SHM - Sertifikat Hak Milik Dijual Cepat di Duren Sawit,1800000000.0,jakarta timur,duren sawit,4.0,3.0,2.0,90.0,150.0,SOLD,loc-204,agent-010
+Rumah Bisa Untuk Kantor di Bendungan Hilir Jakarta Pusat,12500000000.0,jakarta pusat,tanah abang,3.0,3.0,4.0,263.0,378.0,AVAILABLE,loc-308,agent-030
+Dijual Rumah Sunrise Garden Mewah 3 Lantai,4900000000.0,jakarta barat,grogol petamburan,5.0,4.0,3.0,105.0,210.0,AVAILABLE,loc-402,agent-047
+"2 Lantai,",12700000000.0,jakarta barat,kembangan,5.0,6.0,4.0,518.0,500.0,AVAILABLE,loc-405,agent-016
+Rumah Baru di Perumahan Mewah Jakarta Timur 3 Lantai dengan 5 Kamar Tidur,5400000000.0,jakarta timur,cakung,5.0,5.0,4.0,105.0,180.0,AVAILABLE,loc-201,agent-043
+Dijual Rumah Siap Huni Pejaten Barat 2 Lantai Siap Huni Lokasi Tenang Strategis,11500000000.0,jakarta selatan,pasar minggu,7.0,5.0,4.0,381.0,381.0,AVAILABLE,loc-107,agent-010
+"Jual Cepat Rumah Mewah Bagus Dan Asri di Sunter Agung, Bisa Nego",35000000000.0,jakarta utara,tanjung priok,10.0,6.0,0.0,1040.0,1200.0,AVAILABLE,loc-506,agent-004
+Murah!! Dijual Rumah Baru Hybrida Kelapa Gading,2900000000.0,jakarta utara,kelapa gading,4.0,4.0,0.0,102.0,102.0,SOLD,loc-502,agent-024
+Rumah Pinggir Jalan Bisa Klinik Atau Kuliner Asri,13000000000.0,jakarta pusat,cempaka putih,6.0,4.0,5.0,605.0,450.0,AVAILABLE,loc-301,agent-010
+"Dijual Rumah Baru di Cluster Jakarta Jarang Ada! 2 Lantai, 4 Kamar Tidur",2000000000.0,jakarta selatan,jagakarsa,3.0,2.0,2.0,60.0,85.0,AVAILABLE,loc-102,agent-025
+Rumah Premium Jakarta Garden City - Posisi Hook Dekat Club House Siap Huni,4950000000.0,jakarta timur,cakung,5.0,4.0,0.0,286.0,286.0,AVAILABLE,loc-201,agent-031
+Di Jual Rumah Besar di Taman Surya Daan Mogot Jakarta,7800000000.0,jakarta barat,kalideres,9.0,5.0,1.0,500.0,500.0,AVAILABLE,loc-403,agent-026
+"Rumah di Bendungan Hilir, Tanah Abang Jakarta Pusat",11000000000.0,jakarta pusat,tanah abang,6.0,3.0,0.0,266.0,204.0,AVAILABLE,loc-308,agent-013
+"Rumah Mewah 3 Lantai di Komplek Eksklusif Pondok Indah - Ada Rooftop, Dekat Pim",13700000000.0,jakarta selatan,kebayoran lama,4.0,4.0,2.0,261.0,435.0,AVAILABLE,loc-104,agent-027
+Tebet,4500000000.0,jakarta selatan,tebet,4.0,4.0,2.0,148.0,250.0,AVAILABLE,loc-110,agent-028
+Rumah Cantik @ Jakpus,3800000000.0,jakarta pusat,kemayoran,6.0,4.0,3.0,304.0,250.0,AVAILABLE,loc-304,agent-038
+Rumah Springhill Golf Residence Kemayoran 363M2 Kt3+2 Km4+1 4Lt,5300000000.0,jakarta pusat,kemayoran,3.0,4.0,2.0,153.0,363.0,AVAILABLE,loc-304,agent-031
+Dijual Rumah Lingkungan Asri Elit Lokasi Strategis Kebayoran Baru Murah,24000000000.0,jakarta selatan,kebayoran baru,6.0,3.0,2.0,400.0,300.0,SOLD,loc-103,agent-004
+Rumah 3 Lantai Paling Mewah di Jakarta Timur Fasilitas Premium Bintang Lima,5400000000.0,jakarta timur,duren sawit,5.0,5.0,2.0,105.0,180.0,AVAILABLE,loc-204,agent-035
+Sangat Murah!! Rumah Kelapa Gading Siap Huni Nyaman,1950000000.0,jakarta utara,kelapa gading,3.0,2.0,1.0,102.0,78.0,AVAILABLE,loc-502,agent-017
+DIJUAL RUMAH at Jl MARTIMBANG KEBAYORAN BARU (3 STOREY dgn ROOFTOP),24000000000.0,jakarta selatan,kebayoran baru,6.0,6.0,0.0,300.0,600.0,SOLD,loc-103,agent-030
+Rumah Baru Pik 2 Manhattan (10X25m),12000000000.0,jakarta utara,penjaringan,4.0,3.0,3.0,250.0,200.0,AVAILABLE,loc-505,agent-020
+Dijual Murah Rumah Hitung Tanah Di Kayu Putih Jalan Lebar,6000000000.0,jakarta timur,pulo gadung,5.0,4.0,2.0,367.0,238.0,AVAILABLE,loc-210,agent-023
+Rumah Bagus Pik Uk 8X17 Hook 2 Lantai SHM,8500000000.0,jakarta utara,penjaringan,5.0,4.0,1.0,195.0,136.0,AVAILABLE,loc-505,agent-035
+Termurah di Citra Garden Purihanya 10 Menit Dari Glc,2600000000.0,jakarta barat,cengkareng,5.0,4.0,2.0,161.0,135.0,AVAILABLE,loc-401,agent-007
+Rumah Murah Luas Tanah 275 M2 .Duren Sawit,2950000000.0,jakarta timur,duren sawit,6.0,2.0,1.0,275.0,194.0,AVAILABLE,loc-204,agent-026
+Murah !! Dijual Rumah Hook Mewah Luas 320 Ada Rooftop dan Lift di Pulo Nangka Hadap Timur Utara,12000000000.0,jakarta timur,pulo gadung,8.0,6.0,2.0,320.0,606.0,SOLD,loc-210,agent-041
+"Rumah Pondok Indah Luas 627 M2, Ada Kolam Renang",42000000000.0,jakarta selatan,kebayoran lama,7.0,8.0,5.0,627.0,1050.0,AVAILABLE,loc-104,agent-034
+Dijual Rumah Menteng Luxury Lokasi Strategis di Jakarta Pusat,98000000000.0,jakarta pusat,menteng,7.0,5.0,6.0,879.0,1000.0,SOLD,loc-305,agent-049
+Dijual Rumah dengan Lokasi Strategis di Kemang Pratama2 Bekasi,3500000000.0,jakarta selatan,mampang prapatan,4.0,3.0,2.0,354.0,150.0,AVAILABLE,loc-105,agent-050
+Dijual Brand Rumah Muara Karang 3 Lantai,2400000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,60.0,160.0,AVAILABLE,loc-505,agent-022
+"Rumah Baru Murah di Durikepa, Dekat Akses Toll",3000000000.0,jakarta barat,kebon jeruk,5.0,4.0,2.0,102.0,192.0,SOLD,loc-404,agent-049
+Dijual Rumah Pulomas 2 Lantai Siap Huni Termurah Strategis SHM Nego,3620000000.0,jakarta timur,pulo gadung,5.0,6.0,1.0,142.0,280.0,AVAILABLE,loc-210,agent-012
+Rumah Dijual Brandnew Sunrise Garden - LT 131M2,2750000000.0,jakarta barat,grogol petamburan,5.0,4.0,1.0,131.0,262.0,AVAILABLE,loc-402,agent-046
+Di Jual Rumah Menteng,54000000000.0,jakarta pusat,menteng,5.0,4.0,6.0,575.0,318.0,SOLD,loc-305,agent-050
+"Rumah Cluster On Progres Lt.50 Idr 989Jt Lt.54 Idr 1,038M Lt,60 Idr 1,111M Lt,70 Idr 1,233M",989000000.0,jakarta selatan,jagakarsa,3.0,4.0,1.0,50.0,120.0,AVAILABLE,loc-102,agent-011
+Dijual Sangat Murah Via Lelang Rumah Dibawah Pasar Rumah Komp Perum Citra Garden 1 Kalideres Jakarta Barat,2370000000.0,jakarta barat,kalideres,4.0,2.0,2.0,269.0,272.0,AVAILABLE,loc-403,agent-015
+"Dijual Cepat Rumah Pantai Kuta, Ancol Rapi, Bagus, Siap Masuk",8000000000.0,jakarta utara,pademangan,4.0,4.0,4.0,260.0,260.0,AVAILABLE,loc-504,agent-049
+"Rumah Jual Lebar 6 Siap Huni, Cluster Thames Jakarta Garden City",1600000000.0,jakarta timur,cakung,3.0,3.0,2.0,90.0,60.0,SOLD,loc-201,agent-032
+Ada Kolam Renangnya Rumah Dijual di Metland Menteng,3900000000.0,jakarta timur,cakung,5.0,4.0,0.0,200.0,185.0,AVAILABLE,loc-201,agent-003
+Rumah Baru 4.5X16 Dalam Komplek Duri Kepa Dekat Tanjung Duren Jakarta Barat,2190000000.0,jakarta barat,kebon jeruk,4.0,4.0,1.0,72.0,150.0,AVAILABLE,loc-404,agent-002
+Rumah Mewah Minimalis Modern di Cempaka Putih Jakarta Pusat,1420000000.0,jakarta pusat,cempaka putih,4.0,4.0,1.0,42.0,72.0,AVAILABLE,loc-301,agent-050
+Rumah Bagus Deket Pasar Rebo Mall Cijantung Tb Simatupang Kalibtaa,1100000000.0,jakarta timur,pasar rebo,4.0,4.0,1.0,150.0,120.0,AVAILABLE,loc-209,agent-024
+Rumah Cantik Minimalis di Tomang Bebas Banjir Dekat Mal,3000000000.0,jakarta barat,grogol petamburan,4.0,3.0,1.0,97.0,180.0,AVAILABLE,loc-402,agent-003
+Meruya Utara - Cocok untuk Office/ Usaha - Unit Ready!!!,3980000000.0,jakarta barat,kembangan,5.0,3.0,2.0,250.0,400.0,AVAILABLE,loc-405,agent-030
+"Rumah Lokasi Strategis di Salemba, Senen, Jakarta Pusat",12500000000.0,jakarta pusat,senen,1.0,1.0,0.0,360.0,360.0,AVAILABLE,loc-307,agent-047
+Dijual Murah Rumah Billymoon Akses 3 Mobil @2.6M,2600000000.0,jakarta timur,duren sawit,4.0,3.0,1.0,117.0,113.0,AVAILABLE,loc-204,agent-048
+Dijual Rumah 2 Lantai di Komplek Bukit Permai Cibubur Jakarta Timur,2980000000.0,jakarta timur,ciracas,5.0,4.0,3.0,260.0,320.0,AVAILABLE,loc-203,agent-031
+Rumah Harga Dibawah NJOP di Rawamangun Besar dan Luas Strategis di Rawamangun,18000000000.0,jakarta timur,pulo gadung,5.0,5.0,6.0,1050.0,506.0,AVAILABLE,loc-210,agent-007
+"Dekat Akses Tol, Rumah, 2 Lantai, SHM, Dekat Landmark,",12000000000.0,jakarta pusat,tanah abang,4.0,2.0,4.0,348.0,520.0,AVAILABLE,loc-308,agent-039
+"Rumah Rooftop Modern 3 Lantai, Strategis 30 Menit Scbd Area - SHM",1500000000.0,jakarta barat,palmerah,3.0,3.0,1.0,48.0,135.0,AVAILABLE,loc-406,agent-043
+Dijual Cepat Rumah Baru Milenial Permata Buana Jakarta Barat,9500000000.0,jakarta barat,kembangan,6.0,5.0,0.0,144.0,460.0,AVAILABLE,loc-405,agent-016
+Dijual Cepat Rumah Villa Pasir Putih 8X20 Termurah,6150000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,160.0,240.0,AVAILABLE,loc-505,agent-045
+"Passive Income Elit: Kost 20 Kamar Dekat Binus, Full Tenant!",10000000000.0,jakarta barat,kebon jeruk,21.0,13.0,2.0,300.0,540.0,AVAILABLE,loc-404,agent-034
+Rumah Siap Huni di Prime Location Pondok Indah,31000000000.0,jakarta selatan,kebayoran lama,5.0,6.0,4.0,607.0,700.0,AVAILABLE,loc-104,agent-049
+Dijual Rumah Mewah 3 Lantai Ada Swimming Pool Full Furnished Terawat Siap Huni di Jalan Pejompongan Benhil Jakarta Pusat,10000000000.0,jakarta pusat,tanah abang,5.0,3.0,5.0,262.0,431.0,AVAILABLE,loc-308,agent-043
+Rumsh J1 Lantai Lebar 10meterdan Tenang,5200000000.0,jakarta timur,pulo gadung,3.0,2.0,2.0,200.0,90.0,AVAILABLE,loc-210,agent-025
+Meruya Utara Uk 6X16 Mtr / Rumah Baru / 2 Lantai Akses / Jalan 4 Mobil dan bisa KPR,2600000000.0,jakarta barat,kembangan,3.0,3.0,3.0,96.0,135.0,AVAILABLE,loc-405,agent-043
+Rumah 2 Lantai di Dalem Clsuter Cipayung Jakarta Timur Harga 700Jtan,795000000.0,jakarta timur,cipayung,3.0,2.0,2.0,50.0,60.0,AVAILABLE,loc-202,agent-023
+"Rumah Siap Huni 4 Lantai bisa untuk Usaha di Sumur Batu, Jakarta Pusat",1850000000.0,jakarta pusat,kemayoran,3.0,3.0,1.0,63.0,180.0,AVAILABLE,loc-304,agent-026
+Paling Murah Vila Pasir Putih 10X20 Akan Terjual Cepat,7000000000.0,jakarta utara,penjaringan,3.0,3.0,1.0,200.0,2353.0,AVAILABLE,loc-505,agent-021
+Rumah Brand New Permata Buana 3 Lantai Modern Minimalis,9100000000.0,jakarta barat,kembangan,4.0,4.0,0.0,136.0,300.0,AVAILABLE,loc-405,agent-011
+Rumah Pik 2 6X12.5m Termurah Terbaik Minimalis,2200000000.0,jakarta utara,penjaringan,3.0,3.0,4.0,75.0,97.0,AVAILABLE,loc-505,agent-050
+Jual Cepat Rumah Mewah Siap Huni di Pondok Indah .Jaksel,55000000000.0,jakarta selatan,kebayoran lama,7.0,7.0,7.0,913.0,1200.0,AVAILABLE,loc-104,agent-015
+"Rumah Besar, Nyaman dengan Swimming Pool Ada 3 Paviliun di Kemang",25000000000.0,jakarta selatan,mampang prapatan,11.0,10.0,4.0,1180.0,800.0,AVAILABLE,loc-105,agent-013
+Rumah Dijual Duri Kepa Hook 3 Lantai - LT 165M2,2700000000.0,jakarta barat,kebon jeruk,4.0,4.0,1.0,165.0,200.0,AVAILABLE,loc-404,agent-037
+Rumah PIK View danau,10500000000.0,jakarta utara,penjaringan,5.0,5.0,2.0,230.0,300.0,SOLD,loc-505,agent-045
+"Luas Tanah 1628 M2, Row Jalan Lebar di Pejaten, Harga bisa Nego",26000000000.0,jakarta selatan,pasar minggu,8.0,8.0,10.0,1628.0,800.0,AVAILABLE,loc-107,agent-023
+Cash / KPR - Rumah Pik2 Bukit Nirmala 6X15 Big Balcony,3150000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,90.0,151.0,AVAILABLE,loc-505,agent-019
+Dijual Rumah Secondary 2 Lantai Dalam Cluster,1150000000.0,jakarta timur,kramat jati,3.0,3.0,1.0,57.0,100.0,AVAILABLE,loc-206,agent-007
+Dijual Rumah 2 Lantai 6x14 Di Sunter,2400000000.0,jakarta utara,tanjung priok,3.0,2.0,2.0,84.0,150.0,SOLD,loc-506,agent-027
+Jual Cepat Rumah Harga di Bawah NJOP di Johor Baru Jakarta Pusat,8900000000.0,jakarta pusat,johar baru,7.0,4.0,8.0,883.0,880.0,SOLD,loc-303,agent-034
+"Dijual Bu Cluster Thames Kondisi Kosongan, Jakarta Garden City 030",1900000000.0,jakarta timur,cakung,4.0,3.0,2.0,120.0,90.0,AVAILABLE,loc-201,agent-021
+"Lokasi Prima, Akses Mudah dan Strategis Dikelilingi Fasilitas2",32000000000.0,jakarta selatan,kebayoran lama,6.0,5.0,4.0,603.0,576.0,SOLD,loc-104,agent-024
+Rumah 2 Lantai Siap Huni Dalam Komplek Petukangan Pesanggrahan Jakarta Selatan,2000000000.0,jakarta selatan,pesanggrahan,4.0,3.0,1.0,169.0,300.0,AVAILABLE,loc-108,agent-048
+An 23Dijual Rumah Cepat Green Lake City Australia,2700000000.0,jakarta barat,cengkareng,4.0,3.0,0.0,90.0,110.0,AVAILABLE,loc-401,agent-012
+Rumah huk 2.5lt lebar 20m siàp huni,19000000000.0,jakarta timur,pulo gadung,7.0,5.0,2.0,535.0,600.0,AVAILABLE,loc-210,agent-012
+Rumah Skena di Jagakarsa Kalcer Bossku,2950000000.0,jakarta selatan,pasar minggu,4.0,5.0,0.0,142.0,200.0,SOLD,loc-107,agent-023
+"Rumah, 1 Lantai, SHM, di Pluit,",8500000000.0,jakarta utara,penjaringan,4.0,2.0,0.0,350.0,200.0,AVAILABLE,loc-505,agent-023
+Di Jual Rumah Komplek Pondok Kelapa Jakarta Timur,1100000000.0,jakarta timur,duren sawit,3.0,1.0,1.0,90.0,80.0,AVAILABLE,loc-204,agent-047
+Rumah Lama Dibawah Harga Pasaran Hitung Tanah Dalam Komplek di Rawamangun Jaktim,2200000000.0,jakarta timur,pulo gadung,4.0,3.0,2.0,143.0,180.0,AVAILABLE,loc-210,agent-035
+Bagus Rumah 3 Lantai 8X17 Hadap Utara Vila Permata Gading,4300000000.0,jakarta utara,kelapa gading,4.0,4.0,2.0,136.0,250.0,AVAILABLE,loc-502,agent-004
+Rumah Lama Asri Dekat Sudirman Hitung Tanah di Kebayoran Baru Jakarta Selatan SHM,9800000000.0,jakarta selatan,kebayoran baru,2.0,2.0,2.0,274.0,150.0,AVAILABLE,loc-103,agent-020
+Jual Rumah Sunter 4+1 Kamar Hadap Utara Dekat Kelapa Gading Kemayoran Murah,5500000000.0,jakarta utara,tanjung priok,4.0,3.0,2.0,180.0,220.0,AVAILABLE,loc-506,agent-014
+Rumah Premium 2 Lantai di Area Strategis Jaktim,1900000000.0,jakarta timur,duren sawit,3.0,2.0,2.0,70.0,98.0,AVAILABLE,loc-204,agent-011
+Dijual Rumah Lokasi Strategis Cocok untuk Kos2an atau Tempat Tinggal di Rawamangun Jakarta Timur,4000000000.0,jakarta timur,pulo gadung,6.0,4.0,2.0,160.0,154.0,AVAILABLE,loc-210,agent-016
+Rumah Dalam.cluster.dekat Kramat.jati,850000000.0,jakarta timur,kramat jati,2.0,1.0,1.0,58.0,37.0,SOLD,loc-206,agent-047
+Rumah Mewah Murah Cempaka Putih 5 Menit Mitra 10 Jakarta Pusat,2530000000.0,jakarta pusat,cempaka putih,3.0,3.0,2.0,54.0,78.0,AVAILABLE,loc-301,agent-013
+Rumah 2 Lantai di Johar Baru Jakarta Pusat,11000000000.0,jakarta pusat,johar baru,10.0,5.0,6.0,618.0,883.0,AVAILABLE,loc-303,agent-013
+Rumah Citra Garden Puri Siap Huni Dekat Ke Green Lake Jakbar,1700000000.0,jakarta barat,cengkareng,3.0,2.0,2.0,60.0,63.0,AVAILABLE,loc-401,agent-038
+"Di Paradise,Dijual Murah Rumah 1,5 Lantai",3500000000.0,jakarta utara,tanjung priok,4.0,2.0,2.0,180.0,200.0,AVAILABLE,loc-506,agent-044
+"RUMAH MEWAH FULL FURNISHED at Jl ALAM PERMAI, PONDOK INDAH",8000000000.0,jakarta selatan,kebayoran lama,5.0,4.0,0.0,128.0,250.0,SOLD,loc-104,agent-004
+Rumah Dijual Cempaka Putih Lokasi Asri Dijual Rumah Jakarta Pusat Cempaka Putih.,6250000000.0,jakarta pusat,cempaka putih,10.0,7.0,3.0,305.0,400.0,AVAILABLE,loc-301,agent-005
+"Rumah Pik Bangunan Kontraktor 3 Lantai, Furnished Siap Huni",9800000000.0,jakarta utara,penjaringan,6.0,6.0,2.0,201.0,475.0,AVAILABLE,loc-505,agent-042
+Rumah 1 1/2 Lantai Di Taman Kencana Cengkareng Jkt Barat,1500000000.0,jakarta barat,cengkareng,3.0,3.0,1.0,120.0,131.0,AVAILABLE,loc-401,agent-045
+Dijual Rumah Brand New di Pulo Asem Lt 90 @3.4M,3400000000.0,jakarta timur,pulo gadung,5.0,3.0,2.0,90.0,195.0,AVAILABLE,loc-210,agent-019
+Rumahsiap Huni di Komplek Sandang Duren Sawit Jakarta Timur,3500000000.0,jakarta timur,duren sawit,5.0,6.0,2.0,270.0,450.0,AVAILABLE,loc-204,agent-032
+Rumah Sunter Dijual Harga NJOP,7500000000.0,jakarta utara,tanjung priok,5.0,4.0,3.0,313.0,456.0,AVAILABLE,loc-506,agent-048
+Rumah Belakang Mall Citos / Jl Tb Simatupang / Tol Cocok untuk Rmh atau Kantor Dkt Tb Simatupang / Mall Citos / Tol Luas 200M untuk Rumah / Office,6000000000.0,jakarta selatan,cilandak,5.0,2.0,3.0,200.0,300.0,AVAILABLE,loc-101,agent-008
+Rumah hitung tanah di permata hijau Jaksel lokasi terbaik shm,54000000000.0,jakarta selatan,kebayoran lama,8.0,10.0,10.0,1200.0,1000.0,AVAILABLE,loc-104,agent-023
+Rumah Modern Minimalis Ada Rooftop di Jakarta Barat,3600000000.0,jakarta barat,cengkareng,4.0,4.0,2.0,120.0,270.0,SOLD,loc-401,agent-004
+Rumah Hitung Tanah 262Mtr Cempaka Putih Timur,4700000000.0,jakarta pusat,cempaka putih,1.0,1.0,1.0,262.0,1.0,AVAILABLE,loc-301,agent-022
+Rumah Murah Jelambar 3.5 Lantai Strategis,1850000000.0,jakarta barat,grogol petamburan,3.0,3.0,1.0,60.0,180.0,AVAILABLE,loc-402,agent-047
+Dijual Rumah Modern Siap Huni Cempaka Putih,5750000000.0,jakarta pusat,cempaka putih,6.0,5.0,0.0,202.0,325.0,AVAILABLE,loc-301,agent-009
+Rumah Hoek 2 Lantai Taman Permata Buana Luas Tanah 294m2,7300000000.0,jakarta barat,kembangan,4.0,4.0,3.0,294.0,300.0,AVAILABLE,loc-405,agent-033
+Rumah Komersil Ex Resto bisa Cafe Resto Bank Klinik Dekat NJOP,40000000000.0,jakarta pusat,menteng,3.0,9.0,20.0,898.0,538.0,SOLD,loc-305,agent-037
+Rumah Durikepa 2 LT High Ceiling,1550000000.0,jakarta barat,kebon jeruk,4.0,2.0,1.0,90.0,100.0,AVAILABLE,loc-404,agent-027
+Rumah 3 Lantai Di Kalideres Plus Workshop,5200000000.0,jakarta barat,kalideres,6.0,5.0,4.0,389.0,520.0,AVAILABLE,loc-403,agent-049
+Rumah Mewah di Bumi Karang Indah di Lebak Bulus,6350000.0,jakarta selatan,cilandak,9.0,9.0,6.0,400.0,560.0,AVAILABLE,loc-101,agent-006
+Rumah Estetik Luas 1000M Dkt Tabebuya Park di Jl M Khafi Jaksel,13500000000.0,jakarta selatan,jagakarsa,5.0,5.0,4.0,1000.0,250.0,AVAILABLE,loc-102,agent-043
+"Rumah 1,5 Lantai di Citra 3 Ext Jkt Barat",1800000000.0,jakarta barat,kalideres,4.0,2.0,2.0,90.0,140.0,AVAILABLE,loc-403,agent-049
+Dijual Rumah Siap Huni American Classic Style,58000000000.0,jakarta pusat,menteng,6.0,4.0,8.0,753.0,550.0,AVAILABLE,loc-305,agent-032
+Private Townhouse Indent 10 Menit ke Menteng,1200000000.0,jakarta pusat,menteng,3.0,3.0,1.0,35.0,95.0,AVAILABLE,loc-305,agent-002
+dijual rumah gede di Puri Gardena full furnished,7500000000.0,jakarta barat,kalideres,6.0,6.0,2.0,275.0,700.0,AVAILABLE,loc-403,agent-031
+Rumah Bagus Siap Huni 2 Lantai Kokoh Dalm Komplek di Pondok Klapa,3500000000.0,jakarta timur,duren sawit,6.0,5.0,2.0,184.0,220.0,AVAILABLE,loc-204,agent-003
+Murah !! Dijual Rumah 2 Lantai di Gambir Jakarta Pusat Pinggir Jalan Raya,5500000000.0,jakarta pusat,gambir,4.0,3.0,2.0,162.0,272.0,AVAILABLE,loc-302,agent-037
+"Rumah Bagus di Jl Puspita Raya, Bintaro Jakarta Selatan",7900000000.0,jakarta selatan,pesanggrahan,6.0,4.0,0.0,376.0,400.0,SOLD,loc-108,agent-040
+Rumah Baru... 410M2. Duren Sawit. Jak Tim,12000000000.0,jakarta timur,duren sawit,5.0,6.0,3.0,410.0,400.0,SOLD,loc-204,agent-035
+"Rumah siap huni puri Indah Hoek di Jalan boulevard dekat ke mall, rumah sakit & tol",26000000000.0,jakarta barat,kembangan,4.0,4.0,0.0,752.0,600.0,SOLD,loc-405,agent-021
+Rumah Tua Di Menteng Jarang Ada Daerah Tenang,52000000000.0,jakarta pusat,menteng,4.0,3.0,0.0,664.0,300.0,SOLD,loc-305,agent-015
+For Sale Rumah Premium Jakarta 2 Lantai Dekat Akses Mall dan Tol,1900000000.0,jakarta timur,duren sawit,3.0,2.0,2.0,70.0,98.0,AVAILABLE,loc-204,agent-035
+4.4M Senen Jakpus Rumah Hoek 1Lantai Utara_timur,4400000000.0,jakarta pusat,senen,7.0,3.0,3.0,250.0,190.0,AVAILABLE,loc-307,agent-018
+Dijual Rumah Modern Siap Huni Lokasi Strategis di Bintaro 9,3450000000.0,jakarta selatan,pesanggrahan,5.0,4.0,2.0,120.0,150.0,AVAILABLE,loc-108,agent-003
+Rumah Full Furnished 10X25 Harga Miring! Tinggal Bawa Koper Best Deal !,11300000000.0,jakarta utara,penjaringan,4.0,4.0,3.0,250.0,375.0,AVAILABLE,loc-505,agent-019
+Murah.rumah Dicluster Denver Pik2 8X10m,2900000000.0,jakarta utara,penjaringan,2.0,3.0,1.0,80.0,82.0,AVAILABLE,loc-505,agent-040
+Menteng Rumah Siap Huni di Lokasi Mentereng,65000000000.0,jakarta pusat,menteng,5.0,4.0,4.0,575.0,370.0,AVAILABLE,loc-305,agent-036
+"Rumah luxury, barang langka",11000000000.0,jakarta barat,kembangan,6.0,5.0,3.0,200.0,550.0,AVAILABLE,loc-405,agent-025
+Rumah Uk 4 X 12 di Cluster East Asia Green Lake City,1300000000.0,jakarta barat,cengkareng,2.0,2.0,0.0,48.0,87.0,AVAILABLE,loc-401,agent-028
+Dijual Rmh 2 LT Baru Interkon,4980000000.0,jakarta barat,kembangan,4.0,5.0,2.0,144.0,250.0,AVAILABLE,loc-405,agent-015
+"Brand New, 8X15 3Lt Malta Citra 8 Jakbar SHM, bisa KPR, Ready",4700000000.0,jakarta barat,kalideres,5.0,4.0,2.0,120.0,196.0,AVAILABLE,loc-403,agent-012
+Rumah Bagus Fully Furnished 3 Lantai di Taman Sari Jkt Barat,6000000000.0,jakarta barat,taman sari,4.0,3.0,2.0,230.0,230.0,AVAILABLE,loc-407,agent-047
+Rumah Second Mewah Dijual Cepat Strategis Cibubur Jaktim,3300000000.0,jakarta timur,ciracas,5.0,3.0,1.0,673.0,400.0,AVAILABLE,loc-203,agent-037
+Dijual Rumah Hitung Tanah di Janur Kelapa Gading,5500000000.0,jakarta utara,kelapa gading,4.0,4.0,1.0,240.0,240.0,AVAILABLE,loc-502,agent-045
+Rumah Tua Area Komersil Jalan Kartini Pasar Baru Jakarta Pusat,8300000000.000001,jakarta pusat,sawah besar,4.0,3.0,1.0,367.0,300.0,AVAILABLE,loc-306,agent-031
+Cideng Barat Rumah Bagus Siap Huni di Pusat Kota,9500000000.0,jakarta pusat,gambir,5.0,6.0,1.0,286.0,500.0,AVAILABLE,loc-302,agent-050
+Buaran Indah Rumah Asri dan Strategis,3000000000.0,jakarta timur,duren sawit,4.0,3.0,2.0,170.0,250.0,SOLD,loc-204,agent-016
+Di Jual Rumah2 Lantai Dekat Tolpisangan Baru Jakarta Timur,940000000.0,jakarta timur,matraman,2.0,2.0,2.0,32.0,56.0,AVAILABLE,loc-208,agent-020
+Rumah Cantik Kramat Jaya Johar Baru,2490000000.0,jakarta pusat,senen,5.0,4.0,1.0,150.0,229.0,AVAILABLE,loc-307,agent-033
+Rumah Green Lake City Cluster Amerika Latin Sudah Renov 6 X 18,3000000000.0,jakarta barat,cengkareng,4.0,4.0,2.0,108.0,160.0,AVAILABLE,loc-401,agent-030
+Rumah Baru Siaphuni Jakarta Pusat 3 Lantai Pinggir Jalan Sisa 1,2500000000.0,jakarta pusat,menteng,4.0,4.0,2.0,60.0,135.0,AVAILABLE,loc-305,agent-039
+Rumah Area Pejaten Model Vintage di Jual dengan Harga NJOP,20000000000.0,jakarta selatan,pasar minggu,7.0,5.0,7.0,1070.0,400.0,SOLD,loc-107,agent-020
+"Dijual Rumah 2 Lantai di Taman Semanan Indah - SHM, Siap Huni, Harga Nego!",2400000000.0,jakarta barat,kalideres,3.0,2.0,1.0,144.0,240.0,SOLD,loc-403,agent-046
+Rumah Mewah Katamaran Indah Pik 412M2 4 Lantai Pik Pantai Indah Kapuk,21000000000.0,jakarta utara,penjaringan,8.0,8.0,0.0,412.0,1200.0,SOLD,loc-505,agent-020
+Bisa KPR Rumah On Progres 2 Lantai Cempaka Putih,1850000000.0,jakarta pusat,cempaka putih,3.0,3.0,1.0,70.0,100.0,AVAILABLE,loc-301,agent-038
+Dijual Rumah Design.bagus Di Jl. Adhyaksa Lebak Bulus,13000000000.0,jakarta selatan,cilandak,6.0,6.0,11.0,609.0,1264.0,SOLD,loc-101,agent-003
+Rumah Murah Dekat Green Lake City Tangerang Kota,600000000.0,jakarta barat,cengkareng,4.0,2.0,1.0,60.0,90.0,AVAILABLE,loc-401,agent-025
+Dijual Rumah di Pejaten Barat One Gate System,4600000000.0,jakarta selatan,pasar minggu,4.0,4.0,4.0,138.0,220.0,AVAILABLE,loc-107,agent-047
+Rumah Hook Asri Keren Elegan Dijual di Sunter Jakarta Utara,6300000000.0,jakarta utara,tanjung priok,5.0,4.0,2.0,217.0,270.0,SOLD,loc-506,agent-035
+Rumah Nyaman Tenang 3 Kamar di Lagura Cempaka Putih Jakpus,1650000000.0,jakarta pusat,cempaka putih,3.0,3.0,2.0,63.0,82.0,AVAILABLE,loc-301,agent-026
+Rumah Hook Hitung Tanah Dijual Taman Meruya Ilir - Luas 255M2,3830000000.0,jakarta barat,kembangan,4.0,3.0,2.0,255.0,125.0,AVAILABLE,loc-405,agent-008
+New Pik Modern Classic | 10X25 | Garden | Dekat Sekolah Penabur,10500000000.0,jakarta utara,penjaringan,5.0,5.0,2.0,250.0,400.0,SOLD,loc-505,agent-017
+Dijual Rumah Baru Renov di Puspa Gading Lebar 8 @3.7M,3700000000.0,jakarta utara,kelapa gading,4.0,2.0,2.0,144.0,220.0,AVAILABLE,loc-502,agent-019
+Dijual Rumah Mewah Brand New American Classic With Private Pool - Billymoon,7700000000.0,jakarta timur,duren sawit,6.0,4.0,3.0,176.0,317.0,AVAILABLE,loc-204,agent-048
+Chandra Rumah Ukuran 5X20m Hadap Selatan di Jelambar,1900000000.0,jakarta barat,grogol petamburan,2.0,2.0,0.0,100.0,150.0,AVAILABLE,loc-402,agent-042
+Jual Rumah di Perum. Bukit Pratama Lebak Bulus Jakarta Selatan,6070000000.0,jakarta selatan,cilandak,6.0,4.0,2.0,600.0,500.0,AVAILABLE,loc-101,agent-026
+Brand New American Clasic Siap Huni dengan Private Pool di Fatmawati Cilandak Jaksel,13300000000.0,jakarta selatan,cilandak,4.0,4.0,4.0,515.0,400.0,AVAILABLE,loc-101,agent-031
+Jual Hunian Mewah Bagus Luas Harga Terjangkau di Jaktim Lokasi Strategis,5400000000.0,jakarta timur,cipayung,5.0,5.0,4.0,105.0,180.0,AVAILABLE,loc-202,agent-025
+Dijual Rumah Puri Botanical Residence Kembangan Jakarta Barat Bagus Rapi Siap Huni Lokasi Nyaman Strategis di Perbatas Jakarta Barat & Jakarta Selatan,4990000000.0,jakarta barat,kembangan,4.0,3.0,1.0,200.0,200.0,AVAILABLE,loc-405,agent-046
+Dijual Rumah Baru 3. Lantai 3 Kamar Tidur di. Sawah Besar.jakarta Pusat.,869000000.0,jakarta pusat,sawah besar,3.0,2.0,1.0,24.0,68.0,SOLD,loc-306,agent-031
+Rumah Tua Hitung Tanah Dekat Pusat Bisnis & ToL di Tomang Jakbar,1750000000.0,jakarta barat,grogol petamburan,2.0,1.0,1.0,89.0,80.0,AVAILABLE,loc-402,agent-006
+Rumah Hook Interkon Kebun Jeruk | LT 450M² | Basement | SHM | Jalan Lebar,10800000000.0,jakarta barat,kebon jeruk,6.0,5.0,4.0,450.0,480.0,AVAILABLE,loc-404,agent-003
+Dijual Rumah Golf Island Pik2 Bagus Rapih,11500000000.0,jakarta utara,penjaringan,5.0,5.0,2.0,250.0,300.0,SOLD,loc-505,agent-023
+Rumah Mewah di Cempaka Putih Jakarta Pusat,11600000000.0,jakarta pusat,cempaka putih,5.0,5.0,1.0,375.0,600.0,SOLD,loc-301,agent-030
+Rumah Lama Aman dan Strategis di Hoek di Kayuputih Jakarta Timur,16000000000.0,jakarta timur,pulo gadung,8.0,4.0,4.0,650.0,450.0,SOLD,loc-210,agent-016
+"Dijual Murah Rumah 2,5 Lantai Camar di Sektor 3 , Bintaro",3500000000.0,jakarta selatan,pesanggrahan,5.0,5.0,3.0,250.0,280.0,SOLD,loc-108,agent-042
+Dijual Rumah Town House Cosmo Park Diatas Mall Thamrin City,4200000000.0,jakarta pusat,tanah abang,3.0,3.0,2.0,130.0,260.0,AVAILABLE,loc-308,agent-013
+Murah Nih Rumah Siap Huni Metland Menteng 6X15 bisa KPR Baru Renov,1200000000.0,jakarta timur,cakung,3.0,1.0,2.0,90.0,58.0,AVAILABLE,loc-201,agent-040
+Rumah Baru Minimalis,2300000000.0,jakarta barat,kebon jeruk,3.0,3.0,1.0,70.0,140.0,SOLD,loc-404,agent-031
+"Jarang Ada, Townhouse di Batu Permata, Pejaten Timur Dibawah Harga Pasaran !",4300000000.0,jakarta selatan,pasar minggu,6.0,6.0,4.0,216.0,250.0,AVAILABLE,loc-107,agent-020
+"5 Menit ke Kampus, Ful Occupancy, Income 630 Juta/Tahun, Kost 31 Kamar Kamar Mandi Dalam Semua, Fasilitas Kamar Super Lengkap, Bangunan Besar 3½ Lantai, Lokasi Strategis Tinggal, Cocok untuk Pemilik Baru yang Cari Cashflow Aman di Grogol Jakbar",9000000000.0,jakarta barat,grogol petamburan,33.0,31.0,2.0,243.0,600.0,AVAILABLE,loc-402,agent-013
+DIJUAL RUMAH DENGAN TAMAN BELAKANG LUAS DI TANJUNG BARAT,5500000000.0,jakarta selatan,jagakarsa,6.0,4.0,0.0,208.0,300.0,AVAILABLE,loc-102,agent-023
+"Murah !! Rumah Sunter Dekat Mal, 2 Lantai 6X15, Jalan 3 Mobil",2400000000.0,jakarta utara,tanjung priok,4.0,4.0,1.0,90.0,150.0,AVAILABLE,loc-506,agent-033
+Rumah Baru Pantai Indah Kapuk Kuningan Village 10X20 3 Kamar Tidur,7400000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,200.0,220.0,AVAILABLE,loc-505,agent-029
+Rumah 2 LT Siap Huni Tomang-Cocok untuk Hunian - Lokasi Strategis,2500000000.0,jakarta barat,grogol petamburan,3.0,2.0,2.0,90.0,180.0,AVAILABLE,loc-402,agent-019
+"Dijual Rumah Baru 3Lt di Duri Kepa,Uk 4X15m2, Hrga Rp 2.1M.",2100000000.0,jakarta barat,kebon jeruk,4.0,4.0,1.0,60.0,140.0,SOLD,loc-404,agent-043
+Hot Listing! Northbend Metland Cyber Puri - Rumah 3 Lantai Renovasi Full Dekat Tol & Mall,2950000000.0,jakarta barat,cengkareng,3.0,2.0,2.0,72.0,110.0,AVAILABLE,loc-401,agent-027
+"Rumah Brand New Pondok Indah 627m², Nego",40000000000.0,jakarta selatan,kebayoran lama,7.0,9.0,5.0,627.0,1050.0,SOLD,loc-104,agent-006
+Rumah 2 Lantai Pinggir Jalan Ekonomi Karanganyar,1100000000.0,jakarta pusat,sawah besar,2.0,2.0,2.0,42.0,68.0,AVAILABLE,loc-306,agent-046
+Rumah Kondisi Baru Punya 2 Lantai & 3 KT Mewah Premium di Jakarta,2300000000.0,jakarta timur,cakung,3.0,3.0,2.0,84.0,87.0,AVAILABLE,loc-201,agent-006
+Jual Rumah Citra 1 Bebas Banjir Ukuran 10X15,2000000000.0,jakarta barat,kalideres,3.0,2.0,0.0,150.0,150.0,AVAILABLE,loc-403,agent-043
+Dijual Rumah Baru Minimalis Modern di Jl Taruna - Kemayoran Jakarta Pusat,532000000.0,jakarta pusat,kemayoran,2.0,2.0,0.0,25.0,48.0,AVAILABLE,loc-304,agent-039
+"Super Mewah .. Turun Harga Dijual Cepat Rumah Mewah Minimalis Tropical Concept , Swimming Pool , Lift , Karaoke Room , Super Mewah",50000000000.0,jakarta utara,penjaringan,5.0,10.0,0.0,600.0,1500.0,AVAILABLE,loc-505,agent-033
+Rumah Duta Mas Jelambar 2 Lantai Baru Renov Fully Furnished,3800000000.0,jakarta barat,grogol petamburan,3.0,6.0,2.0,140.0,259.0,AVAILABLE,loc-402,agent-010
+"O Dijual Rumah Hook Kavling Dki Ukuran 10X10, Jakarta Barat",2500000000.0,jakarta barat,kembangan,3.0,4.0,2.0,100.0,120.0,AVAILABLE,loc-405,agent-029
+"Rumah 1 Lantai Jl.mesjid Bendungan Hilir, Bagus Furnished",6900000000.0,jakarta pusat,tanah abang,3.0,3.0,2.0,225.0,200.0,AVAILABLE,loc-308,agent-050
+"Dijual Rumah Mewah Nyaman Kelapa Gading, Jakarta Utara",8900000000.0,jakarta utara,kelapa gading,5.0,5.0,2.0,200.0,350.0,SOLD,loc-502,agent-030
+Rumah Rapih Muara Karang Jalan Lebar Lantai Marmer,3100000000.0,jakarta utara,penjaringan,5.0,5.0,3.0,75.0,200.0,AVAILABLE,loc-505,agent-027
+Dijual Rumah Mewah Bentuk Tanah Kotak Area Jaksel,95000000000.0,jakarta pusat,menteng,10.0,10.0,0.0,700.0,2000.0,AVAILABLE,loc-305,agent-010
+Dijual Rumah Di gading Kirana Minimalis Kelapa Gading,5500000000.0,jakarta utara,kelapa gading,5.0,4.0,3.0,180.0,300.0,AVAILABLE,loc-502,agent-016
+"Rumah Mewah LT 924 M2 di Menteng , Jakarta Pusat Murah",95000000000.0,jakarta pusat,menteng,5.0,5.0,8.0,924.0,900.0,AVAILABLE,loc-305,agent-038
+Rumah Mewah SHM 3 Lantai Dekat Tol,1850000000.0,jakarta timur,cipayung,5.0,5.0,2.0,89.0,140.0,AVAILABLE,loc-202,agent-030
+Rumah 3 Lantai Modern Jakarta Timur Dekat Toll dan Mall,2600000000.0,jakarta timur,pasar rebo,3.0,3.0,4.0,60.0,127.0,SOLD,loc-209,agent-006
+Kost Kostan Dijual Benhill Jakpus 12Kama(3.3M),3300000000.0,jakarta pusat,tanah abang,12.0,7.0,1.0,114.0,187.0,AVAILABLE,loc-308,agent-042
+Ana Rumah di Kav Polri Luas 3.7X15m 3Lt Bebasbanjir Jelambar - * Good- Deal !!*,1800000000.0,jakarta barat,grogol petamburan,5.0,4.0,2.0,55.0,118.0,AVAILABLE,loc-402,agent-015
+Murah Rumah Dijual Cepat Rumah Gading Parkview Kelapa Gading,5800000000.0,jakarta utara,kelapa gading,5.0,4.0,0.0,180.0,180.0,SOLD,loc-502,agent-040
+Rumah 2 LT Komplek Pondok Kelapa Duren Sawit Jakarta Timur,2350000000.0,jakarta timur,duren sawit,4.0,2.0,2.0,157.0,250.0,SOLD,loc-204,agent-031
+Dijual Rumah Dibawah Hrg Pasaran Di Pik 2,2400000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,75.0,98.0,AVAILABLE,loc-505,agent-008
+Rumah Murah Luas Dan Siap Huni Di Citra 2,2800000000.0,jakarta barat,kalideres,3.0,2.0,2.0,180.0,170.0,AVAILABLE,loc-403,agent-008
+Rumah Lama Dibawah NJOP Masih Layak Huni Dijual Murahcocok Buat Kantor Lokasi Radio Dalam Dekat MRT Blok M.dan Pondok Indah Mall Rumah,17000000000.0,jakarta selatan,kebayoran baru,5.0,8.0,5.0,655.0,427.0,AVAILABLE,loc-103,agent-028
+Rumah Tua Hitung Tanah Pik Pinisi Lokasi Bagus Jalan 3 Mobil,13400000000.0,jakarta utara,penjaringan,1.0,1.0,0.0,536.0,450.0,AVAILABLE,loc-505,agent-027
+Di Jual Rumah Di Pancoran Jakarta Selatan,10000000000.0,jakarta selatan,pancoran,1.0,1.0,0.0,828.0,469.0,AVAILABLE,loc-106,agent-028
+"Dijual Rumah Cantik Siap Huni Brand New, Cempaka Putih, Jakarta",4700000000.0,jakarta pusat,cempaka putih,5.0,4.0,0.0,115.0,200.0,AVAILABLE,loc-301,agent-036
+"Rumah Banting Harga di Jak Pusat, Nego Keras.",12500000000.0,jakarta pusat,sawah besar,5.0,5.0,4.0,500.0,500.0,SOLD,loc-306,agent-026
+Rumah di Tomang,3200000000.0,jakarta barat,grogol petamburan,8.0,4.0,0.0,145.0,200.0,AVAILABLE,loc-402,agent-003
+Rumah Cipete Desain Classic Mewah Lokasi Sangat Bagus,17000000000.0,jakarta selatan,cilandak,3.0,3.0,4.0,510.0,348.0,AVAILABLE,loc-101,agent-004
+Dijual Cepat Rumah Tua Sunter Agung Barat Harga Nego Abis,1700000000.0,jakarta utara,tanjung priok,3.0,1.0,0.0,91.0,91.0,SOLD,loc-506,agent-003
+Rumah di Puri Jimbaran Ancol,12500000000.0,jakarta utara,pademangan,5.0,4.0,0.0,600.0,800.0,AVAILABLE,loc-504,agent-001
+"Rumah Jagakarsa Full Renov,Semi Furnish Dibawa Pasaran",1300000000.0,jakarta selatan,jagakarsa,3.0,4.0,1.0,78.0,110.0,AVAILABLE,loc-102,agent-041
+Rumah 2 Lantai Dijakarta Garden City Deket Aeon Mall dan Acces Tol,1550000000.0,jakarta timur,cakung,3.0,3.0,1.0,91.0,58.0,AVAILABLE,loc-201,agent-025
+Jati Indah Golf. Cinere.murah Sekali.hanya 12 Jutaan/M² Tanah+Bangunan.,9000000000.0,jakarta selatan,cilandak,4.0,3.0,6.0,715.0,350.0,SOLD,loc-101,agent-003
+Rumah 90M2 Dalam Komplek Duri Kepa Dekat Tanjung Duren Jakarta Barat,2350000000.0,jakarta barat,kebon jeruk,3.0,2.0,1.0,90.0,150.0,AVAILABLE,loc-404,agent-040
+Rumah Tua Dekat LRT Rawamangun Pemuda,9500000000.0,jakarta timur,pulo gadung,2.0,2.0,3.0,470.0,256.0,AVAILABLE,loc-210,agent-010
+Dijual Rumah Sunter Mewah Hoek Siap Huni Fengsui Bagus Bebas Banjir,8900000000.0,jakarta utara,tanjung priok,5.0,6.0,4.0,180.0,400.0,SOLD,loc-506,agent-001
+"Lokasi Pilihan, Strategis, Selangkah ke Pim, Rumah 2 Lantai",6700000000.0,jakarta selatan,kebayoran lama,4.0,4.0,2.0,160.0,200.0,AVAILABLE,loc-104,agent-043
+Rumah Tua Hitung Tanah Di Rawamnagun Dalam Komplek Premium Di,6500000000.0,jakarta timur,pulo gadung,4.0,3.0,2.0,301.0,220.0,AVAILABLE,loc-210,agent-042
+Rumah Super Bagus Lokasi Pramuka Jakarta Pusat,6500000000.0,jakarta pusat,johar baru,4.0,2.0,0.0,311.0,160.0,AVAILABLE,loc-303,agent-015
+Rumah Baru 2 Lantai di Kosambi Baru Duri Kosambi Cengkareng Jakarta Barat,2700000000.0,jakarta barat,cengkareng,5.0,4.0,3.0,120.0,160.0,AVAILABLE,loc-401,agent-033
+Di Jual Rumah 2 Lantai SHM Menteng Jakpus,42000000000.0,jakarta pusat,menteng,4.0,4.0,3.0,506.0,411.0,AVAILABLE,loc-305,agent-021
+Rumah Townhouse Asri di Rawamangun,6250000000.0,jakarta timur,pulo gadung,5.0,4.0,2.0,390.0,380.0,SOLD,loc-210,agent-030
+Dijual Sangat Murah Rumah Mewah Area Cipete Jakarta Selatan,20000000000.0,jakarta selatan,cilandak,5.0,5.0,10.0,921.0,700.0,AVAILABLE,loc-101,agent-007
+Ready bisa Langsung Huni Rumah Mewah Cakep dengan Private Lift,4770000000.0,jakarta barat,cengkareng,5.0,4.0,2.0,122.0,221.0,AVAILABLE,loc-401,agent-029
+Dijual Cepat Turun Harga Rumah 10x35 Ada Lift Choppin Golf Island Pik,21000000000.0,jakarta utara,penjaringan,4.0,4.0,4.0,350.0,900.0,SOLD,loc-505,agent-001
+"Dijual Rumah Cantik Siap Huni, Sudah Renovasi Di Kelapa Gading",6300000000.0,jakarta utara,kelapa gading,6.0,4.0,3.0,200.0,400.0,AVAILABLE,loc-502,agent-014
+Rumah Besar dengan 1 Paviliun di Senen Jakarta Pusat,4200000000.0,jakarta pusat,senen,5.0,2.0,0.0,168.0,150.0,AVAILABLE,loc-307,agent-020
+"Rumah Strategis Standar Layak Huni di Kopyor, Kelapa Gading",1900000000.0,jakarta utara,kelapa gading,3.0,1.0,1.0,102.0,80.0,SOLD,loc-502,agent-031
+Jual Rumah Baru Mewah Premium 2 Lantai Banyak Dicari Lokasi Strategis,3400000000.0,jakarta timur,cakung,3.0,2.0,4.0,105.0,108.0,AVAILABLE,loc-201,agent-043
+Rumah Permata Buana - Ukuran favorit Jarang Ada - Siap Huni !,7500000000.0,jakarta barat,kembangan,5.0,3.0,0.0,200.0,312.0,AVAILABLE,loc-405,agent-008
+Murah Rumah LT 180 Bebas Banjir Jalanan 2 Mobil Rawamangun Jakarta Timur,2900000000.0,jakarta timur,pulo gadung,3.0,2.0,2.0,180.0,180.0,AVAILABLE,loc-210,agent-003
+Dijual Rumah Mewah Premium Lokasi Dekat Tol Kampus Unversitas Bagus Siap Huni,3000000000.0,jakarta barat,kembangan,3.0,3.0,1.0,60.0,98.0,AVAILABLE,loc-405,agent-016
+Rumah Tua Layak Huni Bangunan Kuat di Kramatjayabaru Jakartapusat,2000000000.0,jakarta pusat,johar baru,6.0,1.0,0.0,135.0,135.0,AVAILABLE,loc-303,agent-007
+Dijual Rumah Baru Designed Modern dan Luxury Lokasi Best di Belakang Citos Cilandak Jakarta Selatan,16800000000.0,jakarta selatan,cilandak,5.0,4.0,4.0,375.0,600.0,AVAILABLE,loc-101,agent-002
+"Dijual Rumah, Bagus, 2 Lantai di Sunter, Jakarta Utara",9750000000.0,jakarta utara,tanjung priok,6.0,4.0,0.0,340.0,264.0,AVAILABLE,loc-506,agent-050
+Rumah Pasir Putih Pik2 Hoek View Danau Spesial 13X25,15000000000.0,jakarta utara,penjaringan,4.0,4.0,4.0,325.0,300.0,AVAILABLE,loc-505,agent-017
+"Rumah Menteng Atas, Jakarta Pusat Furnished SHM",88000000000.0,jakarta pusat,setiabudi,12.0,9.0,9.0,800.0,2300.0,AVAILABLE,loc-109,agent-045
+"Rumah Cempaka Putih Timur Cempaka Putih, Jakarta Pusat",25000000000.0,jakarta pusat,cempaka putih,5.0,5.0,2.0,750.0,1000.0,AVAILABLE,loc-301,agent-031
+Turun Harga Rumah Sunter Danau 1.2Lantai.rapi.siap Huni,12500000000.0,jakarta utara,tanjung priok,4.0,4.0,10.0,640.0,300.0,AVAILABLE,loc-506,agent-010
+"Rumah Strategis Bebas Banjir di Duren Sawit,Jakarta Timur",1300000000.0,jakarta timur,duren sawit,4.0,2.0,1.0,72.0,120.0,AVAILABLE,loc-204,agent-046
+Rumah di Puri Kembangan Luas 12X15 Posisi Hook,7000000000.0,jakarta barat,kembangan,6.0,5.0,2.0,186.0,450.0,AVAILABLE,loc-405,agent-017
+RUMAH MINIMALIS TROPICAL TRIMARAN PERMAI PIK,50000000000.0,jakarta utara,penjaringan,6.0,5.0,4.0,600.0,1600.0,AVAILABLE,loc-505,agent-009
+Rumah Pik Mewah Minimalis Furnish Siap Huni (8X30m),12500000000.0,jakarta utara,penjaringan,6.0,5.0,4.0,240.0,300.0,SOLD,loc-505,agent-027
+"Rumah Meruya Utara 3 Lantai Jarang Ada, Siap Pakai",3980000000.0,jakarta barat,kembangan,6.0,4.0,5.0,250.0,490.0,SOLD,loc-405,agent-013
+Rumah 10 Menit Dari Mal Puri Indah,1550000000.0,jakarta barat,cengkareng,3.0,2.0,1.0,62.0,98.0,AVAILABLE,loc-401,agent-036
+Rumah Hitung Tanah di Taman Permata Buana Jakarta Barat,5350000000.0,jakarta barat,kembangan,4.0,3.0,2.0,200.0,150.0,AVAILABLE,loc-405,agent-024
+Rumah Murah Terawat 3 Lantai di Citra Garden Kalideres Cengkareng Jakarta Barat,3800000000.0,jakarta barat,kalideres,6.0,6.0,8.0,181.0,400.0,AVAILABLE,loc-403,agent-016
+Rumah Pondok Indah Sap Huni dan Rapi Harga Termurah,6100000000.0,jakarta selatan,kebayoran lama,4.0,3.0,1.0,155.0,155.0,AVAILABLE,loc-104,agent-049
+Rumah Tua Gak Bisa Huni Lagi Dekat Kolam Renang Tirta Mas Tidak Banjir,7500000000.0,jakarta timur,pulo gadung,3.0,1.0,4.0,337.0,200.0,AVAILABLE,loc-210,agent-036
+Rumah Mewah Keren Dekat Rs Puri Cinere di Cinere,4100000000.0,jakarta selatan,cilandak,6.0,6.0,2.0,190.0,3503.0,SOLD,loc-101,agent-002
+Dijual Cepat Rumah Murah Dlm Gang,825000000.0,jakarta pusat,kemayoran,2.0,2.0,0.0,38.0,77.0,AVAILABLE,loc-304,agent-024
+"Rumah 2.5 Lantai di Cideng, Jakarta Pusat, Jual Semi Furnish",3500000000.0,jakarta pusat,gambir,4.0,3.0,2.0,108.0,180.0,AVAILABLE,loc-302,agent-029
+"Rumah 2 Lantai Hook SHM Siap Huni,luas Tanah 310 M,luas Bangunan 180 M,kamar Tidur 4+1,KAMAR Mandi 3 Hadap Utara barat Row Jalan Lebar Dan Bebas Banjir Di Pulomas Jakarta Timur",4500000000.0,jakarta timur,pulo gadung,5.0,3.0,4.0,310.0,180.0,AVAILABLE,loc-210,agent-024
+Di Jual Cepat Rumah Siap Huni 3 Kamar Tidur,1500000000.0,jakarta pusat,cempaka putih,3.0,2.0,1.0,78.0,117.0,SOLD,loc-301,agent-038
+Rumah Cluster Anthia Wisteria 7X12 84M Metland Menteng Cakung,1890000000.0,jakarta timur,cakung,3.0,2.0,2.0,84.0,90.0,AVAILABLE,loc-201,agent-042
+Rumah Murah Akses Lega Pondok Kelapa Kav Marinir Jakarta Timur,3000000000.0,jakarta timur,duren sawit,4.0,3.0,2.0,162.0,200.0,SOLD,loc-204,agent-004
+Rumah 2 Lantai Cocok Disewakan di Cempaka Putih Barat Jakarta P,650000000.0,jakarta pusat,cempaka putih,2.0,1.0,0.0,33.0,55.0,AVAILABLE,loc-301,agent-042
+Rumah Mewah Kontemporer Dalam Clusteer Akses Pinggir Jalan Raya,2800000000.0,jakarta selatan,jagakarsa,5.0,4.0,3.0,81.0,180.0,AVAILABLE,loc-102,agent-045
+Dijual Cepat Mendekati NJOP Rumah di Pondok Indah (Dalam Portal) Luas 1235M2.hanya Rp.36.4jt/M,45000000000.0,jakarta selatan,kebayoran lama,6.0,4.0,9.0,1235.0,800.0,AVAILABLE,loc-104,agent-036
+Rumah Cantik Terawat 4 Kamar Hadap Barat Semi Furnish Puri Media Jakarta Barat bisa KPR,7000000000.0,jakarta barat,kembangan,5.0,5.0,2.0,220.0,450.0,SOLD,loc-405,agent-004
+Dijual Rumah Cempaka Putih Tengah,5400000000.0,jakarta pusat,cempaka putih,4.0,3.0,1.0,233.0,240.0,SOLD,loc-301,agent-018
+Rumah 1 Lantai Harga Murah di Metland Menteng Cakung Jakarta,875000000.0,jakarta timur,cakung,2.0,1.0,1.0,90.0,70.0,AVAILABLE,loc-201,agent-004
+Rumah Baru Dijual Murah di Setiabudi. Jakarta Selatan Strategis Bebas Banjir,858000000.0,jakarta selatan,setiabudi,2.0,2.0,0.0,21.0,40.0,SOLD,loc-109,agent-039
+Dijual Rumah Cantik Di Pulomas Siap Huni Jalanan Lebar,8800000000.0,jakarta timur,pulo gadung,5.0,5.0,7.0,419.0,350.0,SOLD,loc-210,agent-035
+Rumah Menteng Hoek Semi Colonial Design Di Jalan Purwakarta,55000000000.0,jakarta pusat,menteng,3.0,4.0,0.0,634.0,600.0,AVAILABLE,loc-305,agent-030
+Rumah Tua Jl Kelinci Pasar Baru Jakarta Pusat Luas 300M2 + Tanah Lebih 170M,7500000000.0,jakarta pusat,sawah besar,5.0,3.0,0.0,300.0,300.0,AVAILABLE,loc-306,agent-050
+Rumah Agung Utara Hoek 120M² Sunter Hadap Barat Selatan,3400000000.0,jakarta utara,tanjung priok,9.0,5.0,0.0,120.0,300.0,AVAILABLE,loc-506,agent-016
+Rumah Dijual Cepat Komplek Pademangan 5.5X14,2600000000.0,jakarta utara,pademangan,4.0,3.0,1.0,77.0,180.0,SOLD,loc-504,agent-041
+Di Jual Murah Rumah Mewah Furnish 2 Lantai Pik2,6500000000.0,jakarta utara,penjaringan,3.0,2.0,2.0,160.0,183.0,AVAILABLE,loc-505,agent-035
+Rumah Termurah Tanjung Duren Uk.7x15 3.5 Lantai Row 2 Mobil,3300000000.0,jakarta barat,grogol petamburan,5.0,4.0,2.0,105.0,250.0,AVAILABLE,loc-402,agent-024
+Rumah 2 Lantai Brand New House Cluster Florida Pik2,1750000000.0,jakarta timur,cakung,3.0,3.0,1.0,56.0,76.0,SOLD,loc-201,agent-003
+Jual Rumah Renov 1.5Lt Janur Kuning Harga 2.3M,2300000000.0,jakarta utara,kelapa gading,3.0,2.0,1.0,90.0,88.0,AVAILABLE,loc-502,agent-037
+"Jual Rumah di Pik Cluster Bgm Luas Tanah 195 M2, Posisi Hook Kondisi Bagus",11000000000.0,jakarta utara,penjaringan,3.0,4.0,2.0,195.0,250.0,AVAILABLE,loc-505,agent-033
+[Dijual] Luxury House @ Puri Indah - Bangunan Luas & Lokasi Strategis,25000000000.0,jakarta barat,kembangan,7.0,5.0,5.0,450.0,900.0,AVAILABLE,loc-405,agent-039
+"Regina Realty, Dijual Rumah Area Pondok Indah",13800000000.0,jakarta selatan,kebayoran lama,5.0,5.0,7.0,201.0,550.0,AVAILABLE,loc-104,agent-022
+Murah!!!Turun Harga !!!!!Jual Cepat....... Rumah Siap Huni 2 Lantai Deket Mall Mkg...... Deket Bulevard Raya....... di Kelapa Gading,2300000000.0,jakarta utara,kelapa gading,4.0,3.0,1.0,90.0,120.0,SOLD,loc-502,agent-033
+"Rumah Murah Premium Petukangan, Joglo, Kreo, Larangan",685000000.0,jakarta selatan,pesanggrahan,2.0,2.0,1.0,32.0,40.0,SOLD,loc-108,agent-019
+Dijual Rumah Baru Ready di Citra 2 Extension.,2900000000.0,jakarta barat,kalideres,4.0,3.0,1.0,96.0,170.0,AVAILABLE,loc-403,agent-001
+Benhil - Rumah Bagus Harga Murah Dibawah Pasar. SHM LT 261 M2. Dijalan Danau Mahalona. Jakarta Pusat,5140000000.0,jakarta pusat,tanah abang,5.0,3.0,4.0,261.0,365.0,AVAILABLE,loc-308,agent-020
+Rumah Baru Renov Siap Huni di Utan Kayu Matraman,1500000000.0,jakarta timur,pulo gadung,3.0,2.0,2.0,45.0,120.0,AVAILABLE,loc-210,agent-033
+Rumah 3 Lantai Siap Huni Akses Lebar Anti Masuk Gang Kecil,1690000000.0,jakarta selatan,jagakarsa,3.0,3.0,4.0,85.0,130.0,SOLD,loc-102,agent-042
+Rumah Tua Kramat Pulo Strategis Jalan 3.Mobil,1750000000.0,jakarta pusat,senen,2.0,1.0,1.0,100.0,100.0,AVAILABLE,loc-307,agent-010
+Dijual Cepat Rumah 2 Lantai Sakha Semanan Jakarta Barat Brand New,1900000000.0,jakarta barat,kalideres,3.0,2.0,2.0,90.0,122.0,SOLD,loc-403,agent-045
+Rumah 2 Lantai Depan Taman Di Kosambi Baru Bebas Banjir Jakarta barat,2400000000.0,jakarta barat,cengkareng,5.0,3.0,4.0,120.0,160.0,AVAILABLE,loc-401,agent-033
+Jual Rumah Hoek Gading Park View Kelapa Gading Jakarta Utara,9800000000.0,jakarta utara,kelapa gading,6.0,4.0,3.0,258.0,230.0,AVAILABLE,loc-502,agent-001
+Rumah Tua Hitung Tanah Harga Mendekat NJOP di Pulomas Utara S9650,3600000000.0,jakarta timur,pulo gadung,5.0,5.0,0.0,230.0,285.0,SOLD,loc-210,agent-004
+Jual Rumah Kos Aktif di Fatmawati Cilandak Akses MRT dan Rs Fatmawati,22500000000.0,jakarta selatan,cilandak,27.0,10.0,6.0,571.0,450.0,AVAILABLE,loc-101,agent-001
+Rumah Asri Hoek 2 Lantai di Jl Hang Lekir Dekat Senayan City Kebayoran Baru Jakarta Selatan LT 203M Cash Only Lokasi Sangat Strategis Murah.,10000000000.0,jakarta selatan,kebayoran baru,4.0,3.0,2.0,203.0,179.0,SOLD,loc-103,agent-042
+RUMAH TAMAN JERUK BOJONG JAKARTA BARAT,1200000000.0,jakarta barat,cengkareng,3.0,1.0,0.0,120.0,120.0,AVAILABLE,loc-401,agent-048
+Dijual Cepat Murah Bu Rumah Hoek SHM Jarang Ada Bebas Banjir di Kelapa Gading,5000000000.0,jakarta utara,kelapa gading,8.0,6.0,7.0,246.0,400.0,AVAILABLE,loc-502,agent-036
+Rumah Bagus di Komplek Bapem,2100000000.0,jakarta selatan,kebayoran lama,4.0,3.0,1.0,150.0,100.0,AVAILABLE,loc-104,agent-039
+Rumah Baru Bagus Mewah Luas Dijual di Jaktim 3 Lantai Lokasi Strategis Bebas Banjir,5400000000.0,jakarta timur,cakung,5.0,5.0,4.0,105.0,180.0,AVAILABLE,loc-201,agent-046
+Turun Harga Rumah Lama Dalam Komplek Cilandak Jakarta Selatan,7000000000.0,jakarta selatan,cilandak,5.0,5.0,2.0,488.0,300.0,AVAILABLE,loc-101,agent-019
+Rumah Dijual Duri Kepa Siap Huni Minimalis 4 Lantai,4350000000.0,jakarta barat,kebon jeruk,5.0,5.0,2.0,126.0,380.0,SOLD,loc-404,agent-030
+BANTING HARGA!! RUMAH SIAP HUNI DEKAT LAPIAZA HARGA 1M-AN,1800000000.0,jakarta utara,kelapa gading,4.0,1.0,0.0,120.0,90.0,AVAILABLE,loc-502,agent-029
+Lahan Strategis Fatmawati No. 42 Samping Ace Hardware,52500000000.0,jakarta selatan,cilandak,8.0,7.0,13.0,1554.0,500.0,AVAILABLE,loc-101,agent-031
+Rumah Dijual Area Komersil Cocok untuk Kostan atau Bisnis di Menteng Jakarta Pusat,20000000000.0,jakarta pusat,menteng,7.0,3.0,5.0,482.0,277.0,SOLD,loc-305,agent-024
+Rumah Pluit Utara Raya Hitung Tanah Cocok untuk Resto dan Kantor,23000000000.0,jakarta utara,penjaringan,1.0,1.0,0.0,525.0,600.0,AVAILABLE,loc-505,agent-025
+Rumah Desing Modern Minimalis 2 LT di Jl Ekonomi Jakarta Pusat,1390000000.0,jakarta pusat,sawah besar,3.0,2.0,1.0,43.0,68.0,SOLD,loc-306,agent-002
+Rumah Tua Lebar 15 Dalam Komplek Nyaman dan Aman di Pulomas S9130,4500000000.0,jakarta timur,pulo gadung,5.0,4.0,0.0,241.0,150.0,AVAILABLE,loc-210,agent-050
+Jual Rumah Sunter Pinggir Jalan Raya Utama Mewah Cocok Strategis untuk Bisnis Jakarta Utara,39000000000.0,jakarta utara,tanjung priok,5.0,3.0,0.0,720.0,800.0,AVAILABLE,loc-506,agent-009
+Bangka X I Rmh Asri Terawat Dekat ke Mcd Kemang,28000000000.0,jakarta selatan,mampang prapatan,7.0,6.0,6.0,1200.0,500.0,AVAILABLE,loc-105,agent-004
+"Turun Harga Rumah Cantik Siap Huni di Delman, Kebayoran Lama",7500000000.0,jakarta selatan,kebayoran lama,6.0,5.0,4.0,313.0,403.0,AVAILABLE,loc-104,agent-007
+Dijual Cepat Rumah Pik2 6X10 Sudah Sertifikat,1750000000.0,jakarta utara,penjaringan,2.0,2.0,1.0,60.0,75.0,AVAILABLE,loc-505,agent-012
+Rumah Semi Furnished 2 Lantai Siap Huni Bebas Banjir di Walet Permai Pik,4900000000.0,jakarta utara,penjaringan,4.0,3.0,1.0,175.0,325.0,AVAILABLE,loc-505,agent-007
+For Sale Brand New House Modern Minimalis Pondok Indah Jakarta,7200000000.0,jakarta selatan,kebayoran lama,5.0,4.0,2.0,120.0,200.0,AVAILABLE,loc-104,agent-028
+"Dijual Rumah Bagus Semifurnished di Green Lake, Tangerang",1650000000.0,jakarta barat,cengkareng,3.0,3.0,1.0,60.0,80.0,AVAILABLE,loc-401,agent-042
+Dijual Rumah Cantik Full Furnished di Town House Ancol Mansion,5950000000.0,jakarta utara,pademangan,6.0,4.0,0.0,168.0,255.0,SOLD,loc-504,agent-031
+Dijual Rumah Modern di Kav Marinir Pd Kelapa,2200000000.0,jakarta timur,duren sawit,4.0,2.0,1.0,226.0,146.0,AVAILABLE,loc-204,agent-016
+Dijual Rumah Luas Di Jakarta Timur Bangunan Lama Lokasi Sangat Strategis,9000000000.0,jakarta timur,matraman,5.0,3.0,2.0,542.0,378.0,AVAILABLE,loc-208,agent-014
+Rumah Tua Grogol Roxy. 10X19. Jalan 2 Mobil,2600000000.0,jakarta pusat,gambir,3.0,2.0,2.0,196.0,120.0,SOLD,loc-302,agent-020
+[li] Dijual Cepat &murah Rumah Di Sunter,1900000000.0,jakarta utara,tanjung priok,3.0,2.0,1.0,70.0,100.0,SOLD,loc-506,agent-017
+Rumah Murah Hitung Tanah Di Citra Garden Cengkareng Kalideres Jakarta Barat,1890000000.0,jakarta barat,kalideres,3.0,3.0,2.0,120.0,80.0,AVAILABLE,loc-403,agent-011
+Dijual Cepat Rumah di Pulo Asem Jakarta Timur,2750000000.0,jakarta timur,pulo gadung,4.0,4.0,1.0,86.0,140.0,AVAILABLE,loc-210,agent-020
+Dijual Cepat Rumah 3lsmtai Dipark Residence,2600000000.0,jakarta barat,cengkareng,5.0,4.0,0.0,108.0,157.0,AVAILABLE,loc-401,agent-020
+Rumah Senen Jakarta Pusat Rp 2.5 M Nego Rumah Butuh Renovasi Shm Utara,2500000000.0,jakarta pusat,senen,3.0,2.0,0.0,180.0,150.0,AVAILABLE,loc-307,agent-046
+Komplek Premium Pancoran! Rumah Mewah Akses Lebar,15000000000.0,jakarta selatan,pancoran,15.0,13.0,6.0,461.0,1300.0,SOLD,loc-106,agent-040
+Rumah Rajawali Selatan,12000000000.0,jakarta pusat,sawah besar,4.0,3.0,0.0,426.0,600.0,AVAILABLE,loc-306,agent-030
+Rumah Murah 1Lantai Siap Huni di Malaka Jaya Duren Sawit Jakarta Timur,1600000000.0,jakarta timur,duren sawit,2.0,1.0,3.0,156.0,78.0,AVAILABLE,loc-204,agent-043
+Rumah Sultan Mewah Pondok Indah Lokasi Prime,89000000000.0,jakarta selatan,kebayoran lama,10.0,9.0,14.0,2382.0,2700.0,AVAILABLE,loc-104,agent-004
+Dijual Rumah Tua Hitung Tanah di Kebon Kacang Luas 288 Meter Lokasi Bagus,18000000000.0,jakarta pusat,tanah abang,5.0,2.0,1.0,288.0,240.0,AVAILABLE,loc-308,agent-044
+Ana Rumah Baru di Kav Polri Luas 5X15m 3.5Lt Minimalis Lokasi Nyaman Jelambar - * Good- Deal !!*,3100000000.0,jakarta barat,grogol petamburan,4.0,6.0,2.0,75.0,188.0,SOLD,loc-402,agent-016
+"Rumah Springhill Kemayoran 153M2 Hadap Utara,4 Lantai,Kode Jv,Ah",5200000000.0,jakarta pusat,kemayoran,5.0,5.0,0.0,153.0,363.0,AVAILABLE,loc-304,agent-049
+Rumah Villa Lebak Bulus Jakarta Selatan Hoek Akses Jalan Lebar,12000000000.0,jakarta selatan,cilandak,5.0,4.0,4.0,446.0,500.0,AVAILABLE,loc-101,agent-003
+Rumah Keadilan Harga Dibawah NJOP !!,4500000000.0,jakarta pusat,taman sari,3.0,3.0,0.0,168.0,100.0,AVAILABLE,loc-407,agent-027
+"Hot Sale Jual Cepat, Rumah 2Lt Rapih Siap Huni di Sunter Paradise",4550000000.0,jakarta utara,tanjung priok,5.0,3.0,0.0,180.0,280.0,AVAILABLE,loc-506,agent-028
+"Jual Rumah 2 Lantai Cluster Florence Village di Jakarta Mulai 1 M-An Lokasi Strategis di Jgc, Cakung",1000000000.0,jakarta timur,cakung,3.0,3.0,2.0,50.0,57.0,AVAILABLE,loc-201,agent-021
+"Rumah Mewah 4 Lantai Artha Gading Villa Kelapa Gading - SHM, Carport 5 Mobil, Harga Nego",20000000000.0,jakarta utara,kelapa gading,4.0,4.0,5.0,287.0,900.0,AVAILABLE,loc-502,agent-028
+Bisa KPR Rumah Golf Island Chopin 250M2 (3 Lantai),10700000000.0,jakarta utara,penjaringan,4.0,5.0,0.0,250.0,358.0,AVAILABLE,loc-505,agent-032
+Rumah Mewah Cipayung Hadap 2 Jalan Akses Tol dan LRT,25000000000.0,jakarta timur,cipayung,12.0,10.0,2.0,1952.0,700.0,AVAILABLE,loc-202,agent-041
+Dijual Murah !! Rumah Hitung Tanah Lokasi Strategis Di Cideng,3500000000.0,jakarta pusat,gambir,4.0,3.0,2.0,134.0,134.0,SOLD,loc-302,agent-008
+Rumah Dalam Komplek Kijang Kencana Kemanggisan Jakarta Barat SHM,3000000000.0,jakarta barat,palmerah,5.0,3.0,2.0,105.0,147.0,AVAILABLE,loc-406,agent-027
+For Sale Rumah Cluster Harmony Golf Island Pik,13000000000.0,jakarta utara,penjaringan,5.0,5.0,0.0,340.0,240.0,AVAILABLE,loc-505,agent-018
+Dijual Rumah Di Sunter Ceiling Tinggi . Baja Ringan & Anti Rayap,1500000000.0,jakarta utara,tanjung priok,2.0,1.0,1.0,78.0,63.0,AVAILABLE,loc-506,agent-044
+For Sale Rumah Gunung Sahari Bangunan Lama,7700000000.0,jakarta pusat,kemayoran,2.0,1.0,0.0,425.0,400.0,AVAILABLE,loc-304,agent-007
+Dijual Rumah 2 Lantai Siap Huni di Tomang Hero Jakarta Barat,7000000000.0,jakarta barat,grogol petamburan,6.0,3.0,4.0,258.0,200.0,SOLD,loc-402,agent-017
+Rumah Resto di Rawasari Dekat Dgn Pasar Rawasari Sangat Ramai,2500000000.0,jakarta pusat,cempaka putih,5.0,3.0,0.0,106.0,182.0,AVAILABLE,loc-301,agent-025
+"Rumah 2 Lantai Siap Huni, Fasilitas Komplit Dekat Tol Jatikarya 2",2700000000.0,jakarta timur,ciracas,5.0,4.0,4.0,98.0,122.0,SOLD,loc-203,agent-036
+Best Deal Rumah Lama Siap Huni di Cilandak Raya,19000000000.0,jakarta selatan,cilandak,5.0,6.0,5.0,1000.0,508.0,AVAILABLE,loc-101,agent-016
+"Cilandak Barat, Harga Menarik Rumah Terawat, Lokasi Terbaik.",21500000000.0,jakarta selatan,cilandak,4.0,4.0,8.0,912.0,500.0,AVAILABLE,loc-101,agent-001
+Jual Murah Rumah 6X21 Duri Kepa Row Jalan 4Mobil,4350000000.0,jakarta barat,kebon jeruk,5.0,4.0,2.0,126.0,380.0,AVAILABLE,loc-404,agent-036
+Rumah Minimalis Murah Siap Huni Turun Harga,4300000000.0,jakarta barat,kembangan,5.0,4.0,2.0,140.0,250.0,AVAILABLE,loc-405,agent-028
+Cash / KPR - Rumah Golf Island Chopin 250M2 (3 Lantai),10700000000.0,jakarta utara,penjaringan,4.0,5.0,2.0,250.0,358.0,AVAILABLE,loc-505,agent-010
+Rumah 2Lt 220M 12X17 Type 4Kt Cluster Lantana Jgc Jakarta Garden City,3900000000.0,jakarta timur,cakung,5.0,4.0,0.0,220.0,220.0,SOLD,loc-201,agent-029
+"Rumah hoek, terawat, one gate system, permata buana",7500000000.0,jakarta barat,kembangan,4.0,4.0,2.0,260.0,300.0,SOLD,loc-405,agent-031
+Dijual Rumah Siap Huni di Pejompongan Jakarta Pusat,6800000000.0,jakarta pusat,tanah abang,4.0,2.0,1.0,250.0,170.0,AVAILABLE,loc-308,agent-010
+Dijual Rumah Indraloka Jelambar Kavling Polri Siap Huni Lokasi Strategis,6500000000.0,jakarta barat,grogol petamburan,4.0,2.0,2.0,243.0,134.0,AVAILABLE,loc-402,agent-011
+Rumah Mewah 3 Lantai dan 5 Kamar Tidur Fasilitas Super Premium di Jaktim,5400000000.0,jakarta timur,pulo gadung,5.0,5.0,2.0,105.0,180.0,AVAILABLE,loc-210,agent-019
+Ana Rumah Murah Luas 4X20m Hitung Tanah di Jelambar - * Good- Deal !!*,1150000000.0,jakarta barat,grogol petamburan,2.0,2.0,2.0,80.0,80.0,AVAILABLE,loc-402,agent-028
+Jual/ Sewa Cepat Rumah Rapi Unfurnished 4 Lantai dan 1 Basement (Ruang Rahasia Seluas 50M2),5000000000.0,jakarta pusat,gambir,5.0,5.0,2.0,168.0,530.0,SOLD,loc-302,agent-041
+Jual Rumah Metland Menteng Jakarta Timur,2000000000.0,jakarta timur,cakung,4.0,3.0,0.0,150.0,111.0,AVAILABLE,loc-201,agent-047
+Rumah Mewah Murah Siap Huni 2 Lantai Strategis di Setu Cipayung,1350000000.0,jakarta timur,cipayung,3.0,3.0,1.0,62.0,115.0,SOLD,loc-202,agent-029
+"Rumah 3 Lantai Jagakarsa Bebas Banjir, Jalan 1 Mobil Dekat Akses 2 Mobil & Stasiun KRL",1750000000.0,jakarta selatan,jagakarsa,6.0,3.0,3.0,205.0,200.0,AVAILABLE,loc-102,agent-047
+"Baru Bangun! Rumah Modern di Griya Pratama, Kelapa Gading",3700000000.0,jakarta utara,menteng,4.0,4.0,1.0,135.0,250.0,SOLD,loc-305,agent-042
+"Di Jual Cepat Rumah Siap Huni,2,5 Lantai 10X20 Dibawah Harga Pasaran Tanah Lokasi Strategis Dekat Prj.jl Kebon Kosong , Kemayoran Jakarta Pusat#Hamdan",3500000000.0,jakarta pusat,kemayoran,7.0,5.0,2.0,200.0,360.0,SOLD,loc-304,agent-001
+"Rumah Bagus di Kelapa Gading, Furnished, Dekat Mall",3800000000.0,jakarta utara,kelapa gading,5.0,4.0,2.0,186.0,250.0,AVAILABLE,loc-502,agent-022
+Rumah Baru Dijual Kemayoran,2200000000.0,jakarta pusat,kemayoran,4.0,4.0,1.0,81.0,190.0,AVAILABLE,loc-304,agent-050
+Turun Harga Rumah 8X20 Golf Island Full Bangunan Termurah - Dapet Cashback Sewa - Welcome Investor!,5500000000.0,jakarta utara,penjaringan,4.0,4.0,2.0,160.0,252.0,SOLD,loc-505,agent-016
+Dijual Rumah Bagus Strategis Harga Menarik Di Lebak Bulus,5000000000.0,jakarta selatan,cilandak,4.0,5.0,0.0,187.0,250.0,AVAILABLE,loc-101,agent-007
+For Sale Rumah 2 Lantai Bagus Kondisi Baru Strategis Dekat MRT Sekolah Kampus RS,1900000000.0,jakarta selatan,cilandak,3.0,2.0,2.0,74.0,60.0,AVAILABLE,loc-101,agent-011
+Jual Rumah PIK2 ukuran besar 10x15 uda SHM semi furnish dekat toll,6500000000.0,jakarta utara,penjaringan,4.0,4.0,1.0,150.0,200.0,SOLD,loc-505,agent-048
+Rumah Hitung Tanah Dekat Gereja Theresia Menteng Cocok Buat Kost2an,8500000000.0,jakarta pusat,menteng,5.0,4.0,2.0,156.0,100.0,AVAILABLE,loc-305,agent-050
+Rumah.2 Lantai.cocok.buat.kos2an.afau.usaha.lokasi.bagus.harga Nego,1300000000.0,jakarta pusat,kemayoran,5.0,2.0,2.0,88.0,170.0,SOLD,loc-304,agent-049
+Dijual Rumah Baru dan Bagus di Cempaka Putih,4700000000.0,jakarta pusat,cempaka putih,5.0,4.0,2.0,115.0,200.0,AVAILABLE,loc-301,agent-021
+Altadena Residence Rumah Terbaru 3lantai Boulevard Gading Serpong Bsd,3590000000.0,jakarta utara,penjaringan,5.0,5.0,0.0,128.0,180.0,AVAILABLE,loc-505,agent-021
+"Kedoya Baru, Hadap Timur, Murah!",11000000000.0,jakarta barat,kebon jeruk,6.0,6.0,6.0,523.0,800.0,AVAILABLE,loc-404,agent-009
+Ana Rumah 4Lt Luas 5X23m Cocok Usaha Dkt Jalan Raya di Jelambar - * Good- Deal !!*,2600000000.0,jakarta barat,grogol petamburan,7.0,4.0,2.0,115.0,368.0,SOLD,loc-402,agent-039
+"Dijual Rumah 1,5 Lantai di Citra Grand Cibubur",1150000000.0,jakarta timur,ciracas,3.0,2.0,2.0,102.0,140.0,AVAILABLE,loc-203,agent-050
+"SHM, Siap Huni,Lingkungan Asri",12500000000.0,jakarta pusat,cempaka putih,5.0,5.0,3.0,375.0,600.0,AVAILABLE,loc-301,agent-011
+Dijual Rumah Siap Huni Cempaka Putih Tengah,10000000000.0,jakarta pusat,cempaka putih,7.0,6.0,4.0,342.0,115.0,AVAILABLE,loc-301,agent-016
+"Rumah Dijual - Intercon Kebon Jeruk`_Lagi Cari Rumah Gede, Adem, & Nggak Ribet?__Coba Intip yang Satu Ini_",8160000000.0,jakarta barat,kembangan,4.0,4.0,0.0,324.0,450.0,AVAILABLE,loc-405,agent-005
+Rumah Dijual Harga Tanah Di Daerah Kartini Jakarta Pusat,8500000000.0,jakarta pusat,sawah besar,7.0,5.0,3.0,462.0,540.0,AVAILABLE,loc-306,agent-043
+Hunian Tebet Tengah Kota - 2 Lantai & Akses Jalan Lebar,5750000000.0,jakarta selatan,tebet,5.0,5.0,1.0,172.0,260.0,AVAILABLE,loc-110,agent-036
+Rumah Mewah Model Clasik 5 Menit Stasiun Sawah Besar Jakartapusat,1180000000.0,jakarta pusat,sawah besar,2.0,2.0,2.0,38.0,68.0,SOLD,loc-306,agent-011
+"Rumah Dijual Pejaten Jakarta Selatan - Townhouse LT 211M² Kolam Renang SHM Harga 5,5M Nego",5500000000.0,jakarta selatan,pasar minggu,5.0,5.0,2.0,211.0,250.0,SOLD,loc-107,agent-001
+Di Jual Kost Exlusive 31 Kamar Radio Dalam,14000000000.0,jakarta selatan,kebayoran baru,32.0,32.0,0.0,510.0,700.0,AVAILABLE,loc-103,agent-015
+Dijual Rumah Standar Cempaka Putih Timur,8500000000.0,jakarta pusat,cempaka putih,3.0,5.0,0.0,470.0,500.0,AVAILABLE,loc-301,agent-025
+"Rumah Tua di Jl. Kerinci, SHM, Butuh Renovasi,",12000000000.0,jakarta selatan,kebayoran baru,4.0,3.0,1.0,236.0,150.0,AVAILABLE,loc-103,agent-026
+Rumah dengan Private Pool Dalam Mini Cluster di Radio Dalam,14700000000.0,jakarta selatan,kebayoran baru,5.0,4.0,2.0,173.0,356.0,AVAILABLE,loc-103,agent-033
+Rumah Mewah Dekat Rs Evasari Jakarta Pusat,1400000000.0,jakarta pusat,menteng,3.0,2.0,1.0,42.0,75.0,AVAILABLE,loc-305,agent-003
+Hot Sale Golf Lake Resindence (Sdh Renovasi Bagus) Jakarta Barat- Bebas Banjir,6600000000.0,jakarta barat,cengkareng,4.0,4.0,3.0,200.0,300.0,AVAILABLE,loc-401,agent-020
+Dijual Cepat Rh Fatmawati Harga NJOP Jaksel,26000000000.0,jakarta selatan,cilandak,6.0,6.0,7.0,702.0,231.0,AVAILABLE,loc-101,agent-025
+Rumah Kayu Putih Jakarta Timur - Rumah Besar & Strategis,13900000000.0,jakarta timur,pulo gadung,5.0,4.0,2.0,456.0,600.0,SOLD,loc-210,agent-047
+Dijual Rumah Casamora Jagakarsa Private Pool,6900000000.0,jakarta selatan,jagakarsa,9.0,8.0,4.0,333.0,500.0,AVAILABLE,loc-102,agent-021
+"Dijual Cepat!!! Rumah Luxury 3,5 Lantai Full Marmer Siap Huni di Rawamangun yang Aman dan Nyaman",4500000000.0,jakarta timur,pulo gadung,5.0,4.0,2.0,143.0,135.0,AVAILABLE,loc-210,agent-047
+"Dijual Cepat* Rumah Mewah, Bagus Siap Huni @Rawamangun",8800000000.0,jakarta timur,pulo gadung,7.0,4.0,2.0,350.0,800.0,AVAILABLE,loc-210,agent-040
+"Rumah Besar, Design Elegan & Full Furnish di Cideng Roxy",7150000000.0,jakarta pusat,gambir,5.0,5.0,3.0,225.0,390.0,AVAILABLE,loc-302,agent-004
+"Rumah 2 lt Lebar 12 di Taman Modern, Cakung. Harga bwh NJOP",4900000000.0,jakarta timur,cakung,6.0,4.0,4.0,420.0,500.0,AVAILABLE,loc-201,agent-006
+Banting Harga!!! Dijual Rumah Tua Hitung Tanah Luas 306M2 di Janur Elok,7000000000.0,jakarta utara,kelapa gading,5.0,4.0,0.0,306.0,364.0,AVAILABLE,loc-502,agent-033
